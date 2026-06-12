@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { jwtVerify } from 'jose'
 
-const secret = new TextEncoder().encode(
-  process.env.ADMIN_SECRET_KEY || 'fallback-secret-key-change-in-production'
-)
+const secret = new TextEncoder().encode(process.env.ADMIN_SECRET_KEY ?? '')
 
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl

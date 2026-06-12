@@ -100,4 +100,4 @@ export interface FeedbackData {
   conversationId?: string
 }
 
-export type AIProvider = 'rule-based' | 'claude' | 'openai' | 'gemini'
+export type AIProvider = 'rule-based' | 'groq' | 'claude' | 'openai'

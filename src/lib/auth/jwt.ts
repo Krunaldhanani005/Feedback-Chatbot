@@ -1,8 +1,8 @@
 import { SignJWT, jwtVerify } from 'jose'
 
-const secret = new TextEncoder().encode(
-  process.env.ADMIN_SECRET_KEY || 'fallback-secret-key-change-in-production'
-)
+const rawSecret = process.env.ADMIN_SECRET_KEY
+if (!rawSecret) throw new Error('ADMIN_SECRET_KEY is not set in environment variables')
+const secret = new TextEncoder().encode(rawSecret)
 
 export async function signToken(payload: Record<string, unknown>): Promise<string> {
   return new SignJWT(payload)

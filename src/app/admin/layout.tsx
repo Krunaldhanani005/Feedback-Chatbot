@@ -1,13 +1,12 @@
 import Link from 'next/link'
-import { LayoutDashboard, MessageSquare, Star, Users, BookOpen, Bot, ExternalLink } from 'lucide-react'
+import { LayoutDashboard, Users, MessageCircleQuestion, BookOpen, Bot, ExternalLink } from 'lucide-react'
 import { SignOutButton } from '@/components/admin/SignOutButton'
 
 const navItems = [
-  { href: '/admin',               label: 'Dashboard',        icon: LayoutDashboard },
-  { href: '/admin/conversations', label: 'Visitor Sessions', icon: MessageSquare   },
-  { href: '/admin/feedback',      label: 'Feedback',         icon: Star            },
-  { href: '/admin/leads',         label: 'Leads',            icon: Users           },
-  { href: '/admin/knowledge',     label: 'Knowledge Base',   icon: BookOpen        },
+  { href: '/admin',         label: 'Dashboard',          icon: LayoutDashboard        },
+  { href: '/admin/leads',   label: 'Leads',              icon: Users                  },
+  { href: '/admin/discuss', label: 'Discuss',            icon: MessageCircleQuestion  },
+  { href: '/admin/knowledge', label: 'Knowledge Base',   icon: BookOpen               },
 ]
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

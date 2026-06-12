@@ -72,6 +72,16 @@ export async function POST(req: NextRequest) {
         metadata: JSON.stringify({ ...quickActionResult.metadata, quickReplies: undefined }),
       })
       await conversationRepo.incrementMessageCount(conversation.id)
+
+      // When "Discuss Requirements" is clicked — flag conversation so admin sees it needs followup
+      const msgLower = message.toLowerCase().trim()
+      if (msgLower === '__discuss__' || msgLower === 'discuss requirements' || msgLower === 'discuss your requirements') {
+        await conversationRepo.updateAnalytics(conversation.id, {
+          userIntent: 'discuss_requirements',
+          summary: 'Visitor requested to discuss requirements — awaiting their message',
+        }).catch(() => {})
+      }
+
       return NextResponse.json({
         message: quickActionResult.message,
         conversationId: conversation.id,
@@ -99,9 +109,15 @@ export async function POST(req: NextRequest) {
     // Save user message
     await messageRepo.create({ conversationId: conversation.id, role: 'user', content: message, metadata: null })
 
-    // Fetch recent message history
+    // Fetch recent message history (desc order: [0]=current user msg, [1]=previous assistant msg)
     const recentMessages = await messageRepo.getRecentMessages(conversation.id, 14)
     const userMsgCount = recentMessages.filter(m => m.role === 'user').length
+
+    // Detect if this message is a reply to "Discuss Requirements" prompt → save to Lead as notes
+    const prevMsg = recentMessages[1]
+    if (prevMsg?.role === 'assistant' && prevMsg.content.toLowerCase().includes('discuss your requirements')) {
+      await captureRequirementNote(conversation.id, message)
+    }
     const aiMessages = recentMessages
       .reverse()
       .map(m => ({ role: m.role as 'user' | 'assistant', content: m.content }))
@@ -291,6 +307,36 @@ function getQuickActionDirectResponse(message: string): QuickActionResponse | nu
     }
   }
 
+  // ── AV Products keyword aliases (handle natural language queries like "audio products")
+  const avProductKeywordMap: Record<string, string[]> = {
+    'conference-audio': ['audio product', 'audio products', 'microphone', 'speakerphone', 'speaker phone', 'conference mic', 'conference speaker', 'nt-m702', 'nt-a10w'],
+    'ptz-cameras': ['ptz camera', 'ptz cameras', 'zoom camera', 'auto tracking camera', 'nt-vx71', 'nt-vx630', 'nt-ec-hd'],
+    'conference-video': ['video bar', 'video conferencing camera', 'conference camera', 'webcam', 'nt-ec-vb', 'nt-m2000', 'ntjx1700'],
+    'digital-signage': ['digital signage', 'floor totem', 'wall mount display', 'standee display'],
+    'active-led': ['active led', 'led display', 'led standee', 'modular led'],
+    'interactive-panels': ['interactive panel', 'smart board', 'whiteboard panel', 'ai board', 'digital board', 'x75 pro'],
+  }
+  for (const [catId, keywords] of Object.entries(avProductKeywordMap)) {
+    if (keywords.some(kw => msg.includes(kw))) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const cat = avProductsData.categories.find((c: any) => c.id === catId)
+      if (cat) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const products: ProductCard[] = cat.products.map((p: any) => ({
+          id: p.id, name: p.name, company: 'Nanta Tech', category: cat.name,
+          description: p.description, features: p.key_features?.slice(0, 4),
+          industries: p.industries?.slice(0, 4), image: p.image, learnMoreUrl: p.learn_more_url,
+        }))
+        return {
+          message: `${cat.emoji} **${cat.name}** — ${cat.tagline}`,
+          metadata: { products },
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          quickReplies: ['Other AV Products', 'Discuss Requirements', 'Contact Us', ...avProductsData.categories.filter((c: any) => c.id !== catId).slice(0, 3).map((c: any) => `${c.emoji} ${c.name}`)],
+        }
+      }
+    }
+  }
+
   // ── AV Products category drill-down
   for (const cat of avProductsData.categories) {
     if (
@@ -410,6 +456,46 @@ function getQuickActionDirectResponse(message: string): QuickActionResponse | nu
   return null
 }
 
+// ─── Capture visitor requirement into Lead notes ──────────────────────────────
+
+async function captureRequirementNote(conversationId: string, requirement: string) {
+  try {
+    // Summarize the requirement using AI (1 sentence, key details only)
+    let summary = requirement.substring(0, 120) // fallback if AI fails
+    try {
+      const provider = getAIProviderWithFallback()
+      const result = await provider.generateResponse(
+        [{ role: 'user', content: requirement }],
+        'You are a CRM assistant. Summarize the visitor\'s business requirement in ONE short sentence (max 20 words). Keep product type, quantity, and use case. No filler words. Reply with only the summary sentence.',
+      )
+      if (result.content?.trim()) summary = result.content.trim()
+    } catch { /* use fallback */ }
+
+    const noteText = `[Requirement]: ${summary}`
+    const lead = await prisma.lead.findUnique({ where: { conversationId } })
+    if (lead) {
+      await prisma.lead.update({
+        where: { conversationId },
+        data: {
+          notes: lead.notes ? `${lead.notes}\n${noteText}` : noteText,
+          status: lead.status === 'new' ? 'qualified' : lead.status,
+          priority: lead.priority === 'low' ? 'medium' : lead.priority,
+          updatedAt: new Date(),
+        },
+      })
+    }
+    // Update conversation summary with the same AI-generated summary
+    await prisma.conversation.update({
+      where: { id: conversationId },
+      data: {
+        userIntent: 'discuss_requirements',
+        summary,
+        updatedAt: new Date(),
+      },
+    })
+  } catch { /* non-critical */ }
+}
+
 // ─── Context-aware quick replies ──────────────────────────────────────────────
 
 function getQuickReplies(userMessage: string, intent: string, userMsgCount: number): string[] {
@@ -438,9 +524,14 @@ function getQuickReplies(userMessage: string, intent: string, userMsgCount: numb
     return ['👤 Face Recognition', '🚧 Restricted Area Monitoring', '🚗 Vehicle Detection', '🦺 PPE Detection', 'Discuss Requirements']
   }
 
-  // Topic: AV
+  // Topic: AV Products (specific product type queries → show product categories)
+  if (/audio|microphone|speakerphone|ptz|webcam|video bar|interactive panel|smart board|digital signage|led display/.test(msg)) {
+    return ['🎙️ Conference Audio', '📹 Conference Video', '🎥 PTZ Cameras', '🖥️ Digital Signage', 'Other AV Products']
+  }
+
+  // Topic: AV Solutions (integration/room solutions)
   if (intent === 'av' || /\bav\b|display|panel|projector|meeting room|conference/.test(msg)) {
-    return ['💼 Meeting Room Solution', '📺 Video Wall Solution', '💡 Active LED & Digital Signage', '📢 Public Address System', 'Discuss Requirements']
+    return ['AV Products', '💼 Meeting Room Solution', '📺 Video Wall Solution', '📢 Public Address System', 'Discuss Requirements']
   }
 
   // Topic: Automation / Smart

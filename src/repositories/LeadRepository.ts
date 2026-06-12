@@ -52,10 +52,18 @@ export class LeadRepository {
     status?: string
     priority?: string
     search?: string
+    dateFrom?: Date
+    dateTo?: Date
   }) {
     const where: Prisma.LeadWhereInput = {}
     if (options?.status) where.status = options.status
     if (options?.priority) where.priority = options.priority
+    if (options?.dateFrom || options?.dateTo) {
+      where.createdAt = {
+        ...(options.dateFrom ? { gte: options.dateFrom } : {}),
+        ...(options.dateTo   ? { lte: options.dateTo   } : {}),
+      }
+    }
     if (options?.search) {
       where.OR = [
         { name: { contains: options.search } },
@@ -70,16 +78,59 @@ export class LeadRepository {
       prisma.lead.findMany({
         where,
         skip: options?.skip || 0,
-        take: options?.take || 20,
+        take: options?.take || 50,
         orderBy: { createdAt: 'desc' },
         include: {
           conversation: {
-            select: { summary: true, userIntent: true },
+            select: {
+              id: true,
+              summary: true,
+              userIntent: true,
+              topicsDiscussed: true,
+              sentiment: true,
+              leadScore: true,
+              messageCount: true,
+              session: {
+                select: {
+                  aiRating: true,
+                  avRating: true,
+                  roboticsRating: true,
+                  automationRating: true,
+                  experienceRating: true,
+                  selectedInterests: true,
+                },
+              },
+            },
           },
         },
       }),
     ])
 
+    return { total, items }
+  }
+
+  async findRequirements(options?: { skip?: number; take?: number }) {
+    const [total, items] = await Promise.all([
+      prisma.conversation.count({ where: { userIntent: 'discuss_requirements' } }),
+      prisma.conversation.findMany({
+        where: { userIntent: 'discuss_requirements' },
+        skip: options?.skip || 0,
+        take: options?.take || 50,
+        orderBy: { updatedAt: 'desc' },
+        include: {
+          session: {
+            select: {
+              visitorName: true, visitorCompany: true,
+              visitorEmail: true, visitorPhone: true, visitorDesignation: true,
+              selectedInterests: true,
+            },
+          },
+          lead: {
+            select: { notes: true, status: true, priority: true },
+          },
+        },
+      }),
+    ])
     return { total, items }
   }
 

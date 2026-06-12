@@ -78,17 +78,34 @@ export async function POST(req: NextRequest) {
       if (s) {
         const conv = await conversationRepo.create({ sessionId: session.id })
 
-        // Save visitor as a lead if they provided contact info
-        if (s.visitorEmail || s.visitorPhone || s.visitorName) {
-          await leadRepo.createOrUpdate({
-            conversationId: conv.id,
-            name: s.visitorName || undefined,
-            email: s.visitorEmail || undefined,
-            phone: s.visitorPhone || undefined,
-            company: s.visitorCompany || undefined,
-            designation: s.visitorDesignation || undefined,
-            industry: s.visitorIndustry || undefined,
-            interestedIn: s.selectedInterests || undefined,
+        // Always create a lead — name + company are required fields so this always fires
+        await leadRepo.createOrUpdate({
+          conversationId: conv.id,
+          name:        s.visitorName        || undefined,
+          email:       s.visitorEmail       || undefined,
+          phone:       s.visitorPhone       || undefined,
+          company:     s.visitorCompany     || undefined,
+          designation: s.visitorDesignation || undefined,
+          industry:    s.visitorIndustry    || undefined,
+          interestedIn: s.selectedInterests || undefined,
+        })
+
+        // Build an initial summary from selected interests + ratings for Finish (no-chat) path
+        let interests: string[] = []
+        try { if (s.selectedInterests) interests = JSON.parse(s.selectedInterests) } catch {}
+        const ratings: string[] = []
+        if (s.aiRating)         ratings.push(`AI Solutions: ${s.aiRating}/5`)
+        if (s.avRating)         ratings.push(`AV: ${s.avRating}/5`)
+        if (s.roboticsRating)   ratings.push(`Robotics: ${s.roboticsRating}/5`)
+        if (s.automationRating) ratings.push(`Automation: ${s.automationRating}/5`)
+        if (s.experienceRating) ratings.push(`Overall Experience: ${s.experienceRating}/5`)
+        if (interests.length > 0 || ratings.length > 0) {
+          const summaryParts: string[] = []
+          if (interests.length) summaryParts.push(`Interested in: ${interests.join(', ')}.`)
+          if (ratings.length)   summaryParts.push(`Ratings — ${ratings.join(', ')}.`)
+          await prisma.conversation.update({
+            where: { id: conv.id },
+            data: { summary: summaryParts.join(' ') },
           })
         }
 

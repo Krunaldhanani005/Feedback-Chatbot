@@ -31,6 +31,7 @@ export function ChatStep({ sessionToken, initialConversationId, onReset }: Props
   const [showContact, setShowContact]     = useState(false)
   const [showThankYou, setShowThankYou]   = useState(false)
   const [quickOpen, setQuickOpen]         = useState(false)
+  const [isSaving, setIsSaving]           = useState(false)
   const messagesEndRef  = useRef<HTMLDivElement>(null)
   const inputRef        = useRef<HTMLTextAreaElement>(null)
   const welcomeFetched  = useRef(false)
@@ -74,7 +75,7 @@ export function ChatStep({ sessionToken, initialConversationId, onReset }: Props
   const sendMessage = useCallback(async (content: string) => {
     if (!content.trim() || isTyping || isWelcoming) return
 
-    if (content === '__BOOK_DEMO__' || content === '__DISCUSS__') { setShowDemoForm(true); return }
+    if (content === '__BOOK_DEMO__') { setShowDemoForm(true); return }
     if (content === '__CONTACT_US__') { setShowContact(true); return }
 
     const userMsg: ChatMessage = {
@@ -111,6 +112,19 @@ export function ChatStep({ sessionToken, initialConversationId, onReset }: Props
       setIsTyping(false)
     }
   }, [conversationId, sessionToken, isTyping, isWelcoming])
+
+  const handleDone = async () => {
+    setIsSaving(true)
+    try {
+      await fetch('/api/chat/complete', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ conversationId, sessionToken }),
+      })
+    } catch { /* non-critical */ }
+    setIsSaving(false)
+    onReset()
+  }
 
   const handleDemoSubmit = async (details: Record<string, string>) => {
     if (Object.keys(details).length > 0) {
@@ -498,14 +512,16 @@ export function ChatStep({ sessionToken, initialConversationId, onReset }: Props
                 Continue Chat
               </button>
               <button
-                onClick={onReset}
+                onClick={handleDone}
+                disabled={isSaving}
                 className="flex-1 py-3 text-white font-semibold rounded-2xl transition-all text-sm"
                 style={{
                   background: 'linear-gradient(135deg, #DC2626 0%, #EF4444 100%)',
                   boxShadow: '0 4px 14px rgba(220,38,38,0.28)',
+                  opacity: isSaving ? 0.7 : 1,
                 }}
               >
-                Done
+                {isSaving ? 'Saving…' : 'Done'}
               </button>
             </div>
           </div>
