@@ -1,0 +1,286 @@
+{
+  "intents": [
+    {
+      "intent_id": "request_demo",
+      "intent_name": "Request Demo",
+      "description": "User wants to schedule or request a live product/solution demo",
+      "example_phrases": [
+        "I want to see a demo",
+        "Can I get a demo?",
+        "Show me how it works",
+        "Book a demo",
+        "Schedule a demonstration",
+        "I'd like to see the robot in action",
+        "Can I test the AI system?",
+        "Live demo please"
+      ],
+      "action": "Collect name, email, company, and schedule demo with sales team",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "product_info",
+      "intent_name": "Ask Product Information",
+      "description": "User wants detailed information about a specific product",
+      "example_phrases": [
+        "Tell me about the reception robot",
+        "What is the ATR V3?",
+        "What robots do you have?",
+        "What is the cleaning robot model?",
+        "Tell me about the BOLT-G1",
+        "What are the specs of AT300?",
+        "What panels do you sell?",
+        "Tell me about the interactive display"
+      ],
+      "action": "Provide product details, features, specifications, and images",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "pricing_inquiry",
+      "intent_name": "Pricing Inquiry",
+      "description": "User wants to know pricing, cost, or get a quote",
+      "example_phrases": [
+        "What is the price?",
+        "How much does it cost?",
+        "What is the cost of the cleaning robot?",
+        "Give me a quote",
+        "How much is the AI system?",
+        "What are your rates?",
+        "Pricing information please",
+        "Budget range?",
+        "Is it affordable?"
+      ],
+      "action": "Connect to sales team for custom pricing. Note: pricing is customized per project.",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "contact_sales",
+      "intent_name": "Contact Sales",
+      "description": "User wants to speak with a sales representative",
+      "example_phrases": [
+        "I want to talk to sales",
+        "Connect me with your team",
+        "How can I buy?",
+        "I want to purchase",
+        "Where to order?",
+        "I am interested in buying",
+        "How to get in touch?",
+        "Speak to someone"
+      ],
+      "action": "Provide contact details: email contact@nantatech.com, WhatsApp +91 99090 41675/41678",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "technical_support",
+      "intent_name": "Technical Support",
+      "description": "User needs help with technical issues, troubleshooting, or after-sales support",
+      "example_phrases": [
+        "My robot is not working",
+        "Technical issue",
+        "How to set up?",
+        "I need help with the robot",
+        "Setup assistance",
+        "Troubleshoot issue",
+        "Maintenance help",
+        "Service request",
+        "Robot stopped working"
+      ],
+      "action": "Connect to technical support team. Email: contact@nantatech.com, WhatsApp support available.",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "download_brochure",
+      "intent_name": "Download Brochure / Spec Sheet",
+      "description": "User wants to download product spec sheets or brochures",
+      "example_phrases": [
+        "Download spec sheet",
+        "Get brochure",
+        "Product PDF",
+        "Specification document",
+        "Technical document",
+        "Company profile download",
+        "Catalogue",
+        "Product details PDF"
+      ],
+      "action": "Provide direct links to S3-hosted PDF spec sheets",
+      "links": {
+        "ATR V3": "https://allbotix.s3.eu-north-1.amazonaws.com/Reception+%26+Information+Robots/Allbotix_ATR_V2_V3.pdf",
+        "BOLT G1": "https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Bolt+G1.pdf",
+        "Alpha B2": "https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Alpha+B2.pdf",
+        "Alpha GO2": "https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Alpha+GO2.pdf",
+        "Company Profile": "https://allbotix.s3.eu-north-1.amazonaws.com/ALLBOTIX_ROBOTICS_PROFILE.pdf",
+        "AL Series Cobot": "https://allbotix.s3.eu-north-1.amazonaws.com/Robotic+Hand/Universal+Cobot.pdf"
+      },
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "compare_products",
+      "intent_name": "Compare Products",
+      "description": "User wants to compare different products or solutions",
+      "example_phrases": [
+        "What's the difference between AT300 and AT600?",
+        "Compare cleaning robots",
+        "Which robot is better?",
+        "Difference between Alpha B2 and GO2",
+        "AW3 vs ASMR T10",
+        "Best robot for my use case",
+        "Which model should I choose?"
+      ],
+      "action": "Provide comparison of specifications and recommended use cases",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "industry_inquiry",
+      "intent_name": "Industry-Specific Inquiry",
+      "description": "User asks about solutions for their specific industry",
+      "example_phrases": [
+        "What solutions do you have for hospitals?",
+        "How can robots help my hotel?",
+        "Manufacturing automation options?",
+        "AI for retail stores",
+        "Smart city surveillance",
+        "Airport security solutions",
+        "What's available for warehouses?",
+        "Solutions for education sector"
+      ],
+      "action": "Map industry to relevant products and solutions",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "book_demo_ntra",
+      "intent_name": "Book NTRA Demo",
+      "description": "User wants to book a specific NTRA AI vision demo",
+      "example_phrases": [
+        "Book a NTRA demo",
+        "I want to see the AI surveillance system",
+        "Demo of face recognition",
+        "Show me vehicle detection",
+        "Test the AI camera system",
+        "Live demo of ANPR"
+      ],
+      "action": "Direct to /book-demo page or live demo pages (/face-recognition, /restricted-area, /object-detection, /vehicle-detection)",
+      "applicable_companies": ["NTRA"],
+      "priority": "high"
+    },
+    {
+      "intent_id": "company_info",
+      "intent_name": "Company Information",
+      "description": "User wants general information about the company",
+      "example_phrases": [
+        "Who are you?",
+        "Tell me about your company",
+        "What does Nanta Tech do?",
+        "About ALLBOTIX",
+        "What is NTRA?",
+        "Where are you located?",
+        "How long have you been in business?"
+      ],
+      "action": "Provide company overview, mission, location, and contact",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "use_case_inquiry",
+      "intent_name": "Use Case Questions",
+      "description": "User wants to understand how a product or solution applies to their scenario",
+      "example_phrases": [
+        "Can the robot check in guests?",
+        "Will NTRA work with my cameras?",
+        "Can it detect weapons?",
+        "How does the cleaning robot navigate?",
+        "Can the serving robot avoid obstacles?",
+        "Will ANPR work at night?"
+      ],
+      "action": "Explain specific use case and link to relevant product/solution",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "integration_inquiry",
+      "intent_name": "Integration & Compatibility",
+      "description": "User asks about integrations with existing systems",
+      "example_phrases": [
+        "Does it integrate with our PMS?",
+        "Can NTRA connect to our VMS?",
+        "Does the robot work with our booking system?",
+        "API available?",
+        "Can it connect to ERP?",
+        "Does it support webhooks?",
+        "SCADA integration?"
+      ],
+      "action": "Explain integration capabilities (REST API, webhooks, WMS, ERP, VMS, SCADA, BMS)",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "deployment_inquiry",
+      "intent_name": "Deployment & Installation",
+      "description": "User asks about how and where the system is deployed",
+      "example_phrases": [
+        "How is it installed?",
+        "Is it cloud or on-premise?",
+        "Does data leave my network?",
+        "Air-gapped deployment?",
+        "How long to install?",
+        "Setup time?",
+        "Does NTRA require internet?"
+      ],
+      "action": "Explain deployment options (edge/on-prem, air-gapped, cloud), setup timeline",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "careers",
+      "intent_name": "Career Inquiry",
+      "description": "User interested in job opportunities",
+      "example_phrases": [
+        "Are you hiring?",
+        "Job opportunities",
+        "Career at ALLBOTIX",
+        "Open positions",
+        "How to apply?"
+      ],
+      "action": "Direct to careers section or contact email",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech"],
+      "priority": "low"
+    },
+    {
+      "intent_id": "partnership",
+      "intent_name": "Partnership Inquiry",
+      "description": "User interested in becoming a partner, reseller, or distributor",
+      "example_phrases": [
+        "I want to be a partner",
+        "Reseller program",
+        "Distribution partnership",
+        "Collaborate with you",
+        "Partner program details"
+      ],
+      "action": "Connect to business development team via email",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    },
+    {
+      "intent_id": "feedback",
+      "intent_name": "Provide Feedback",
+      "description": "User wants to give feedback or report an issue",
+      "example_phrases": [
+        "I have feedback",
+        "Report a problem",
+        "Something is wrong",
+        "I'm happy with the service",
+        "Complaint",
+        "Suggestion"
+      ],
+      "action": "Collect feedback and forward to appropriate team",
+      "applicable_companies": ["ALLBOTIX", "Nanta Tech", "NTRA"],
+      "priority": "medium"
+    }
+  ]
+}

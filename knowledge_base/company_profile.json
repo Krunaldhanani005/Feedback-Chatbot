@@ -1,0 +1,212 @@
+{
+  "companies": [
+    {
+      "company_id": "allbotix",
+      "company_name": "ALLBOTIX",
+      "tagline": "Welcome to the Future of Smart Customer Interaction!",
+      "description": "ALLBOTIX is an advanced robotics company delivering cutting-edge robotic solutions including AI reception robots, humanoid robots, cleaning robots, serving robots, autonomous mobile robots (AMR), and collaborative robot arms (cobots). It empowers industries with smart automation, precision engineering, and limitless innovation.",
+      "mission": "Empowering tomorrow's industries with cutting-edge robotic solutions. Smart automation, precision engineering, and limitless innovation.",
+      "vision": "To be the global leader in intelligent robotic automation across commercial, industrial, and service environments.",
+      "parent_company": "Nanta Tech Limited",
+      "website": "https://www.allbotix.ai/",
+      "founded_location": "Ahmedabad, Gujarat, India",
+      "contact": {
+        "email": "contact@nantatech.com",
+        "whatsapp": "+91 99090 41675 / +91 99090 41678",
+        "phone_hours": "Mon – Fri, 10 AM – 7 PM IST",
+        "address": {
+          "line1": "204–207, 2nd Floor",
+          "building": "Shivalik Sharda Harmony",
+          "area": "Ambawadi",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "pincode": "380015",
+          "country": "India"
+        },
+        "social": {
+          "instagram": "https://instagram.com/allbotix",
+          "linkedin": "https://linkedin.com/company/allbotix",
+          "youtube": "https://youtube.com/allbotix"
+        }
+      },
+      "statistics": {
+        "robots_developed": "525+",
+        "happy_clients": "180+",
+        "robots_delivered": "610+",
+        "average_rating": "4.7"
+      },
+      "industries_served": [
+        "Government & Public Sector",
+        "Hospitality (Hotels, Restaurants)",
+        "Factory Automation",
+        "Corporate & IT",
+        "Manufacturing",
+        "Education",
+        "Healthcare",
+        "Retail & Shopping Malls",
+        "Airports & Transit Hubs",
+        "Warehousing & Logistics",
+        "Events & Exhibitions"
+      ],
+      "services_offered": [
+        "AI Reception Robots",
+        "Humanoid Robots",
+        "Cleaning Robots",
+        "Serving Robots",
+        "Autonomous Mobile Robots (AMR)",
+        "Collaborative Robot Arms (Cobots)",
+        "Robot Dog / Quadruped Robots",
+        "AI & Software Solutions",
+        "Custom Robotics Solutions"
+      ],
+      "key_clients": [
+        "Swarrnim University",
+        "Ahmedabad Red Cross",
+        "Doodle Group",
+        "JP Initiatives LLP",
+        "Taggl Labs",
+        "Eventful Minds",
+        "Adani Group"
+      ],
+      "technologies_used": [
+        "2D Mapping & 3D Localization",
+        "360-degree LIDAR",
+        "Depth Cameras",
+        "AI Facial Recognition",
+        "Voice Recognition & NLP",
+        "Obstacle Avoidance Systems",
+        "LiDAR SLAM + VSLAM Navigation",
+        "IoT Integration",
+        "WMS/ERP Integration",
+        "Industry 4.0 Systems"
+      ],
+      "copyright": "© 2025 ALLBOTIX. All rights reserved."
+    },
+    {
+      "company_id": "nanta_tech",
+      "company_name": "Nanta Tech Limited",
+      "tagline": "Cutting-edge technology solutions across AV, AI, Robotics, and Web Services.",
+      "description": "Nanta Tech Limited is a comprehensive technology solutions company headquartered in Ahmedabad, India. It operates across four verticals: AV (Audio-Visual) Solutions, AI Solutions, Robotics (via Allbotix brand), and Website Services. The company provides end-to-end AV integration, AI-powered computer vision, intelligent robots, and professional web development services.",
+      "mission": "To deliver cutting-edge technology solutions that transform businesses with innovation in audio-visual, artificial intelligence, robotics, and digital services.",
+      "vision": "To be the most trusted technology partner across South Asia for smart enterprise solutions.",
+      "website": "https://www.nantatech.com",
+      "contact": {
+        "email": "contact@nantatech.com",
+        "whatsapp": "+91 99090 41675 / +91 99090 41678",
+        "phone_hours": "Mon – Fri, 10 AM – 7 PM IST",
+        "address": {
+          "line1": "204–207, 2nd Floor",
+          "building": "Shivalik Sharda Harmony",
+          "area": "Ambawadi",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "pincode": "380015",
+          "country": "India"
+        }
+      },
+      "industries_served": [
+        "Corporate & Enterprise",
+        "Education & Universities",
+        "Healthcare & Hospitals",
+        "Retail & Commercial",
+        "Hospitality",
+        "Government & Public Sector",
+        "Manufacturing & Industrial",
+        "Events & Entertainment"
+      ],
+      "services_offered": [
+        "AV Solutions (Products + Integration)",
+        "AI Solutions (Computer Vision, AI Callbot)",
+        "Robotics Solutions (via Allbotix)",
+        "Website Services (Design & Development)"
+      ],
+      "divisions": {
+        "av_division": "End-to-end audio-visual products and integration services",
+        "ai_division": "Computer vision and AI speech solutions (NTRA brand)",
+        "robotics_division": "Full range of intelligent robots for commercial and industrial use (Allbotix brand)",
+        "web_division": "Custom website design, development, and maintenance"
+      },
+      "technologies_used": [
+        "4K UHD Display Technology",
+        "AI Collaboration Tools",
+        "PTZ Camera Technology",
+        "Active Optical Cable (AOC)",
+        "Computer Vision (YOLOv8, DeepSORT)",
+        "Edge AI Inference",
+        "LIDAR & LiDAR SLAM",
+        "Natural Language Processing",
+        "WebRTC & Video Conferencing"
+      ]
+    },
+    {
+      "company_id": "ntra",
+      "company_name": "NTRA",
+      "full_name": "NTRA — Computer Vision & AI Solutions",
+      "tagline": "Building the Future of Intelligent Vision",
+      "description": "NTRA is the Computer Vision and AI solutions division of Nanta Tech Limited. It builds real-time AI vision systems that turn cameras into intelligent platforms for detection, analytics, and operational decision-making. NTRA combines Computer Vision, Deep Learning, and Edge AI to deliver fast, secure, scalable enterprise systems for surveillance, monitoring, security, and operational intelligence.",
+      "mission": "To transform existing camera infrastructure into intelligent operational platforms using enterprise-grade edge AI, with full data sovereignty and zero compromise on privacy.",
+      "vision": "To be the leading edge AI vision platform for enterprise security, safety, and operational intelligence across critical industries.",
+      "parent_company": "Nanta Tech Limited",
+      "website": "https://ntra.nantatech.com",
+      "contact": {
+        "email": "contact@nantatech.com",
+        "whatsapp": "+91 99090 41675 / +91 99090 41678",
+        "address": {
+          "line1": "204–207, 2nd Floor",
+          "building": "Shivalik Sharda Harmony",
+          "area": "Ambawadi",
+          "city": "Ahmedabad",
+          "state": "Gujarat",
+          "pincode": "380015",
+          "country": "India"
+        }
+      },
+      "industries_served": [
+        "Smart Cities",
+        "Manufacturing",
+        "Retail",
+        "Warehouses & Logistics",
+        "Healthcare",
+        "Corporate Offices",
+        "Airports & Transportation",
+        "Traffic Management"
+      ],
+      "solutions_offered": [
+        "Person Analytics & Behavioral Intelligence",
+        "Security & Threat Detection",
+        "Traffic & Vehicle Intelligence",
+        "Retail & Customer Analytics",
+        "Object & Environment Monitoring"
+      ],
+      "live_demos": [
+        "Face Recognition",
+        "Restricted Area Monitoring",
+        "Object Detection",
+        "Vehicle Detection"
+      ],
+      "technical_specs": {
+        "detection_latency": "42ms",
+        "detection_accuracy": "99%",
+        "processing_speed": "30 FPS",
+        "cameras_per_cluster": "100+",
+        "deployment": "On-Premise / Edge AI",
+        "ai_framework": "YOLOv8-based pipelines",
+        "tracking": "DeepSORT-based identity continuity",
+        "storage": "MongoDB-backed audit trail",
+        "integration": "REST APIs, Webhooks, VMS, SOC, SCADA, BMS, BI tools"
+      },
+      "capabilities_count": "39+",
+      "key_features": [
+        "Runs on existing IP/RTSP cameras — no rip-and-replace",
+        "On-prem edge AI — no video leaves the network",
+        "Air-gapped deployment supported",
+        "Role-based access control",
+        "REST + webhook API integration",
+        "Multi-location scalability",
+        "Audit-grade event logs with timestamped clips",
+        "Commodity GPU edge appliances (~100 cameras per cluster)"
+      ],
+      "copyright": "© 2025 NTRA by Nanta Tech Limited. All rights reserved."
+    }
+  ]
+}

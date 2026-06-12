@@ -1,0 +1,546 @@
+{
+  "products": [
+    {
+      "product_name": "AI Receptionist Robot (ATR-p010 / ATR V3)",
+      "company": "ALLBOTIX",
+      "category": "Reception & Information Robot",
+      "model_number": "ATR-p010 / ATR-V3",
+      "description": "A fully automated, AI-powered receptionist robot that interacts with visitors, provides information, manages appointments, and delivers seamless front-desk automation for hotels, offices, malls, and hospitals.",
+      "short_description": "Smart AI receptionist for seamless visitor assistance across hotels, offices, malls, and hospitals.",
+      "key_features": [
+        "13.3-inch LCD screen",
+        "Visitor check-in and registration",
+        "Facial recognition for personalized interaction",
+        "Obstacle avoidance and user tracking",
+        "Autonomous charging",
+        "Audio system with sub-woofer, midrange speakers and tweeters",
+        "Multi-language support",
+        "Zero-turn navigation",
+        "Optional tray up to 3 kg",
+        "Connects to company databases for instant assistance",
+        "Integrates with AI-powered chatbots"
+      ],
+      "technical_features": [
+        "LCD Screen: 13.3 inch",
+        "Camera: 13 MP + 1080p @ 30 FPS",
+        "Audio System: 20W",
+        "Navigation: 2D mapping + 3D localization",
+        "Sensors: 360-degree LIDAR, depth cameras",
+        "Speed: up to 1 meter per second",
+        "Turn radius: Zero-turn radius",
+        "Charging: Autonomous wireless charging"
+      ],
+      "specifications": {
+        "display": "13.3 inch LCD",
+        "camera": "13 MP + 1080p @ 30 FPS",
+        "audio": "20W with sub-woofer, midrange, tweeters",
+        "navigation": "2D mapping + 3D localization",
+        "sensors": "360-degree LIDAR, depth cameras",
+        "speed": "Up to 1 m/s",
+        "tray_capacity": "Up to 3 kg (optional)",
+        "turn_radius": "Zero"
+      },
+      "use_cases": [
+        "Hotel lobby reception and guest check-in",
+        "Corporate office visitor management",
+        "Hospital patient reception",
+        "Shopping mall information kiosk",
+        "Exhibition and expo guide",
+        "Airport passenger assistance"
+      ],
+      "industries": [
+        "Hotels & Hospitality",
+        "Corporate Offices",
+        "Hospitals & Healthcare",
+        "Shopping Malls",
+        "Government Buildings",
+        "Education Institutions"
+      ],
+      "benefits": [
+        "24/7 uninterrupted front-desk operation",
+        "Personalized visitor interaction via facial recognition",
+        "Multi-language support for international visitors",
+        "Reduced administrative workload",
+        "Consistent, professional brand impression",
+        "Seamless integration with existing enterprise systems"
+      ],
+      "images": ["/robots/reception_robot_display.png", "/robots/reception_robot_1.mp4", "/robots/reception_robot_2.mp4", "/robots/reception_robot_3.png", "/robots/reception_robot_4.png", "/robots/reception_robot_5.png"],
+      "videos": ["https://drive.google.com/file/d/1WDKmzweRd3sCELLUwTWg140krA8oDMRx/view?usp=drive_link"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/Reception+%26+Information+Robots/Allbotix_ATR_V2_V3.pdf"],
+      "related_products": ["Humanoid Robot (BOLT-G1)", "Serving Robot (AW3, ASMR T10, AT9)"],
+      "package_includes": [
+        "1× ATR-p010 Robot (Pre-assembled)",
+        "1× Charging Station + Cable",
+        "1× User Manual"
+      ]
+    },
+    {
+      "product_name": "Humanoid Robot (BOLT-G1)",
+      "company": "ALLBOTIX",
+      "category": "Humanoid Service Robot",
+      "model_number": "BOLT-G1",
+      "description": "A next-generation humanoid robot combining advanced AI, natural movement, and expressive communication — delivering intelligence, empathy, and efficiency across service environments including hospitality, education, healthcare, and entertainment.",
+      "short_description": "Advanced humanoid robot for customer service, education, healthcare, and entertainment.",
+      "key_features": [
+        "Lightweight and highly maneuverable frame",
+        "Precision handling for complex tasks",
+        "AI-powered interaction and assistance",
+        "Rechargeable and energy-efficient design",
+        "Voice interaction for personalized experience",
+        "Customizable functions for various applications",
+        "Continuous operation — no breaks required",
+        "Natural movement with expressive communication",
+        "Minimizes human error and operates tirelessly"
+      ],
+      "technical_features": [
+        "Lightweight humanoid frame",
+        "AI-powered real-time human-robot interaction",
+        "Advanced voice recognition",
+        "Adaptive movement across floor surfaces",
+        "OTA update support"
+      ],
+      "specifications": {
+        "type": "Bipedal Humanoid Robot",
+        "operation": "Continuous (no fatigue)",
+        "charging": "Energy-efficient auto-charging"
+      },
+      "use_cases": [
+        "Coffee shop and bakery service",
+        "Juice bar assistant",
+        "Exhibition and expo greeter",
+        "Events entertainer",
+        "Restaurant service robot",
+        "Hotel concierge",
+        "Catering service assistant"
+      ],
+      "industries": [
+        "Coffee Shops & Bakeries",
+        "Restaurants & Hotels",
+        "Events & Exhibitions",
+        "Healthcare",
+        "Education",
+        "Entertainment"
+      ],
+      "benefits": [
+        "Unique customer experience and brand differentiation",
+        "24/7 tireless operation",
+        "Reduces operational dependency on human staff",
+        "Engaging and expressive human-like interaction",
+        "Versatile across multiple industry environments"
+      ],
+      "images": ["/robots/humanoid_robot_display.png", "/robots/humanoid_robot_1.png", "/robots/humanoid_robot_2.png", "/robots/humanoid_robot_3.png"],
+      "videos": ["https://drive.google.com/file/d/1tQPret9azc1O9bRYfEhytEiM26OfP9QP/view?usp=drive_link"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Bolt+G1.pdf"],
+      "related_products": ["AI Receptionist Robot (ATR-p010)", "Dog Robot (Alpha B2, Alpha GO2)"],
+      "package_includes": [
+        "1× Bolt G1 Humanoid Robot",
+        "1× Charging Station + Cable",
+        "1× User Manual"
+      ]
+    },
+    {
+      "product_name": "Dog Robot (ALPHA-DOG) — Alpha B2 & Alpha GO2",
+      "company": "ALLBOTIX",
+      "category": "Quadruped Service Robot",
+      "model_number": "ALPHA-DOG",
+      "models": [
+        {
+          "name": "Alpha B2",
+          "payload": "10 kg",
+          "protection": "IP67",
+          "features": ["All-terrain mobility", "Weatherproof", "Modular design", "Quick-swap battery"],
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Alpha+B2.pdf"
+        },
+        {
+          "name": "Alpha GO2",
+          "payload": "10 kg",
+          "protection": "IP67",
+          "features": ["All-terrain mobility", "Modular design", "Stable navigation"],
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Humanoid+%26+RoboDog/Alpha+GO2.pdf"
+        }
+      ],
+      "description": "Agile, intelligent quadruped robots combining advanced AI and sensors to support security patrol, inspection, hospitality assistance, and on-site operations — reducing manual workload and safety risks.",
+      "short_description": "Rugged quadruped robot for security patrol, inspection, and rescue operations.",
+      "key_features": [
+        "Agile quadruped mobility across complex terrains",
+        "Advanced AI and autonomous operation",
+        "High-precision sensors for accurate detection",
+        "Rugged all-terrain design",
+        "24/7 operation — safety and productivity boost",
+        "Modular payload options for various use cases",
+        "IP67 weatherproof protection",
+        "Quick-swap battery",
+        "Performs repetitive or hazardous duties autonomously"
+      ],
+      "specifications": {
+        "payload": "10 kg",
+        "protection": "IP67",
+        "battery": "Quick-swap design",
+        "navigation": "Autonomous path planning + obstacle avoidance"
+      },
+      "use_cases": [
+        "Industrial inspection and monitoring",
+        "Security patrol in high-risk environments",
+        "Construction and infrastructure inspection",
+        "Research and education robotics demonstrations",
+        "Agriculture and natural environment monitoring",
+        "Defense and emergency services",
+        "Exhibition and expo entertainment"
+      ],
+      "industries": [
+        "High-Risk Industrial Environments",
+        "Construction & Infrastructure",
+        "Public Safety & Security",
+        "Research & Education",
+        "Agriculture",
+        "Defense & Emergency Services",
+        "Events & Exhibitions"
+      ],
+      "benefits": [
+        "Operates in environments inaccessible to wheeled robots",
+        "Significantly reduces manual workload and safety risks",
+        "Lowers operational costs with autonomous service",
+        "24/7 consistent patrol and inspection",
+        "Versatile modular payload for different applications"
+      ],
+      "images": ["/robots/dog_robot_display.avif", "/robots/dog_robot_1.png", "/robots/dog_robot_2.png", "/robots/dog_robot_model_b2.jpeg", "/robots/dog_robot_model_go2.jpeg"],
+      "videos": [
+        "https://drive.google.com/file/d/1kD8sbog8kZzqio9RoX4Vwi82cbzqyNDn/view?usp=drive_link",
+        "https://drive.google.com/file/d/18GSIlSTZpGenzV-0ss-klTM0HtBdsDlM/view?usp=drive_link",
+        "https://drive.google.com/file/d/1UCJ3ChLy8eqL1dNV8QExiO2vbqmVsT94/view?usp=drive_link"
+      ],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/ALLBOTIX_ROBOTICS_PROFILE.pdf"],
+      "related_products": ["Humanoid Robot (BOLT-G1)", "AMR Robot (AT300, AT600)"],
+      "package_includes": [
+        "1× Alpha Dog Robot (B2 or GO2)",
+        "1× Charging Station + Cable",
+        "1× User Manual"
+      ]
+    },
+    {
+      "product_name": "Cleaning Robot Series",
+      "company": "ALLBOTIX",
+      "category": "Autonomous Cleaning Robot",
+      "model_number": "CLEANING-SERIES",
+      "models": [
+        {
+          "name": "AC40",
+          "description": "Mop, scrub, vacuum all-in-one cleaning robot.",
+          "specs": {"scrub_time": "5 hours", "sweep_time": "12 hours", "clean_water": "16L", "dirty_water": "14L", "dust_bag": "8L", "charge_time": "2 hours"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/AC40.pdf"
+        },
+        {
+          "name": "AX10 / AX10 PRO",
+          "description": "Powerhouse cleaning robot with AI navigation for homes, workspaces, and retail.",
+          "specs": {"coverage": "10,700+ sqft", "runtime": "200 min", "battery": "Dual battery", "navigation": "LiDAR + ToF", "dust_bag": "3 Litres"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/AX10.pdf"
+        },
+        {
+          "name": "AMT 1",
+          "description": "AI-powered industrial sweeping robot for large-scale environments up to 10,000m².",
+          "specs": {"cleaning_efficiency": "1800–6000 m²/h", "battery_life": "4–8 hours", "trash_bin": "35L", "navigation": "VSLAM + Marker + LiDAR SLAM"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/AMT1.pdf"
+        },
+        {
+          "name": "AT60s / AT60",
+          "description": "Next-level precision sweeping robot with hot water mop washing.",
+          "specs": {"suction": "15,000 Pa", "mop": "Hot Water Washing + Hot Air Drying", "navigation": "AI LiDAR Mapping"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/AT60s.pdf"
+        },
+        {
+          "name": "AT20s Pro / AT20 PRO",
+          "description": "Ultimate deep cleaning solution with self-emptying and self-cleaning features.",
+          "specs": {"battery": "5200 mAh", "runtime": "260 min", "self_emptying": "70-Day system", "maps": "Stores up to 5", "suction": "6500 Pa"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/AT20s+Pro.pdf"
+        },
+        {
+          "name": "AS 100N",
+          "description": "Most versatile outdoor sweeping robot for large industrial and commercial spaces.",
+          "specs": {"sweeping_width": "100 cm", "battery_life": "6 hours", "efficiency": "3000 m²/h", "range": "30–40 km"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Cleaning+Robots/A+4C+-+pro.pdf"
+        }
+      ],
+      "description": "A full lineup of autonomous smart cleaning robots designed to revolutionize cleanliness across commercial and industrial environments — delivering precision, consistency, and efficiency around the clock.",
+      "short_description": "Autonomous AI cleaning robots for commercial, industrial, and outdoor environments.",
+      "key_features": [
+        "Autonomous navigation and intelligent mapping",
+        "Multi-surface cleaning — sweep, scrub, mop and vacuum",
+        "AI-powered smart cleaning technology",
+        "Energy-efficient and rechargeable design",
+        "24/7 operation with minimal human intervention",
+        "Remote monitoring and fleet management",
+        "Auto-detects dirt levels and adjusts intensity",
+        "Remote monitoring and scheduling via app"
+      ],
+      "use_cases": [
+        "Hotel and resort floor maintenance",
+        "Shopping mall cleaning",
+        "Hospital and healthcare facility sanitation",
+        "Airport and transit hub cleaning",
+        "Corporate office maintenance",
+        "Warehouse and industrial facility cleaning",
+        "Outdoor public space sweeping",
+        "Educational campus cleaning"
+      ],
+      "industries": [
+        "Hotels & Hospitality",
+        "Shopping Malls & Retail",
+        "Hospitals & Healthcare",
+        "Airports & Transit Hubs",
+        "Corporate Offices",
+        "Warehouses & Industrial",
+        "Outdoor Public Spaces",
+        "Educational Institutions"
+      ],
+      "images": ["/robots/cleaning_robot_display.jpeg", "/robots/cleaning_robot_1.gif", "/robots/cleaning_robot_2.gif", "/robots/cleaning_robot_3.gif"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/ALLBOTIX_ROBOTICS_PROFILE.pdf"],
+      "related_products": ["AMR Robot (AT300, AT600)", "AI Receptionist Robot (ATR-p010)"]
+    },
+    {
+      "product_name": "Serving Robot Series",
+      "company": "ALLBOTIX",
+      "category": "Autonomous Serving Robot",
+      "model_number": "SERVING-SERIES",
+      "models": [
+        {
+          "name": "AW3",
+          "description": "Closed-door AI-powered food delivery robot for safe and contactless delivery.",
+          "specs": {"size": "459 × 549 × 1081 mm", "weight": "48 kg", "battery": "12 hours", "load": "20 kg"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Serving+Robots/Aw3.pdf"
+        },
+        {
+          "name": "ASMR T10",
+          "description": "Premium tray delivery and marketing robot for high-end dining and commercial use.",
+          "specs": {"weight": "58 kg", "battery": "8 hours", "load": "40 kg"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Serving+Robots/ASMR+T10+Delivery+and+Marketing+Robot.pdf"
+        },
+        {
+          "name": "AT9",
+          "description": "Multi-tray serving robot for high-volume service environments.",
+          "specs": {"size": "486 × 555 × 1399 mm", "weight": "63 kg", "battery": "8 hours", "load": "40 kg"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/Serving+Robots/AT9.pdf"
+        }
+      ],
+      "description": "AI-powered serving robots designed to streamline food and beverage service, improve efficiency, and enhance customer experience across restaurants, hotels, hospitals, and event venues.",
+      "short_description": "AI-powered robots for contactless food and beverage delivery in restaurants, hotels, and hospitals.",
+      "key_features": [
+        "Lightweight and maneuverable for all spaces",
+        "AI-powered order tracking and assistance",
+        "Rechargeable and energy-efficient design",
+        "Voice interaction for a personalized experience",
+        "Can carry 4 plates at a time",
+        "No breaks — works continuously around the clock",
+        "Contactless delivery",
+        "Multimodal interaction",
+        "Safe navigation with obstacle avoidance"
+      ],
+      "use_cases": [
+        "Restaurant table service and order delivery",
+        "Hotel room service and corridor delivery",
+        "Hospital patient meal delivery",
+        "Coffee shop and bakery service",
+        "Events and catering service",
+        "Exhibition and expo demonstrations"
+      ],
+      "industries": [
+        "Restaurants",
+        "Hotels & Hospitality",
+        "Hospitals & Healthcare",
+        "Coffee Shops & Bakeries",
+        "Events & Catering",
+        "Exhibitions & Expos"
+      ],
+      "images": ["/robots/serving_robot_display.png", "/robots/serving_robot_1.png", "/robots/serving_robot_aw3.avif", "/robots/serving_robot_asmr_t10.avif", "/robots/serving_robot_at9.avif"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/ALLBOTIX_ROBOTICS_PROFILE.pdf"],
+      "related_products": ["Humanoid Robot (BOLT-G1)", "AI Receptionist Robot (ATR-p010)"]
+    },
+    {
+      "product_name": "Autonomous Mobile Robot (AMR Series)",
+      "company": "ALLBOTIX",
+      "category": "Autonomous Mobile Robot (AMR)",
+      "model_number": "AMR-SERIES",
+      "models": [
+        {
+          "name": "AT300",
+          "description": "High-capacity AMR for heavy-duty warehouse goods transport.",
+          "specs": {"payload": "300 kg", "battery": "12 hours", "speed": "1.2 m/s", "navigation": "LiDAR SLAM + VSLAM"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/AMR/AT300.pdf"
+        },
+        {
+          "name": "AT600",
+          "description": "Powerful and scalable AMR for high-volume industrial environments.",
+          "specs": {"payload": "600 kg", "battery": "12 hours", "speed": "1.5 m/s", "navigation": "LiDAR SLAM + VSLAM"},
+          "brochure": "https://allbotix.s3.eu-north-1.amazonaws.com/AMR/AT600.pdf"
+        }
+      ],
+      "description": "Transform operations with Allbotix cutting-edge Autonomous Mobile Robots — autonomously navigating complex environments, streamlining workflows, and delivering smarter independent intelligence across warehousing, manufacturing, retail, and logistics.",
+      "short_description": "Industrial-grade AMR for autonomous material transport, warehouse automation, and logistics.",
+      "key_features": [
+        "Advanced autonomous navigation with real-time obstacle avoidance",
+        "Robust design for heavy-duty material handling",
+        "Seamless WMS/ERP integration",
+        "Scalable fleet management",
+        "AI-powered real-time decision making",
+        "Continuous 24/7 operation",
+        "Dynamic re-routing for uninterrupted operations",
+        "Fleet-wide coordination and traffic management",
+        "Predictive maintenance alerts"
+      ],
+      "use_cases": [
+        "Warehouse goods transport",
+        "Retail store shelf scanning",
+        "Factory production line material transport",
+        "Smart security patrolling",
+        "E-commerce order fulfillment"
+      ],
+      "industries": [
+        "Warehousing & Distribution",
+        "Manufacturing & Automotive",
+        "Retail & E-Commerce",
+        "Industrial Facilities",
+        "Pharmaceutical Production"
+      ],
+      "images": ["/robots/amr_robot_display.avif", "/robots/amr_robot_2.jpeg", "/robots/amr_robot_3.jpeg", "/robots/amr_robot_model_at300.avif", "/robots/amr_robot_model_at600.avif"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/ALLBOTIX_ROBOTICS_PROFILE.pdf"],
+      "related_products": ["Cobot (AL Series)", "Cleaning Robot Series"]
+    },
+    {
+      "product_name": "Cobot — AL Series Collaborative Robot",
+      "company": "ALLBOTIX",
+      "category": "Collaborative Robot (Cobot)",
+      "model_number": "AL-SERIES",
+      "description": "AL Series collaborative robots designed to simplify industrial automation, improve productivity, and enhance operational flexibility across manufacturing and processing environments — delivering safe, precise, and efficient human-robot collaboration.",
+      "short_description": "Safe, precise collaborative robot arm for industrial automation alongside human workers.",
+      "key_features": [
+        "Safe to work alongside humans without extensive guarding",
+        "Compact and lightweight for easy deployment and redeployment",
+        "High precision and repeatability",
+        "Robust joints for long-term reliability",
+        "Compatible with AL-certified accessories and Industry 4.0 systems",
+        "Fast setup and minimal programming",
+        "Easy integration into existing production lines"
+      ],
+      "use_cases": [
+        "Precision assembly and pick-and-place",
+        "Automotive components manufacturing",
+        "Electronics and semiconductor assembly",
+        "Food and beverage packaging",
+        "Pharmaceutical production",
+        "Metal fabrication and machining",
+        "Research and educational lab automation"
+      ],
+      "industries": [
+        "Automotive & Auto Components",
+        "Electronics & Semiconductors",
+        "Food & Beverage",
+        "Pharmaceuticals & Healthcare",
+        "Consumer Goods & Packaging",
+        "Metal Fabrication",
+        "Logistics & Warehousing",
+        "Research & Education"
+      ],
+      "images": ["/robots/cobot_display.png", "/robots/cobot_1.png", "/robots/cobot_2.png", "/robots/cobot_al_series.avif"],
+      "brochures": ["https://allbotix.s3.eu-north-1.amazonaws.com/Robotic+Hand/Universal+Cobot.pdf"],
+      "related_products": ["AMR Robot (AT300, AT600)", "Humanoid Robot (BOLT-G1)"]
+    },
+    {
+      "product_name": "Humanoid Robot G1",
+      "company": "Nanta Tech / ALLBOTIX",
+      "category": "Humanoid Robot",
+      "model_number": "G1",
+      "description": "AI-powered humanoid robot for research and human interaction with 43 degrees of freedom.",
+      "specifications": {
+        "height": "1.32 m",
+        "weight": "35 kg",
+        "dof": "43 DOF",
+        "battery": "9000 mAh"
+      },
+      "key_features": [
+        "AI intelligence",
+        "Advanced mobility",
+        "Multi-modal perception",
+        "OTA updates"
+      ],
+      "videos": ["https://drive.google.com/file/d/1tQPret9azc1O9bRYfEhytEiM26OfP9QP/view?usp=drive_link"]
+    },
+    {
+      "product_name": "Nanta Interactive Panel Series (X Pro AI)",
+      "company": "Nanta Tech Limited",
+      "category": "Interactive Display Panel",
+      "models": [
+        {"name": "X55 Pro AI", "size": "55 inch", "specs": "4K UHD, 8GB RAM, 128GB storage, AI collaboration tools, multi-touch, wireless sharing, built-in whiteboard"},
+        {"name": "X65 Pro AI", "size": "65 inch", "specs": "4K UHD, AI tools, multi-touch, wireless sharing"},
+        {"name": "X75 Pro AI", "size": "75 inch", "specs": "4K UHD, AI collaboration, multi-touch"},
+        {"name": "X86 Pro AI", "size": "86 inch", "specs": "AI tools for boardrooms"},
+        {"name": "X98 Pro AI", "size": "98 inch", "specs": "AI tools for large collaboration environments"}
+      ],
+      "description": "AI-powered interactive display panels for smart classrooms, boardrooms, meeting rooms, and collaboration spaces.",
+      "key_features": [
+        "4K UHD resolution",
+        "AI collaboration tools",
+        "Multi-touch support",
+        "Wireless screen sharing",
+        "Built-in whiteboard and conferencing",
+        "Multiple size options (55\" to 98\")"
+      ],
+      "use_cases": ["Smart boardrooms", "Conference rooms", "Educational institutions", "Training rooms", "Collaborative workspaces"],
+      "images": ["/static/images/Panel.png"]
+    },
+    {
+      "product_name": "4K Dual-lens PTZ Video Bar",
+      "company": "Nanta Tech Limited",
+      "category": "Video Conferencing Equipment",
+      "model_number": "NT-BAR-PT",
+      "description": "All-in-one 4K video bar with dual-lens, AI tracking, 12x zoom and 8m mic pickup.",
+      "key_features": ["Dual 4K UHD lenses", "AI auto framing and tracking", "6 MEMS mic array", "Stereo speakers", "BYOM support", "POE integration"],
+      "images": ["/static/images/Video 1.png"]
+    },
+    {
+      "product_name": "Digital Array Microphone (6M Voice Pickup)",
+      "company": "Nanta Tech Limited",
+      "category": "Audio Equipment",
+      "model_number": "NT-EC-CM-6",
+      "description": "Professional digital array microphone with 10-meter voice pickup, 3000mAh battery, and AES support.",
+      "specifications": {
+        "voice_pickup": "10 meters",
+        "battery": "3000 mAh (10 hours)",
+        "noise_reduction": "Available",
+        "connectivity": "AES Support"
+      }
+    },
+    {
+      "product_name": "Active LED Displays (Indoor & Outdoor)",
+      "company": "Nanta Tech Limited",
+      "category": "LED Display",
+      "models": [
+        {
+          "name": "Indoor Active LED",
+          "pixel_pitch": "P1.2 / P1.5 / P2.5",
+          "applications": ["Corporate boardrooms", "Retail showrooms", "Control rooms"]
+        },
+        {
+          "name": "Outdoor Active LED",
+          "pixel_pitch": "P3 / P4 / P6",
+          "features": ["Weather resistant", "High brightness", "Wide viewing angle"],
+          "applications": ["Billboards", "Stadiums", "Public displays"]
+        }
+      ],
+      "description": "Vibrant, seamless LED display solutions for large venues, lobbies, stages, and digital signage.",
+      "images": ["/static/images/Active LED 1.png", "/static/images/Active LED 2.png"]
+    },
+    {
+      "product_name": "HDMI AOC Cable Series",
+      "company": "Nanta Tech Limited",
+      "category": "AV Cable & Connectivity",
+      "models": [
+        {"name": "HDMI 2.0 A/D AOC Cable", "bandwidth": "18Gbps", "distance": "Up to 100m", "features": ["Zero signal loss", "EMI/RFI immune", "Hybrid fiber + copper"]},
+        {"name": "HDMI 2.0 AOCH Cable", "resolution": "4K@60Hz", "distance": "Up to 100m"},
+        {"name": "HDMI 2.1 AOCH Cable", "resolution": "8K@60Hz", "bandwidth": "48Gbps", "features": ["Dynamic HDR", "eARC support"]},
+        {"name": "USB 3.1 C-C Active Cable", "speed": "10Gbps", "distance": "Up to 50m"},
+        {"name": "USB 3.1 AM-AF Active Cable", "distance": "Up to 50m"},
+        {"name": "USB 3.1 AM-C Active Cable", "speed": "10Gbps", "distance": "Up to 50m"}
+      ],
+      "description": "High-performance Active Optical Cables for long-distance signal transmission without signal loss."
+    }
+  ]
+}

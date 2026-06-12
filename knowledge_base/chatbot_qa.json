@@ -1,0 +1,544 @@
+{
+  "chatbot_qa": [
+    {
+      "question": "What is ALLBOTIX?",
+      "answer": "ALLBOTIX is a leading robotics company under Nanta Tech Limited, offering AI-powered robots including reception robots, humanoid robots, cleaning robots, serving robots, AMR robots, robot dogs, and cobots. Based in Ahmedabad, India, ALLBOTIX has developed 525+ robots and delivered to 180+ clients.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "What types of robots does ALLBOTIX sell?",
+      "answer": "ALLBOTIX offers: (1) AI Reception Robots (ATR-p010/V3), (2) Humanoid Robots (BOLT-G1, G1), (3) Dog Robots (Alpha B2, Alpha GO2), (4) Cleaning Robots (AC40, AX10, AMT1, AT60s, AT20s Pro, AS100N), (5) Serving Robots (AW3, ASMR T10, AT9), (6) AMR Robots (AT300, AT600), (7) Cobots (AL Series).",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "How do I contact ALLBOTIX?",
+      "answer": "Contact ALLBOTIX via: Email: contact@nantatech.com | WhatsApp: +91 99090 41675 or +91 99090 41678 (Mon-Fri, 10AM-7PM IST) | Visit: 204–207, 2nd Floor, Shivalik Sharda Harmony, Ambawadi, Ahmedabad 380015.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "What is the AI Reception Robot?",
+      "answer": "The AI Reception Robot (ATR-p010/ATR V3) is an autonomous robot that greets visitors, handles check-in and registration, provides information, manages appointments, and operates 24/7. It features a 13.3-inch LCD screen, 13MP camera, 20W audio, 360° LIDAR navigation, facial recognition, multi-language support, and can carry a tray up to 3 kg.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "Which industries use the AI Reception Robot?",
+      "answer": "The AI Reception Robot is widely deployed in Hotels & Hospitality, Corporate Offices, Hospitals & Healthcare, Shopping Malls, Government Buildings, Education Institutions, and Airports.",
+      "company": "ALLBOTIX",
+      "category": "industry"
+    },
+    {
+      "question": "What are the specifications of the ATR V3 robot?",
+      "answer": "ATR V3 Specifications: Display: 13.3-inch LCD | Camera: 13 MP + 1080p @ 30 FPS | Audio: 20W with sub-woofer | Navigation: 2D mapping + 3D localization, 360° LIDAR | Speed: up to 1 m/s | Turn radius: Zero | Tray: Optional, up to 3 kg | Charging: Autonomous wireless | Languages: Multi-language support.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Can the reception robot speak multiple languages?",
+      "answer": "Yes, the ATR V3 reception robot supports multiple languages, making it suitable for international hotels, airports, global corporate offices, and diverse visitor environments.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Does the reception robot integrate with hotel management software?",
+      "answer": "Yes, the ATR V3 reception robot connects to company databases and enterprise systems for real-time information retrieval and appointment management. It also integrates with AI-powered chatbots and can be customized for hotel PMS integration.",
+      "company": "ALLBOTIX",
+      "category": "business"
+    },
+    {
+      "question": "What is the BOLT-G1 Humanoid Robot?",
+      "answer": "The BOLT-G1 is a next-generation humanoid robot with a lightweight, maneuverable frame. It features AI-powered interaction, voice recognition, expressive communication, and can perform customer service tasks in hospitality, events, restaurants, and educational settings. It operates 24/7 without fatigue.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "What is the difference between the BOLT-G1 and the G1 Humanoid Robot?",
+      "answer": "The BOLT-G1 is ALLBOTIX's own branded humanoid service robot optimized for customer interaction and hospitality. The G1 is a more technically specified research-grade humanoid: Height 1.32m, Weight 35 kg, 43 DOF, 9000 mAh battery, designed for research and advanced human interaction applications with OTA updates.",
+      "company": "ALLBOTIX",
+      "category": "comparison"
+    },
+    {
+      "question": "What use cases does the humanoid robot serve?",
+      "answer": "The humanoid robot (BOLT-G1) is used in Coffee Shops & Bakeries, Juice Bars, Restaurants, Hotels, Catering Services, Exhibition & Expos, and Events for customer service, promotion, and entertainment.",
+      "company": "ALLBOTIX",
+      "category": "use_case"
+    },
+    {
+      "question": "What is the Alpha B2 Robot Dog?",
+      "answer": "Alpha B2 is a rugged quadruped robot with IP67 weatherproof protection, 10 kg payload capacity, all-terrain mobility, quick-swap battery, and modular design. It is used for industrial inspection, security patrol, construction monitoring, agriculture, defense, and research applications.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "What is the difference between Alpha B2 and Alpha GO2?",
+      "answer": "Both Alpha B2 and Alpha GO2 are quadruped robot dogs with IP67 protection and 10 kg payload. The Alpha B2 is positioned for industrial inspection and rescue scenarios with weatherproof design. The Alpha GO2 is focused on advanced quadruped research and industrial applications with stable navigation. Both have quick-swap batteries and modular designs.",
+      "company": "ALLBOTIX",
+      "category": "comparison"
+    },
+    {
+      "question": "Can the dog robots operate outdoors in rain?",
+      "answer": "Yes. Both Alpha B2 and Alpha GO2 have IP67 weatherproof protection, which means they are dust-tight and can withstand temporary water immersion — suitable for outdoor operations in rain, mud, and challenging weather conditions.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Which cleaning robot is best for a large warehouse?",
+      "answer": "For large warehouses, the AMT1 Industrial Sweeping Robot is recommended — it covers 1800–6000 m²/h, has 4–8 hours battery, 35L trash bin, IoT integration, and VSLAM + LiDAR SLAM navigation. For scrubbing needs, the AC40 is ideal with its 5-hour scrub / 12-hour sweep capability.",
+      "company": "ALLBOTIX",
+      "category": "comparison"
+    },
+    {
+      "question": "What is the suction power of the AT60s cleaning robot?",
+      "answer": "The AT60s features 15,000 Pa suction power, hot water mop washing, hot air drying, auto recharge and resume, AI LiDAR mapping, self-cleaning mop system, and no-go/no-mop zone control. It is designed for premium indoor cleaning.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "What is the AT20s Pro cleaning robot's battery life?",
+      "answer": "The AT20s Pro has a 5200 mAh battery with 260 minutes runtime. It also features a 70-day self-emptying system, 6500 Pa suction, self-cleaning mop, and stores up to 5 maps.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "What is the AW3 Serving Robot?",
+      "answer": "The AW3 is a closed-door AI-powered food delivery robot providing contactless delivery. Specifications: Size 459×549×1081 mm, Weight 48 kg, 12-hour battery, 20 kg load capacity. It features multimodal interaction, safe navigation, and hygienic enclosed delivery compartments.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "How many plates can the serving robot carry?",
+      "answer": "ALLBOTIX serving robots can carry up to 4 plates at a time. The AT9 and ASMR T10 models support 40 kg total load capacity, making them suitable for high-volume restaurant and hotel service environments.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "What is the difference between the AT9 and ASMR T10 serving robots?",
+      "answer": "Both support 40 kg load and 8-hour battery. The AT9 (486×555×1399 mm, 63 kg) is a multi-tray robot for high-volume service. The ASMR T10 (58 kg) is a premium delivery AND marketing robot, suitable for high-end dining and commercial promotions with a premium display tray.",
+      "company": "ALLBOTIX",
+      "category": "comparison"
+    },
+    {
+      "question": "What is the maximum payload of the AT600 AMR?",
+      "answer": "The AT600 AMR can carry 600 kg payload with 12-hour battery life and 1.5 m/s speed. It uses LiDAR SLAM + VSLAM navigation and is built for ultra-heavy industrial material transport.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Does the AMR robot integrate with WMS?",
+      "answer": "Yes. ALLBOTIX AMR robots (AT300, AT600) seamlessly integrate with WMS (Warehouse Management Systems), ERP, OMS, and POS systems via the Allbotix Fleet Management Software. Real-time inventory tracking, dynamic re-routing, predictive maintenance alerts, and fleet coordination are all supported.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Is the AL Series Cobot safe to work next to humans?",
+      "answer": "Yes. The AL Series Cobot is specifically designed for safe human-robot collaboration (HRC). It does not require extensive safety guarding, features safety-rated speed monitoring, and is compact and lightweight for easy redeployment. It follows Industry 4.0 safety standards.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "What are the benefits of using ALLBOTIX robots for a hotel?",
+      "answer": "Hotels benefit from ALLBOTIX robots through: (1) 24/7 front-desk automation via ATR V3 reception robot, (2) Automated room/floor cleaning via cleaning robots, (3) Food and beverage delivery via AW3/AT9/ASMR T10 serving robots, (4) Elevated guest experience with humanoid robot interactions, (5) Reduced operational costs, and (6) Consistent service quality at all hours.",
+      "company": "ALLBOTIX",
+      "category": "business"
+    },
+    {
+      "question": "What is the pricing for ALLBOTIX robots?",
+      "answer": "ALLBOTIX robot pricing is customized based on your specific requirements, configuration, quantity, and deployment needs. Contact the sales team at contact@nantatech.com or WhatsApp +91 99090 41675 for a custom quote. Spec sheets are available for download from the ALLBOTIX website.",
+      "company": "ALLBOTIX",
+      "category": "pricing"
+    },
+    {
+      "question": "Does ALLBOTIX offer after-sales support?",
+      "answer": "Yes. ALLBOTIX offers 24/7 premium support for all robot deployments. The professional support team provides setup assistance, maintenance, troubleshooting, and technical guidance. Contact support via email: contact@nantatech.com or WhatsApp: +91 99090 41675.",
+      "company": "ALLBOTIX",
+      "category": "business"
+    },
+    {
+      "question": "What is the vision of ALLBOTIX?",
+      "answer": "ALLBOTIX's vision is to empower tomorrow's industries with cutting-edge robotic solutions through smart automation, precision engineering, and limitless innovation — becoming the global leader in intelligent robotic automation across commercial, industrial, and service environments.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "How many clients does ALLBOTIX have?",
+      "answer": "ALLBOTIX has served 180+ happy clients, developed 525+ robots, delivered 610+ robots, and maintains an average rating of 4.7. Clients include Swarrnim University, Ahmedabad Red Cross, Adani Group, and others.",
+      "company": "ALLBOTIX",
+      "category": "business"
+    },
+    {
+      "question": "What navigation technology do ALLBOTIX robots use?",
+      "answer": "ALLBOTIX robots use advanced navigation including: 360-degree LIDAR, depth cameras, 2D mapping and 3D localization, LiDAR SLAM + VSLAM (Visual Simultaneous Localization and Mapping), ToF sensors, zero-turn radius design, path planning algorithms, real-time obstacle avoidance, and autonomous charging.",
+      "company": "ALLBOTIX",
+      "category": "technical"
+    },
+    {
+      "question": "Can ALLBOTIX robots be customized?",
+      "answer": "Yes. ALLBOTIX offers Custom Robotics Solutions tailored to specific industry needs. The cobots (AL Series) support AL-certified accessories. Robot configurations, software integrations, and hardware add-ons can be customized. Contact the team for custom solution discussions.",
+      "company": "ALLBOTIX",
+      "category": "business"
+    },
+    {
+      "question": "What is Nanta Tech Limited?",
+      "answer": "Nanta Tech Limited is a comprehensive technology solutions company based in Ahmedabad, India. It operates four divisions: AV Solutions (end-to-end audio-visual), AI Solutions (computer vision via NTRA brand), Robotics (intelligent robots via Allbotix brand), and Website Services (web development). Contact: contact@nantatech.com.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "What is Nanta Tech's X55 Pro AI interactive panel?",
+      "answer": "The X55 Pro AI is a 55-inch 4K UHD interactive panel with 8GB RAM, 128GB storage, multi-touch, AI collaboration tools, wireless screen sharing, and built-in whiteboard and conferencing. Ideal for boardrooms, meeting rooms, and smart classrooms.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "What sizes of interactive panels does Nanta Tech offer?",
+      "answer": "Nanta Tech offers the X Pro AI series in 5 sizes: X55 Pro AI (55\"), X65 Pro AI (65\"), X75 Pro AI (75\"), X86 Pro AI (86\"), X98 Pro AI (98\"). All feature 4K UHD resolution and AI collaboration tools.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "What is the HDMI 2.1 AOCH cable used for?",
+      "answer": "The HDMI 2.1 AOCH cable supports 8K@60Hz, 48Gbps bandwidth, Dynamic HDR, and eARC support. It uses active optical fiber for zero signal loss over long distances. Ideal for home theater systems, professional gaming setups, and broadcast environments.",
+      "company": "Nanta Tech",
+      "category": "technical"
+    },
+    {
+      "question": "What AV integration services does Nanta Tech provide?",
+      "answer": "Nanta Tech provides complete AV integration for: Video Walls, Auditoriums, Hospitals (medical-grade AV), Meeting Rooms, Public Address Systems, Active LED & Signage, and IT Network Solutions. End-to-end design, supply, and installation included.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "What is the 4K Dual-lens PTZ Video Bar?",
+      "answer": "The NT-BAR-PT is an all-in-one 4K video conferencing bar with dual lenses, AI auto framing and tracking, 6 MEMS microphone array, stereo speakers, BYOM support, and POE integration. Perfect for medium to large meeting rooms.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "Does Nanta Tech offer AI solutions?",
+      "answer": "Yes. Nanta Tech's AI division (NTRA brand) provides Computer Vision AI solutions for surveillance, monitoring, and security with 39+ capabilities. They also offer AI Callbot and Speech Solutions for automated customer support, multilingual helpdesks, and call handling.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "Does Nanta Tech build websites?",
+      "answer": "Yes. Nanta Tech provides professional website services: Custom Website Design & Development, Corporate & Business Websites, E-Commerce Websites, Landing Pages, and Website Maintenance & Support.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "What is Nanta Tech's pricing for AV solutions?",
+      "answer": "AV solution pricing from Nanta Tech is project-specific and depends on the environment size, equipment needed, and integration complexity. Contact the sales team at contact@nantatech.com or WhatsApp +91 99090 41675 for a custom quotation.",
+      "company": "Nanta Tech",
+      "category": "pricing"
+    },
+    {
+      "question": "What industries does Nanta Tech serve with AV solutions?",
+      "answer": "Nanta Tech serves Corporate Offices, Educational Institutions (schools, universities), Healthcare & Hospitals, Government Buildings, Events & Conferences, Retail & Commercial spaces, and Hospitality venues with end-to-end AV solutions.",
+      "company": "Nanta Tech",
+      "category": "industry"
+    },
+    {
+      "question": "What is the difference between an AOC cable and a copper HDMI cable?",
+      "answer": "AOC (Active Optical Cables) use fiber optic technology for long-distance transmission (up to 100m) with zero signal loss, EMI immunity, and thin flexible design — ideal for large venues, boardrooms, and permanent installations. Copper HDMI cables are shorter range (typically under 10m without boosters), lower cost, suitable for standard short-run connections.",
+      "company": "Nanta Tech",
+      "category": "comparison"
+    },
+    {
+      "question": "What is NTRA?",
+      "answer": "NTRA is the Computer Vision and AI surveillance division of Nanta Tech Limited. It delivers real-time AI vision systems that turn existing cameras into intelligent platforms for detection, analytics, and security. Key specs: 42ms latency, 99% accuracy, 30 FPS, on-premise edge AI, 100+ cameras per cluster, 39+ AI capabilities across 5 solution domains.",
+      "company": "NTRA",
+      "category": "basic"
+    },
+    {
+      "question": "Does NTRA require new cameras?",
+      "answer": "No. NTRA runs on any existing IP/RTSP cameras at 1080p resolution or above. There is absolutely no need to replace your current CCTV infrastructure. The system adds AI intelligence on top of what you already have.",
+      "company": "NTRA",
+      "category": "basic"
+    },
+    {
+      "question": "Is NTRA cloud-based or on-premise?",
+      "answer": "NTRA is edge AI / on-premise. All inference happens locally on GPU edge appliances — no video or data is sent to the cloud. Air-gapped deployment is fully supported for sensitive sites like hospitals, government facilities, and industrial plants.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What is NTRA's detection accuracy?",
+      "answer": "NTRA achieves 99% detection accuracy, with 42ms end-to-end detection latency, 30 FPS processing speed, and handles 100+ cameras per edge cluster. All models are tuned per-deployment for local lighting, camera angles, and site-specific conditions.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What AI capabilities does NTRA offer?",
+      "answer": "NTRA offers 39+ AI capabilities across 5 domains: (1) Person Analytics: tracking, counting, facial recognition, emotion detection, distancing; (2) Security & Threat: weapons, fights, collapses, barricade breach; (3) Traffic & Vehicle: ANPR, speed, violations, congestion; (4) Retail Analytics: footfall, shelf-out, gaze tracking; (5) Object & Environment: fire, smoke, vandalism, abandoned objects.",
+      "company": "NTRA",
+      "category": "basic"
+    },
+    {
+      "question": "How does NTRA's face recognition work?",
+      "answer": "NTRA's face recognition uses DeepSORT-based identity tracking across overlapping cameras. It matches faces against watchlists and authorized databases in real time. Searchable by face, gender, age, clothing, and accessories. Tuned to perform on existing camera infrastructure. Used for access control, forensic search, and security monitoring.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Can NTRA detect weapons?",
+      "answer": "Yes. NTRA's Security & Threat Detection solution includes weapon detection with high precision and a very low false-positive rate, enabling rapid lockdown and response. It detects visible weapons in real time and triggers immediate alerts to security teams.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Does NTRA work for traffic enforcement?",
+      "answer": "Yes. NTRA's Traffic & Vehicle Intelligence solution provides: ANPR (license plate recognition), red light violation detection, vehicle speed detection, no helmet/triple rider detection, vehicle make/model/color identification, wrong parking detection, congestion analytics, accident detection, and seatbelt/phone-while-driving detection. Evidence-grade clip retention for challan systems.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "Can NTRA help prevent shoplifting?",
+      "answer": "Yes. NTRA's Retail Analytics and Threat Detection solutions identify suspicious behavior patterns, concealment activity, and restricted area access events. The retail mode runs anonymized (no facial PII stored) while detecting loss-prevention threats in real time.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "What does NTRA offer for healthcare environments?",
+      "answer": "NTRA for Healthcare provides: Patient fall detection (corridors, wards, recovery areas), restricted medical area monitoring (ICUs, pharmacies, ORs), patient wandering detection, PPE and hygiene compliance monitoring, and after-hours intrusion detection. All inference is on-premise — no PHI leaves the hospital network.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "How long does it take to deploy NTRA?",
+      "answer": "Typical timelines: Pilot deployment: 4 weeks on existing cameras | Retail single store: 2 weeks | Warehouse single site: 3–4 weeks | Airport terminal pilot: 4–6 weeks. All deployments use existing IP/RTSP cameras with no infrastructure overhaul.",
+      "company": "NTRA",
+      "category": "business"
+    },
+    {
+      "question": "Can NTRA integrate with my SOC or VMS?",
+      "answer": "Yes. NTRA integrates with existing VMS, SOC dashboards, SCADA, BMS, BI tools (Looker, PowerBI, Tableau), and custom stacks via REST API or webhook. Event metadata and clips surface directly in your operator workflow. MongoDB-backed audit trail included.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Does NTRA work at night or in low light?",
+      "answer": "Yes. NTRA processes IR/low-light feeds from standard IP cameras. Detection models are tuned per-site during deployment to handle local lighting conditions, night-time scenarios, and weather variations including rain and fog.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What industries does NTRA serve?",
+      "answer": "NTRA serves 8 industries: Smart Cities (crowd, ANPR, public safety), Manufacturing (PPE, zones, incidents), Retail (footfall, queues, loss prevention), Warehouses (perimeter, dock, forklift), Healthcare (falls, access, PPE), Corporate Offices (tailgating, occupancy, parking), Airports & Transportation, Traffic Management.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "What is NTRA's retail analytics solution?",
+      "answer": "NTRA's retail solution measures: footfall and dwell time, customer heatmap analytics, checkout queue monitoring, shelf-out detection with real-time alerts, gaze-to-advertisement tracking, and suspicious activity detection. All anonymized — no facial PII stored. Integrates with POS, ERP, and BI tools.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "Does NTRA store customer faces in retail environments?",
+      "answer": "No. NTRA's retail mode operates in anonymized mode — it counts, tracks, and analyzes behavior without retaining identifiable images. This makes it privacy-compliant and suitable for public retail environments.",
+      "company": "NTRA",
+      "category": "business"
+    },
+    {
+      "question": "What are NTRA's live demos?",
+      "answer": "NTRA offers live in-browser AI demos: (1) Face Recognition — real-time identity tracking; (2) Restricted Area Monitoring — unauthorized zone detection; (3) Object Detection — AI classification; (4) Vehicle Detection — ANPR and traffic analytics. No setup required to try them.",
+      "company": "NTRA",
+      "category": "basic"
+    },
+    {
+      "question": "What is NTRA's pricing?",
+      "answer": "NTRA pricing is project-specific based on number of cameras, deployment site, solution modules required, and integration complexity. Contact the team at contact@nantatech.com or WhatsApp +91 99090 41675 for a consultation and custom quote.",
+      "company": "NTRA",
+      "category": "pricing"
+    },
+    {
+      "question": "Is NTRA suitable for a smart city deployment?",
+      "answer": "Yes. NTRA for Smart Cities provides: crowd count and estimation, ANPR and vehicle analytics, weapon detection, garbage/debris detection, fire and smoke detection, and public safety alerts. Scales to 100+ concurrent cameras with edge inference. No cloud round-trip required.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "How does NTRA handle warehouse security?",
+      "answer": "NTRA for Warehouses provides: perimeter intrusion detection, vehicle ANPR at gates, PPE compliance in dock/yard areas, abandoned object detection, and restricted-area monitoring. Single appliance covers fence-line, dock, and interior. Webhook integration with WMS and SOC. Searchable event log for shrink investigation.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "Can NTRA detect PPE violations on a factory floor?",
+      "answer": "Yes. NTRA detects helmet, vest, and gloves non-compliance with per-shift compliance reporting. Models are tuned to each plant's lighting, camera angles, and PPE types. Alerts delivered via webhook to SCADA or SOC. Also detects restricted zone breaches, falls, and fire/smoke.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "Does NTRA support air-gapped deployment?",
+      "answer": "Yes. NTRA fully supports air-gapped deployment — no outbound internet connectivity is required for inference or operation. This is ideal for government, military, healthcare, and industrial sites with strict data security requirements.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What GPU hardware does NTRA require?",
+      "answer": "NTRA runs on commodity GPU servers — no specialized hardware required. One GPU edge appliance handles approximately 100 cameras per cluster. Exact hardware sizing is confirmed during the technical scoping call based on the number of cameras and detection workload.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "How does NTRA handle multiple locations?",
+      "answer": "NTRA uses per-site edge clusters that report into a central SOC view with unified search and alerting. For retail chains, per-store appliances roll up to an HQ dashboard. For multi-terminal airports, each terminal cluster feeds into a central airport SOC. REST/webhook APIs enable multi-site event correlation.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What is NTRA's object detection capability?",
+      "answer": "NTRA's Object & Environment Monitoring detects: specified objects in context, unattended/abandoned objects, human/animal/vehicle classification, garbage and debris, vandalism and graffiti, fire and smoke (often faster than conventional sensors), and camera tampering. Provides focused alerting and automated cleanliness monitoring.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Can NTRA detect social distancing violations?",
+      "answer": "Yes. NTRA includes social distancing monitoring as part of its Person Analytics suite. It measures interpersonal distance in real time with fully configurable thresholds to match your safety guidelines.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "How does NTRA handle incident investigation?",
+      "answer": "NTRA maintains a MongoDB-backed audit trail of all events with timestamped clips, frame extracts, and metadata per event. The searchable event timeline reduces post-incident video review from hours to minutes. Events include confidence scores, AI labels, and can be filtered by camera, time, or event type.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Does NTRA work for airport security?",
+      "answer": "Yes. NTRA for Airports & Transportation provides: passenger queue monitoring, restricted area intrusion, baggage conveyor monitoring, boarding gate activity, and perimeter/runway security. Scales to thousands of cameras. Air-gapped deployment supported for airside areas. Integrates with existing VMS and dispatch systems.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "What is the NTRA solution for corporate offices?",
+      "answer": "NTRA for Corporate Offices provides: tailgating detection at access points, floor-level occupancy analytics, parking ANPR and capacity management, visitor flow monitoring, and workplace incident detection (fight, fall, weapon). Integrates with badge access, BMS, and IAM platforms via webhook.",
+      "company": "NTRA",
+      "category": "industry"
+    },
+    {
+      "question": "How does NTRA's tailgating detection work?",
+      "answer": "NTRA detects when an unbadged person follows a badged employee through a controlled access point (turnstile, door, elevator lobby). This provides a visual verification layer that badge access systems alone cannot catch. Anonymized occupancy mode is supported — no facial PII retained.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What are the parent company and related brands?",
+      "answer": "Nanta Tech Limited is the parent company. Under it: ALLBOTIX is the robotics brand (robots, cobots, AMRs); NTRA is the Computer Vision & AI surveillance division. All three share the same contact information: contact@nantatech.com and +91 99090 41675.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "Where is Nanta Tech Limited headquartered?",
+      "answer": "Nanta Tech Limited is headquartered at 204–207, 2nd Floor, Shivalik Sharda Harmony, Ambawadi, Ahmedabad – 380015, Gujarat, India.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "How can I book a demo with NTRA?",
+      "answer": "To book a demo with NTRA: Visit the /book-demo page on the NTRA website, or contact the team at contact@nantatech.com or WhatsApp +91 99090 41675. You can also try live browser demos immediately at the NTRA website for Face Recognition, Restricted Area, Object Detection, and Vehicle Detection.",
+      "company": "NTRA",
+      "category": "business"
+    },
+    {
+      "question": "What technology powers NTRA's AI detection?",
+      "answer": "NTRA is built on YOLOv8-based detection pipelines tuned for production frame rates. Identity tracking uses DeepSORT for multi-camera continuity. Edge inference runs on commodity GPU appliances. Storage is MongoDB-backed. Integration uses REST APIs and webhooks. No cloud round-trip per frame.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Can NTRA detect patient falls in a hospital?",
+      "answer": "Yes. NTRA's Healthcare solution detects patient falls and collapse incidents in corridors, waiting areas, elderly care zones, and recovery wards with instant alert escalation. It accurately distinguishes a genuine collapse from someone sitting or resting, minimizing false alerts.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "What is the process to deploy a NTRA system?",
+      "answer": "NTRA deployment process: (1) Discovery call — map cameras, sites, objectives; (2) Technical scoping — GPU sizing, zone definitions, model selection; (3) Edge appliance installation (1–4 weeks); (4) Model tuning per-camera and per-zone; (5) Integration with your VMS/SOC/BMS via REST/webhook; (6) Go-live with operator onboarding.",
+      "company": "NTRA",
+      "category": "business"
+    },
+    {
+      "question": "Does NTRA offer emotion detection?",
+      "answer": "Yes. NTRA's Person Analytics suite includes emotion detection — reading subtle facial cues to gauge customer sentiment and visitor experience beyond basic satisfaction metrics. Useful for retail, hospitality, and public service environments.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "What is ANPR and how does NTRA use it?",
+      "answer": "ANPR (Automatic Number Plate Recognition) captures vehicle license plates accurately at high speed, sharp angles, and in low light. NTRA uses ANPR for: toll and parking management, zone enforcement, gate logging in warehouses, challan/violation evidence in traffic management, and vehicle tracking in smart cities.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Does NTRA detect fire and smoke?",
+      "answer": "Yes. NTRA's Object & Environment Monitoring detects smoke plumes and flame patterns visually — often faster than conventional smoke/heat sensors. This applies to Smart Cities, Manufacturing, Warehouses, Healthcare, and all industrial environments.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "How does the NTRA system scale to more cameras?",
+      "answer": "NTRA scales horizontally — additional commodity GPU edge appliances handle more cameras (roughly 100 per cluster). For chains or multi-site deployments, per-site clusters report to a central dashboard. There is no hard limit on total cameras across a deployment.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What makes NTRA different from other video analytics solutions?",
+      "answer": "NTRA differentiates through: (1) On-prem edge AI — zero cloud round-trip, full data sovereignty; (2) 42ms latency — faster than most competitors; (3) Runs on existing cameras — no hardware replacement; (4) 39+ capabilities in one platform; (5) Air-gapped support; (6) YOLOv8 accuracy tuned per-site; (7) Audit-grade event logs for compliance.",
+      "company": "NTRA",
+      "category": "comparison"
+    },
+    {
+      "question": "What is Nanta Tech's AI Callbot solution?",
+      "answer": "Nanta Tech offers sophisticated AI voice agents for customer support, multilingual helpdesks, and automated call handling. The AI Callbot can handle inbound customer queries, route calls, provide product information, and escalate to human agents when needed.",
+      "company": "Nanta Tech",
+      "category": "basic"
+    },
+    {
+      "question": "Does ALLBOTIX offer warehouse automation?",
+      "answer": "Yes. ALLBOTIX's AT300 and AT600 AMR robots provide complete warehouse automation: 300–600 kg payload transport, LiDAR SLAM navigation, WMS/ERP integration, fleet management, predictive maintenance, and 24/7 operation. Use cases include goods transport, shelf scanning, e-commerce fulfillment, and factory production line supply.",
+      "company": "ALLBOTIX",
+      "category": "use_case"
+    },
+    {
+      "question": "What is the ALLBOTIX company motto?",
+      "answer": "ALLBOTIX's motto is 'Our team. Our robot. Limitless Possibilities.' — reflecting the company's commitment to empowering industries with cutting-edge robotic solutions through smart automation, precision engineering, and innovation.",
+      "company": "ALLBOTIX",
+      "category": "basic"
+    },
+    {
+      "question": "How does NTRA help with retail queue management?",
+      "answer": "NTRA monitors checkout queues in real time, tracking billing-line congestion and sending staff alerts before long queues impact customer experience. Response time is under 60 seconds for queue alerts. Works with existing store cameras — no additional hardware needed.",
+      "company": "NTRA",
+      "category": "use_case"
+    },
+    {
+      "question": "What is the NTRA platform architecture?",
+      "answer": "NTRA architecture: Camera Feeds (IP/RTSP) → Edge GPU Appliance (YOLOv8 inference, DeepSORT tracking) → Event Bus → Alert Engine (webhook/REST) → SOC/VMS Dashboard. Optional: MongoDB event audit trail, BI tool integration (Looker, PowerBI, Tableau). Fully on-premise — no cloud round-trip.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "Can multiple users access the NTRA dashboard?",
+      "answer": "Yes. NTRA supports role-based access control with per-user roles and per-camera scopes for operators, supervisors, and auditors. Different team members can have different levels of access to cameras, events, and analytics.",
+      "company": "NTRA",
+      "category": "technical"
+    },
+    {
+      "question": "What is the process to get a quote from Nanta Tech?",
+      "answer": "To get a quote from Nanta Tech (for any division — ALLBOTIX robots, NTRA AI, or AV solutions): Email: contact@nantatech.com | WhatsApp: +91 99090 41675 or +91 99090 41678 | Visit: 204–207, Shivalik Sharda Harmony, Ambawadi, Ahmedabad 380015 | Online: book a demo on the website.",
+      "company": "Nanta Tech",
+      "category": "business"
+    },
+    {
+      "question": "What wireless connectivity does the Nanta Tech Wireless Speaker Mic support?",
+      "answer": "The Nanta Tech Wireless Speaker Mic With Extensions features built-in 6 microphones, 10-meter voice pickup, 3000mAh battery (10 hours), omnidirectional pickup, noise reduction, Hi-Fi speaker, extension microphones (6-8m range), and wireless connectivity.",
+      "company": "Nanta Tech",
+      "category": "technical"
+    }
+  ]
+}

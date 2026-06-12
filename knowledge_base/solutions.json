@@ -1,0 +1,329 @@
+{
+  "solutions": [
+    {
+      "solution_name": "Smart Reception",
+      "company": "ALLBOTIX / Nanta Tech",
+      "description": "AI-powered reception automation for hotels, offices, malls, and hospitals using the ATR-p010/V3 reception robot. Handles visitor check-in, facial recognition, information delivery, and appointment management.",
+      "features": [
+        "Automated visitor check-in and registration",
+        "Facial recognition for personalized interaction",
+        "Multi-language support",
+        "AI chatbot integration",
+        "Autonomous navigation and user tracking",
+        "Queue management",
+        "24/7 reception operation"
+      ],
+      "industries": ["Hotels & Hospitality", "Corporate Offices", "Hospitals", "Shopping Malls", "Government Buildings", "Airports"],
+      "benefits": [
+        "Reduces front-desk staffing costs",
+        "Consistent 24/7 service",
+        "Personalized visitor experience",
+        "Professional brand impression"
+      ],
+      "supported_products": ["AI Receptionist Robot ATR-p010", "ATR V3"],
+      "images": ["/robots/reception_robot_display.png"],
+      "faqs": [
+        {"q": "Can the reception robot speak multiple languages?", "a": "Yes, it supports multiple languages for serving international visitors."},
+        {"q": "Does the robot integrate with our booking system?", "a": "Yes, it connects to company databases and enterprise systems for real-time assistance."}
+      ]
+    },
+    {
+      "solution_name": "Autonomous Cleaning",
+      "company": "ALLBOTIX",
+      "description": "Full lineup of autonomous smart cleaning solutions for commercial, industrial, and outdoor environments. Covers indoor vacuuming, scrubbing, mopping, and outdoor sweeping with AI navigation.",
+      "features": [
+        "Autonomous navigation and intelligent mapping",
+        "Multi-surface cleaning — sweep, scrub, mop, vacuum",
+        "AI-powered cleaning intelligence",
+        "Remote monitoring and scheduling",
+        "Auto-dirt-level detection",
+        "24/7 continuous operation",
+        "Fleet management capabilities"
+      ],
+      "industries": ["Hotels & Hospitality", "Shopping Malls", "Hospitals", "Airports", "Corporate Offices", "Warehouses", "Educational Institutions", "Outdoor Spaces"],
+      "benefits": [
+        "Significantly reduces manual cleaning labor",
+        "Consistent cleaning quality 24/7",
+        "Lower operational and labor costs",
+        "Scalable from single unit to fleet"
+      ],
+      "supported_products": ["AC40", "AX10 Pro", "AMT1", "AT60s", "AT20s Pro", "AS100N"],
+      "images": ["/robots/cleaning_robot_display.jpeg"]
+    },
+    {
+      "solution_name": "Food & Beverage Delivery",
+      "company": "ALLBOTIX",
+      "description": "AI-powered serving robots for contactless food and beverage delivery in restaurants, hotels, hospitals, and events.",
+      "features": [
+        "Contactless food delivery",
+        "Multi-tray capacity (up to 4 plates)",
+        "Autonomous table-to-table navigation",
+        "Voice interaction with guests",
+        "AI order tracking and assistance",
+        "Obstacle avoidance in tight spaces"
+      ],
+      "industries": ["Restaurants", "Hotels", "Hospitals", "Coffee Shops", "Events & Catering", "Exhibitions"],
+      "benefits": [
+        "Faster and more efficient service delivery",
+        "Reduced wait times",
+        "Elevated customer experience",
+        "Reduced operational dependency on staff"
+      ],
+      "supported_products": ["AW3 Serving Robot", "ASMR T10", "AT9"],
+      "images": ["/robots/serving_robot_display.png"]
+    },
+    {
+      "solution_name": "Factory Automation",
+      "company": "ALLBOTIX",
+      "description": "Comprehensive factory automation solutions including AMR robots, cobots, and cleaning robots to maximize throughput, minimize downtime, and enable Industry 4.0.",
+      "features": [
+        "Intelligent material movement with dynamic routing",
+        "High-precision robotic assembly assistance",
+        "Safe human-robot collaboration",
+        "Centralized monitoring and fleet management",
+        "WMS/ERP/MES integration",
+        "Predictive maintenance",
+        "Scalable automation"
+      ],
+      "industries": ["Manufacturing", "Automotive", "Electronics", "Pharmaceutical", "Food & Beverage Processing"],
+      "benefits": [
+        "Increased production efficiency and throughput",
+        "Reduction in manual errors and delays",
+        "Scalable Industry 4.0 automation",
+        "Significant labor cost reduction"
+      ],
+      "supported_products": ["AT300 AMR", "AT600 AMR", "AL Series Cobot", "AC40 Cleaning Robot", "AMT1 Sweeping Robot"],
+      "images": ["/robots/amr_robot_display.avif", "/robots/cobot_display.png"]
+    },
+    {
+      "solution_name": "Security Patrolling",
+      "company": "ALLBOTIX",
+      "description": "Autonomous security patrol using robot dogs and AMR robots for 24/7 surveillance, anomaly detection, and threat response.",
+      "features": [
+        "24/7 autonomous patrol",
+        "Real-time video feedback",
+        "Obstacle avoidance and terrain navigation",
+        "Integration with command and control systems",
+        "All-terrain quadruped mobility (Alpha B2/GO2)",
+        "IP67 weatherproof protection"
+      ],
+      "industries": ["Government & Military", "Industrial Facilities", "Corporate Campuses", "Airports", "Data Centers", "Public Safety"],
+      "supported_products": ["Alpha B2 Dog Robot", "Alpha GO2 Dog Robot", "AT300 AMR", "AT600 AMR"]
+    },
+    {
+      "solution_name": "Government & Smart City Automation",
+      "company": "ALLBOTIX",
+      "description": "Reliable automation and robotic infrastructure for public services, defence, border management, and smart city initiatives.",
+      "features": [
+        "Autonomous perimeter monitoring with real-time video",
+        "AI-powered citizen assistance",
+        "Digital visitor registration",
+        "Integration with centralized command and control",
+        "Multi-language interaction for public accessibility"
+      ],
+      "supported_products": ["Alpha B2 Robo Dog", "Alpha GO2 Robo Dog", "Cleaning Robot Series", "AI Reception Robot"]
+    },
+    {
+      "solution_name": "Face Recognition",
+      "company": "NTRA",
+      "description": "Real-time facial recognition and identity tracking system that matches faces against watchlists and authorized databases, tuned to perform on existing camera infrastructure.",
+      "features": [
+        "Real-time face matching against watchlists",
+        "Identity tracking across multiple cameras",
+        "Searchable by face, gender, age, clothing",
+        "Personalized interaction triggers",
+        "99% detection accuracy"
+      ],
+      "industries": ["Corporate Offices", "Airports", "Smart Cities", "Healthcare", "Retail", "Government"],
+      "benefits": [
+        "Real-time identity verification",
+        "Fast forensic search across footage",
+        "Automated access control layer",
+        "Customizable per-camera settings"
+      ],
+      "demo_url": "/face-recognition",
+      "images": ["/static/demo-images/FR image.png"]
+    },
+    {
+      "solution_name": "Restricted Area Monitoring",
+      "company": "NTRA",
+      "description": "Real-time detection of unauthorized entry into restricted, hazardous, or secure zones with instant alert escalation.",
+      "features": [
+        "Geofenced zone definition",
+        "Real-time unauthorized entry detection",
+        "Instant webhook/SOC alert",
+        "Works on existing cameras",
+        "Air-gapped deployment supported",
+        "Per-camera zone configuration"
+      ],
+      "industries": ["Manufacturing", "Healthcare", "Airports", "Corporate Offices", "Warehouses", "Government"],
+      "demo_url": "/restricted-area",
+      "images": ["/static/demo-images/RA image.png"]
+    },
+    {
+      "solution_name": "Vehicle Detection & ANPR",
+      "company": "NTRA",
+      "description": "Automated number-plate recognition and vehicle intelligence platform for toll, enforcement, parking, and zone control. Supports ANPR, speed detection, violation capture, and traffic analytics.",
+      "features": [
+        "ANPR — automatic number plate recognition",
+        "Red light violation detection (RLVD)",
+        "Vehicle speed detection",
+        "No helmet and triple rider detection",
+        "Vehicle make, model, and color identification",
+        "Vehicle count and classification",
+        "Parking management and wrong parking detection",
+        "Congestion detection",
+        "Accident detection",
+        "No seatbelt detection",
+        "Phone use while driving detection"
+      ],
+      "industries": ["Traffic Management", "Smart Cities", "Parking Facilities", "Airports", "Corporate Campuses", "Warehouses"],
+      "demo_url": "/vehicle-detection",
+      "images": ["/static/demo-images/vehichal detection image.png"]
+    },
+    {
+      "solution_name": "Object Detection",
+      "company": "NTRA",
+      "description": "AI-powered object detection and classification for security, safety, and operational monitoring.",
+      "features": [
+        "Context-aware object detection",
+        "Unattended/abandoned object detection",
+        "Human, animal, and vehicle classification",
+        "Garbage and debris detection",
+        "Vandalism and graffiti detection",
+        "Fire and smoke detection",
+        "Camera tampering detection"
+      ],
+      "industries": ["Smart Cities", "Manufacturing", "Airports", "Retail", "Healthcare", "Corporate Offices"],
+      "demo_url": "/object-detection",
+      "images": ["/static/demo-images/Object detection image.png"]
+    },
+    {
+      "solution_name": "Person Analytics & Behavioral Intelligence",
+      "company": "NTRA",
+      "description": "Understand how people move, gather, and behave across facilities — turning video into operational and security intelligence.",
+      "features": [
+        "Person tracking across overlapping cameras",
+        "People count and crowd estimation",
+        "Searchable person attributes (face, gender, age, clothing)",
+        "Emotion detection",
+        "No face mask detection",
+        "Social distancing monitoring",
+        "Footfall and dwell time analytics"
+      ],
+      "industries": ["Retail", "Smart Cities", "Healthcare", "Corporate Offices", "Airports"],
+      "images": ["/solutions/person-analytics.png"]
+    },
+    {
+      "solution_name": "Security & Threat Detection",
+      "company": "NTRA",
+      "description": "Proactively surface dangerous behavior and emergencies the moment they unfold for faster intervention.",
+      "features": [
+        "Weapon detection",
+        "Fight, assault, and violence detection",
+        "Riots and stone pelting detection",
+        "Lone woman detection",
+        "Person collapse detection",
+        "Climbing and barricade breach detection",
+        "Person waving for help detection"
+      ],
+      "industries": ["Smart Cities", "Airports", "Corporate Offices", "Healthcare", "Manufacturing", "Retail"],
+      "images": ["/solutions/threat-detection.png"]
+    },
+    {
+      "solution_name": "Retail Analytics",
+      "company": "NTRA",
+      "description": "Convert in-store video into measurable insight on customer behavior, advertising engagement, and inventory performance.",
+      "features": [
+        "Footfall and dwell time analytics",
+        "Gaze-to-advertisement tracking",
+        "Advertisement proximity analytics",
+        "Inventory and shelf detection with stock alerts",
+        "Queue monitoring",
+        "Customer heatmap analytics"
+      ],
+      "industries": ["Retail", "Shopping Malls", "Supermarkets", "Grocery Stores"],
+      "images": ["/solutions/retail-analytics.png"]
+    },
+    {
+      "solution_name": "AV Integration — Meeting Room Solution",
+      "company": "Nanta Tech Limited",
+      "description": "Complete meeting room audio-visual integration with video conferencing cameras, microphones, interactive panels, and control systems for seamless and productive video conferencing.",
+      "features": [
+        "High-quality 4K cameras",
+        "Beamforming microphones",
+        "AI auto-tracking",
+        "Interactive display panels",
+        "Wireless sharing",
+        "Easy-to-use control systems"
+      ],
+      "industries": ["Corporate Offices", "Education", "Government", "Healthcare"],
+      "images": ["/static/images/Meeting Room Solution.png"]
+    },
+    {
+      "solution_name": "AV Integration — Auditorium Solution",
+      "company": "Nanta Tech Limited",
+      "description": "High-quality audio-visual systems for auditoriums with powerful projectors, large screens, and superior sound systems for immersive presentations.",
+      "images": ["/static/images/Auditorium Solution.png"]
+    },
+    {
+      "solution_name": "AV Integration — Hospital Solution",
+      "company": "Nanta Tech Limited",
+      "description": "Medical-grade AV solutions for operating theaters including medical displays, surgical cameras, and integrated audio systems.",
+      "images": ["/static/images/Hospital Solution.png"]
+    },
+    {
+      "solution_name": "AV Integration — Video Wall",
+      "company": "Nanta Tech Limited",
+      "description": "Stunning video wall solutions for control rooms, retail spaces, and public venues delivering high-impact visuals.",
+      "images": ["/static/video_wall.png"]
+    },
+    {
+      "solution_name": "AV Integration — Public Address System",
+      "company": "Nanta Tech Limited",
+      "description": "Clear and effective communication across large spaces for schools, offices, and public venues with high-quality microphones, amplifiers, and speakers.",
+      "images": ["/static/images/Public Address System.png"]
+    },
+    {
+      "solution_name": "AI Callbot & Speech Solutions",
+      "company": "Nanta Tech Limited",
+      "description": "Sophisticated AI voice agents for customer support, multilingual helpdesks, and automated call handling.",
+      "features": [
+        "Multilingual voice agent",
+        "Automated call handling",
+        "Customer support automation",
+        "Natural language processing"
+      ]
+    },
+    {
+      "solution_name": "Computer Vision AI",
+      "company": "Nanta Tech Limited / NTRA",
+      "description": "End-to-end AI-powered camera solutions for activity detection, safety monitoring, and business intelligence.",
+      "features": [
+        "Activity detection",
+        "Safety monitoring",
+        "Business intelligence from cameras",
+        "Edge AI inference",
+        "39+ AI capabilities"
+      ]
+    },
+    {
+      "solution_name": "Website Services",
+      "company": "Nanta Tech Limited",
+      "description": "Professional website services for businesses to build and grow online presence.",
+      "features": [
+        "Custom Website Design & Development",
+        "Corporate & Business Websites",
+        "E-Commerce Websites",
+        "Landing Pages",
+        "Website Maintenance & Support"
+      ]
+    },
+    {
+      "solution_name": "IT Network Solutions",
+      "company": "Nanta Tech Limited",
+      "description": "Reliable structured cabling, networking, and IT infrastructure for offices and enterprises.",
+      "images": ["/static/images/IT Network Solutions.png"]
+    }
+  ]
+}

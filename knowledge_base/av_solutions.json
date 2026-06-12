@@ -1,0 +1,177 @@
+{
+  "company": "Nanta Tech Limited",
+  "division": "AV Solutions",
+  "tagline": "End-to-End Audio-Visual Integration",
+  "website": "https://www.nantatech.com/products/av-integrations",
+  "stats": {
+    "integrations_shipped": "100+",
+    "service": "24/7 support backbone",
+    "location": "Ahmedabad, India"
+  },
+  "solutions": [
+    {
+      "id": "video_wall",
+      "name": "Video Wall Solution",
+      "emoji": "📺",
+      "tagline": "High-impact visual displays at any scale",
+      "description": "Engineered for control rooms, retail floors, and public venues to deliver impactful visuals at scale with seamless tile alignment and HDR color quality.",
+      "key_features": [
+        "Seamless tile alignment — zero bezels",
+        "HDR color pipeline for vibrant visuals",
+        "24/7 reliability for critical environments",
+        "Scalable from small displays to massive walls",
+        "Centralized content management",
+        "Remote monitoring & management"
+      ],
+      "industries": [
+        "Command & Control Rooms",
+        "Retail & Shopping Malls",
+        "Public Venues & Airports",
+        "Corporate Lobbies",
+        "Broadcasting & Media"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "auditorium",
+      "name": "Auditorium AV Solution",
+      "emoji": "🎭",
+      "tagline": "Immersive audio-visual for large audiences",
+      "description": "Immersive audio-visual setup for auditoriums and lecture halls combining laser projection, Active LED, line-array audio, and centralized control for impactful presentations.",
+      "key_features": [
+        "Laser projection / IFPD / Active LED options",
+        "Line-array audio for even sound distribution",
+        "Centralized AV control system",
+        "Stage lighting integration",
+        "Recording & live-streaming capability",
+        "Wireless presentation support"
+      ],
+      "industries": [
+        "Universities & Colleges",
+        "Corporate Auditoriums",
+        "Government Facilities",
+        "Convention Centers",
+        "Theatres & Event Venues"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "hospital_av",
+      "name": "Hospital AV Solution",
+      "emoji": "🏥",
+      "tagline": "Medical-grade AV for clinical environments",
+      "description": "Advanced AV systems built for operating theatres and clinical environments, supporting critical care with medical-grade displays and sterile-friendly interfaces.",
+      "key_features": [
+        "Medical-grade displays for clinical precision",
+        "Surgical cameras with high magnification",
+        "Sterile-friendly touch UI design",
+        "Patient entertainment systems",
+        "Nurse call & communication integration",
+        "Infection-control compliant hardware"
+      ],
+      "industries": [
+        "Hospitals & Operating Theatres",
+        "Medical Colleges",
+        "Diagnostic Centers",
+        "Rehabilitation Centers",
+        "Dental & Specialty Clinics"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "meeting_room",
+      "name": "Meeting Room Solution",
+      "emoji": "💼",
+      "tagline": "Smart conferencing for hybrid teams",
+      "description": "Complete video-conferencing systems for hybrid teams with auto-framing 4K cameras, beamforming microphones, and one-touch meeting join for a seamless collaboration experience.",
+      "key_features": [
+        "Auto-framing 4K cameras",
+        "Beamforming microphones for crystal audio",
+        "One-touch meeting join (Teams/Zoom/Google)",
+        "Wireless content sharing",
+        "Room booking panel integration",
+        "Scalable from small huddle to boardroom"
+      ],
+      "industries": [
+        "Corporate Offices",
+        "IT & Technology Companies",
+        "Financial Services",
+        "Education (Faculty Rooms)",
+        "Government Offices"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "public_address",
+      "name": "Public Address System",
+      "emoji": "📢",
+      "tagline": "Zoned communication for large spaces",
+      "description": "Robust communication systems for large spaces including schools, offices, and transport hubs with zoned audio distribution, emergency override, and crystal-clear intelligibility.",
+      "key_features": [
+        "Zoned audio distribution",
+        "Emergency override capability",
+        "Crystal-clear voice intelligibility",
+        "Background music integration",
+        "IP-based networked audio",
+        "Scheduled announcement automation"
+      ],
+      "industries": [
+        "Schools & Universities",
+        "Corporate Campuses",
+        "Transport Hubs & Stations",
+        "Manufacturing Facilities",
+        "Hospitals",
+        "Shopping Malls"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "led_signage",
+      "name": "Active LED & Digital Signage",
+      "emoji": "💡",
+      "tagline": "Dynamic displays for advertising and wayfinding",
+      "description": "Vibrant Active LED and digital signage displays for advertising, wayfinding, and public information with dynamic CMS-driven content and outdoor-ready brightness.",
+      "key_features": [
+        "5000-nit outdoor brightness rating",
+        "Modular pixel pitch options",
+        "CMS-driven remote content updates",
+        "Indoor & outdoor models available",
+        "Energy-efficient LED technology",
+        "Custom size & shape configurations"
+      ],
+      "industries": [
+        "Outdoor Advertising",
+        "Retail & Shopping Centers",
+        "Airports & Transport",
+        "Sports Venues & Stadiums",
+        "Hospitality",
+        "Smart Cities"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    },
+    {
+      "id": "it_network",
+      "name": "IT Network Infrastructure",
+      "emoji": "🌐",
+      "tagline": "Resilient network backbone for AV systems",
+      "description": "Complete network infrastructure encompassing active, passive, and rack solutions with structured cabling and resilient-by-design architecture to support all AV and IT systems.",
+      "key_features": [
+        "Active + passive + rack solutions",
+        "Structured cabling design & installation",
+        "Resilient & redundant architecture",
+        "Fiber optic & copper solutions",
+        "Network switching & routing",
+        "End-to-end project management"
+      ],
+      "industries": [
+        "Enterprise Offices",
+        "Data Centers",
+        "Educational Campuses",
+        "Healthcare Facilities",
+        "Government Facilities",
+        "Hospitality"
+      ],
+      "learn_more_url": "https://www.nantatech.com/products/av-integrations"
+    }
+  ]
+}

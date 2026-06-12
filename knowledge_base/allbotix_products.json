@@ -1,0 +1,227 @@
+{
+  "company": "ALLBOTIX",
+  "tagline": "Welcome to the Future of Smart Customer Interaction!",
+  "website": "https://www.allbotix.ai/products",
+  "stats": {
+    "robots_developed": "525+",
+    "happy_clients": "180+",
+    "robots_delivered": "610+",
+    "rating": "4.7"
+  },
+  "categories": [
+    {
+      "id": "reception",
+      "name": "Reception & Information Robot",
+      "emoji": "🤝",
+      "tagline": "24/7 AI-powered front desk automation",
+      "description": "A fully automated, AI-powered receptionist that interacts with visitors, provides information, manages appointments, and delivers seamless front-desk automation.",
+      "models": [
+        "ATR V3",
+        "ATR-p010"
+      ],
+      "key_features": [
+        "AI visitor check-in & registration",
+        "13.3-inch LCD touchscreen",
+        "Facial recognition for personalized interaction",
+        "Multi-language support",
+        "Autonomous navigation & obstacle avoidance",
+        "Integrates with company databases & calendars",
+        "Voice interaction & NLP",
+        "Autonomous charging"
+      ],
+      "industries": [
+        "Hotels & Hospitality",
+        "Corporate Offices",
+        "Hospitals & Healthcare",
+        "Shopping Malls",
+        "Government Offices",
+        "Airports"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/1",
+      "image": "/robots/reception-robot.png"
+    },
+    {
+      "id": "humanoid",
+      "name": "Humanoid Service Robot",
+      "emoji": "🦾",
+      "tagline": "Next-generation human-like intelligence",
+      "description": "A next-generation humanoid robot combining advanced AI, natural movement, and expressive communication — delivering intelligence, empathy, and efficiency across service environments.",
+      "key_features": [
+        "Lightweight & highly maneuverable",
+        "AI-powered interaction & assistance",
+        "Natural human-like movement",
+        "Rechargeable & energy-efficient",
+        "Expressive communication capabilities",
+        "Suitable for public-facing environments"
+      ],
+      "industries": [
+        "Hospitality",
+        "Events & Exhibitions",
+        "Retail",
+        "Education",
+        "Healthcare",
+        "Corporate"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/2",
+      "image": "/robots/humanoid-robot.png"
+    },
+    {
+      "id": "quadruped",
+      "name": "Quadruped / Robot Dog",
+      "emoji": "🐕",
+      "tagline": "AI-powered all-terrain inspection robot",
+      "description": "Advanced quadruped robots combining AI and precision sensors to support security patrol, inspection, hospitality assistance, and on-site operations across all terrains.",
+      "models": [
+        "Alpha B2",
+        "Alpha GO2"
+      ],
+      "key_features": [
+        "Agile all-terrain mobility",
+        "Advanced AI & autonomous navigation",
+        "High-precision sensor suite",
+        "Rugged, all-terrain design",
+        "Modular payload options",
+        "Security patrol & inspection",
+        "Remote operation capability"
+      ],
+      "industries": [
+        "Security & Surveillance",
+        "Industrial Inspection",
+        "Construction Sites",
+        "Government & Defence",
+        "Hospitality",
+        "Warehousing"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/3",
+      "image": "/robots/quadruped-robot.png"
+    },
+    {
+      "id": "cleaning",
+      "name": "Autonomous Cleaning Robot",
+      "emoji": "🧹",
+      "tagline": "Smart autonomous cleaning for commercial spaces",
+      "description": "A full lineup of autonomous smart cleaning robots designed to revolutionize cleanliness across commercial and industrial environments with AI-powered navigation.",
+      "models": [
+        "AC40",
+        "AX10",
+        "AMT 1",
+        "AT60s",
+        "AT20s Pro",
+        "AS 100N"
+      ],
+      "key_features": [
+        "Autonomous navigation & 3D mapping",
+        "Multi-surface cleaning capability",
+        "Up to 10,700 sq ft coverage per charge",
+        "AI-powered smart cleaning routes",
+        "Remote monitoring & management",
+        "Scheduled & on-demand cleaning",
+        "Energy-efficient rechargeable design",
+        "6 models for different environments"
+      ],
+      "industries": [
+        "Hospitals & Healthcare",
+        "Corporate Offices",
+        "Factories & Manufacturing",
+        "Airports & Transit Hubs",
+        "Shopping Malls",
+        "Hotels & Hospitality",
+        "Educational Institutions"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/4",
+      "image": "/robots/cleaning-robot.png"
+    },
+    {
+      "id": "serving",
+      "name": "Autonomous Serving Robot",
+      "emoji": "🍽️",
+      "tagline": "AI-powered food & item delivery robot",
+      "description": "AI-powered serving robots designed to streamline food & beverage service, improve efficiency, and enhance customer experience in restaurants, hotels, and cafes.",
+      "models": [
+        "AW3",
+        "ASMR T10",
+        "AT9"
+      ],
+      "key_features": [
+        "Carries up to 4 plates simultaneously",
+        "AI-powered order tracking",
+        "Voice interaction for personalized service",
+        "Lightweight & maneuverable in tight spaces",
+        "Rechargeable & energy-efficient",
+        "Autonomous navigation & obstacle avoidance",
+        "Enhances staff efficiency"
+      ],
+      "industries": [
+        "Restaurants & Food Courts",
+        "Hotels & Room Service",
+        "Cafeterias & Canteens",
+        "Hospitals (patient meal delivery)",
+        "Events & Banquets",
+        "Corporate Cafeterias"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/5",
+      "image": "/robots/serving-robot.png"
+    },
+    {
+      "id": "amr",
+      "name": "Autonomous Mobile Robot (AMR)",
+      "emoji": "📦",
+      "tagline": "Heavy-duty warehouse & logistics automation",
+      "description": "Transform your operations with cutting-edge AMR robots navigating complex environments, streamlining workflows, and delivering smarter independent logistics intelligence.",
+      "models": [
+        "AT300 (300kg payload)",
+        "AT600 (600kg payload)"
+      ],
+      "key_features": [
+        "AT300 carries 300 kg autonomously",
+        "AT600 carries 600 kg autonomously",
+        "Real-time obstacle avoidance",
+        "Seamless WMS/ERP integration",
+        "Scalable fleet management",
+        "Inventory status tracking",
+        "Robust heavy-duty design",
+        "Reduces manual labor costs"
+      ],
+      "industries": [
+        "Warehousing & Logistics",
+        "Manufacturing & Production",
+        "E-commerce Fulfillment",
+        "Automotive Industry",
+        "Pharmaceuticals",
+        "Cold Chain Logistics"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/6",
+      "image": "/robots/amr-robot.png"
+    },
+    {
+      "id": "cobot",
+      "name": "Collaborative Robot (Cobot)",
+      "emoji": "🦿",
+      "tagline": "Safe human-robot collaboration for Industry 4.0",
+      "description": "AL Series collaborative robots designed to work safely alongside humans, simplifying industrial automation, improving productivity, and enhancing operational flexibility.",
+      "models": [
+        "AL Series"
+      ],
+      "key_features": [
+        "Safe to work alongside humans",
+        "No extensive safety guarding required",
+        "Compact & lightweight design",
+        "High precision & repeatability",
+        "Robust joints for long-term reliability",
+        "Compatible with Industry 4.0 systems",
+        "AL-certified accessories support",
+        "Easy programming & deployment"
+      ],
+      "industries": [
+        "Manufacturing & Assembly",
+        "Electronics Production",
+        "Automotive",
+        "Pharmaceuticals",
+        "Food Processing",
+        "Quality Control & Inspection"
+      ],
+      "learn_more_url": "https://www.allbotix.ai/products/7",
+      "image": "/robots/cobot-robot.png"
+    }
+  ]
+}

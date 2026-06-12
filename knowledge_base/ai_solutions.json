@@ -1,0 +1,170 @@
+{
+  "display_name": "NTRA — AI Solutions",
+  "umbrella": "AI Solutions",
+  "tagline": "39+ AI capabilities on your existing cameras",
+  "website": "https://ntra.nantatech.com/solutions",
+  "parent": "Nanta Tech Limited",
+  "stats": {
+    "capabilities": "39+",
+    "accuracy": "99%",
+    "latency": "42ms",
+    "fps": "30",
+    "deployment": "On-Premise / Edge AI"
+  },
+  "platform_highlights": [
+    "Works on existing IP/RTSP cameras — no hardware replacement",
+    "On-premise edge AI — no video leaves the network",
+    "Air-gapped deployment supported",
+    "39+ AI capabilities in a single platform",
+    "Multi-location scalable architecture",
+    "REST API + webhook integration"
+  ],
+  "categories": [
+    {
+      "id": "face-recognition",
+      "name": "Face Recognition",
+      "emoji": "👤",
+      "tagline": "Identity verification, attendance & access control",
+      "description": "Real-time facial recognition that identifies individuals from watchlists, manages visitor access, and automates attendance — all on your existing cameras with no specialized hardware.",
+      "capabilities": [
+        "Face Recognition — identity verification against watchlists",
+        "Person Tracking — multi-camera continuous tracking",
+        "Emotion Detection — facial sentiment analysis",
+        "Visitor Management — auto-log entries and exits",
+        "Attendance Automation — contactless presence detection",
+        "Searchable Person Attributes — forensic search by appearance"
+      ],
+      "industries": ["Corporate Offices", "Airports", "Government", "Healthcare", "Education"],
+      "use_cases": ["Access control automation", "Visitor management", "Attendance tracking", "Security watchlisting"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "restricted-area",
+      "name": "Restricted Area Monitoring",
+      "emoji": "🚧",
+      "tagline": "Perimeter protection & intrusion prevention",
+      "description": "Instantly detect unauthorized access to restricted zones, perimeter breaches, and dangerous area entries — with real-time alerts before incidents escalate.",
+      "capabilities": [
+        "Restricted Zone Detection — alert on unauthorized entry",
+        "Perimeter Intrusion Detection — boundary breach alerts",
+        "Climbing & Barricade Breach — barrier detection",
+        "After-Hours Person Detection — non-working-hour alerts",
+        "Tailgating Detection — multi-person entry alerts",
+        "Loitering Detection — prolonged presence monitoring"
+      ],
+      "industries": ["Manufacturing", "Warehouses", "Government Facilities", "Airports", "Data Centers"],
+      "use_cases": ["Restricted zone security", "After-hours monitoring", "Perimeter protection", "Workplace safety"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "vehicle-detection",
+      "name": "Vehicle Detection",
+      "emoji": "🚗",
+      "tagline": "ANPR, traffic management & smart parking",
+      "description": "Comprehensive vehicle intelligence covering ANPR, traffic violation detection, speed measurement, and parking management for smarter city infrastructure.",
+      "capabilities": [
+        "ANPR — Automatic Number Plate Recognition",
+        "Vehicle Speed Detection — enforcement alerts",
+        "Red Light Violation Detection — automated penalties",
+        "No Helmet & Triple Rider detection",
+        "Vehicle Make, Model & Color identification",
+        "Wrong-Way & Rash Driving detection",
+        "Parking Management — slot occupancy tracking",
+        "Emergency Vehicle Prioritization"
+      ],
+      "industries": ["Traffic Management Authorities", "Smart Cities", "Airports", "Corporate Campuses", "Malls"],
+      "use_cases": ["Smart city traffic management", "Toll & parking automation", "Traffic violation enforcement", "Fleet tracking"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "ppe-detection",
+      "name": "PPE Detection",
+      "emoji": "🦺",
+      "tagline": "Workplace safety & compliance monitoring",
+      "description": "Real-time detection of safety gear compliance — helmets, vests, gloves, masks — with instant alerts for violations before accidents occur.",
+      "capabilities": [
+        "Helmet Detection — head protection compliance",
+        "Safety Vest Detection — high-visibility wear monitoring",
+        "Glove & Mask Detection — hygiene compliance",
+        "No Face Mask Detection — health protocol enforcement",
+        "Social Distancing Monitoring — proximity alerts",
+        "Safety Zone Compliance — protective area adherence"
+      ],
+      "industries": ["Manufacturing & Factories", "Construction Sites", "Warehouses", "Healthcare", "Food Processing"],
+      "use_cases": ["Workplace safety audits", "Compliance monitoring", "Incident prevention", "Safety reporting"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "video-analytics",
+      "name": "Video Analytics",
+      "emoji": "📊",
+      "tagline": "Business intelligence from your camera feeds",
+      "description": "Transform passive camera feeds into actionable business intelligence — footfall, dwell time, occupancy, and engagement metrics delivered as real-time dashboards.",
+      "capabilities": [
+        "People Count — high-precision occupancy measurement",
+        "Crowd Count & Estimation — real-time density detection",
+        "Footfall & Dwell Time analysis",
+        "Heatmap Generation — movement patterns",
+        "Queue Length & Wait Time Detection",
+        "Occupancy Management — capacity alerts"
+      ],
+      "industries": ["Retail", "Airports", "Corporate Offices", "Shopping Malls", "Museums"],
+      "use_cases": ["Store layout optimization", "Staff allocation", "Customer journey mapping", "Operational efficiency"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "smart-surveillance",
+      "name": "Smart Surveillance",
+      "emoji": "🔍",
+      "tagline": "AI-powered threat detection & emergency response",
+      "description": "Proactively surface dangerous behavior and emergencies the moment they unfold — weapons, violence, fires, and medical emergencies detected before they escalate.",
+      "capabilities": [
+        "Weapon Detection — armed-threat identification",
+        "Fight, Assault & Violence detection",
+        "Person Collapse Detection — medical emergency alerts",
+        "Fire & Smoke Detection",
+        "Vandalism & Graffiti Detection",
+        "Unattended Object Detection — abandoned-item alerts"
+      ],
+      "industries": ["Airports", "Corporate Offices", "Healthcare", "Smart Cities", "Banks"],
+      "use_cases": ["Emergency response automation", "Threat deterrence", "Critical infrastructure protection", "Public safety"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "retail-analytics",
+      "name": "Retail Analytics",
+      "emoji": "🛒",
+      "tagline": "Customer behavior & in-store intelligence",
+      "description": "Deep customer analytics for retail environments — shelf monitoring, advertisement engagement tracking, customer journey mapping, and product interaction analysis.",
+      "capabilities": [
+        "Footfall & Dwell Time analysis",
+        "Gaze-to-Advertisement engagement tracking",
+        "Inventory & Shelf Detection — out-of-stock alerts",
+        "Customer Journey Mapping",
+        "Advertisement Proximity Mapping",
+        "Queue Optimization — checkout wait reduction"
+      ],
+      "industries": ["Retail Stores & Supermarkets", "Shopping Malls", "Brand Outlets", "Pharmacies", "Convenience Stores"],
+      "use_cases": ["Store layout optimization", "Product placement decisions", "Marketing effectiveness", "Staff allocation"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "smart-city",
+      "name": "Smart City Solutions",
+      "emoji": "🏙️",
+      "tagline": "City-wide intelligence & public safety",
+      "description": "Scalable AI platform for city-wide deployment — connecting thousands of cameras into a unified intelligence layer for traffic, safety, and public infrastructure management.",
+      "capabilities": [
+        "City-wide CCTV Analytics — unified surveillance",
+        "Traffic Management & Optimization",
+        "Public Crowd Safety Monitoring",
+        "Garbage & Debris Detection",
+        "Street Light & Infrastructure Monitoring",
+        "Emergency Response Coordination"
+      ],
+      "industries": ["Municipal Governments", "Smart City Authorities", "Transport Departments", "Public Safety Agencies"],
+      "use_cases": ["Smart city command centers", "Public safety management", "Traffic optimization", "Infrastructure monitoring"],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    }
+  ]
+}

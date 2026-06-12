@@ -1,0 +1,315 @@
+{
+  "display_name": "Nanta Tech AV Products",
+  "base_url": "https://www.nantatech.com",
+  "category_url": "https://www.nantatech.com/products/av-products",
+  "stats": {
+    "products_count": 14,
+    "categories_count": 6
+  },
+  "categories": [
+    {
+      "id": "digital-signage",
+      "name": "Digital Signage",
+      "emoji": "🖥️",
+      "tagline": "Floor totems, wall mounts & indoor LED displays",
+      "description": "High-brightness digital signage solutions for retail, hospitality, and corporate environments. Available as floor totems, wall mounts, and indoor LED units with touch capability.",
+      "key_features": ["FHD, UHD & 4K resolution", "Android 10 powered", "24/7 continuous operation", "Capacitive touch option", "Portrait & landscape mounting"],
+      "industries": ["Retail", "Hospitality", "Corporate", "Healthcare", "Education"],
+      "products": [
+        {
+          "id": "a-type-standee-floor-totem",
+          "name": "A Type Standee (Floor Totem)",
+          "short_description": "Floor-standing digital totem · FHD/UHD/4K · Android 10 · 24\"–98\"",
+          "description": "Professional floor-standing digital display totem for retail, events, and corporate environments. Available in multiple sizes from 24\" to 98\" with FHD, UHD, or 4K resolution. Android 10 powered with 24/7 operation capability.",
+          "key_features": [
+            "FHD, UHD, and 4K display modes",
+            "50,000–60,000 hour LED lifespan",
+            "24/7 continuous operation",
+            "300–600 nits high brightness",
+            "Android 10 with app flexibility"
+          ],
+          "industries": ["Retail", "Events", "Corporate", "Restaurants"],
+          "use_cases": ["In-store promotions", "Event venues", "Corporate lobby branding", "Menu displays"],
+          "image": "/products/A_Type_Standee_Floor_Totem.webp",
+          "learn_more_url": "https://www.nantatech.com/product/a-type-standee-floor-totem"
+        },
+        {
+          "id": "indoor-led-digital-signages",
+          "name": "Indoor LED Digital Signages",
+          "short_description": "Pedestal-mounted display · UHD/4K/FHD · Capacitive touch · 32\"–50\"",
+          "description": "Commercial-grade LED digital signage with pedestal mount. Available in 32\", 43\", and 50\" with UHD, 4K, and FHD options. Features anti-glare technology and capacitive touch for interactive engagement.",
+          "key_features": [
+            "UHD, 4K, and FHD resolution options",
+            "Full front toughened glass",
+            "Commercial-grade anti-glare",
+            "Capacitive touch panel",
+            "400–1000+ nits brightness"
+          ],
+          "industries": ["Retail", "Shopping Malls", "Corporate", "Hotels"],
+          "use_cases": ["Interactive product displays", "Corridor promotions", "Information kiosks", "Wayfinding displays"],
+          "image": "/products/Indoor_Active_LED.webp",
+          "learn_more_url": "https://www.nantatech.com/product/indoor-led-digital-signages"
+        },
+        {
+          "id": "a-type-standee-wall-mount",
+          "name": "A Type Standee (Wall Mount)",
+          "short_description": "Wall-mounted display · 178° viewing angle · FHD/UHD/4K · 24\"–98\"",
+          "description": "Professional wall-mounted digital display for retail, corporate, and hospitality. 178° ultra-wide viewing angle, portrait/landscape mounting, and intelligent split-screen capability.",
+          "key_features": [
+            "178° ultra-wide viewing angle",
+            "FHD, UHD, and 4K options",
+            "2×8W to 2×12W integrated audio",
+            "Intelligent split-screen",
+            "Portrait and landscape mounting"
+          ],
+          "industries": ["Retail", "Hospitality", "Corporate", "Restaurants"],
+          "use_cases": ["Storefront displays", "Menu boards", "Hotel lobby info", "Promotional displays"],
+          "image": "/products/A_Type_Standee_Wall_Mount.webp",
+          "learn_more_url": "https://www.nantatech.com/product/a-type-standee-wall-mount"
+        }
+      ]
+    },
+    {
+      "id": "active-led",
+      "name": "Active LED",
+      "emoji": "💡",
+      "tagline": "Modular portable LED for indoor & outdoor events",
+      "description": "High-brightness modular active LED display systems fully customizable in size and resolution. SMD, COB, and GOB technology for both indoor and outdoor applications.",
+      "key_features": ["Fully customizable size", "SMD/COB/GOB technology", "80,000–100,000 hour lifespan", "800–5000+ nits brightness", "24/7 operation"],
+      "industries": ["Events", "Trade Shows", "Advertising", "Corporate"],
+      "products": [
+        {
+          "id": "active-led-portable-standee",
+          "name": "Active LED Portable Standee",
+          "short_description": "Modular LED display · SMD/COB/GOB · Fully customizable · 24/7 operation",
+          "description": "Professional modular active LED display for portable and mobile installations. Fully customizable size, HD to 4K resolution, SMD/COB/GOB technology, and 24/7 operation with exceptional brightness.",
+          "key_features": [
+            "Fully customizable size and resolution",
+            "SMD, COB, and GOB LED technologies",
+            "80,000–100,000 hour LED lifespan",
+            "800–5000+ nits for indoor/outdoor",
+            "24/7 continuous operation"
+          ],
+          "industries": ["Events", "Trade Shows", "Advertising", "Corporate"],
+          "use_cases": ["Event stages", "Trade shows", "Mobile advertising", "Corporate presentations"],
+          "image": "/products/Active_LED_Portable_Standee.webp",
+          "learn_more_url": "https://www.nantatech.com/product/active-led-portable-standee"
+        }
+      ]
+    },
+    {
+      "id": "conference-audio",
+      "name": "Conference Audio",
+      "emoji": "🎙️",
+      "tagline": "Microphones & speakerphones for crystal-clear meetings",
+      "description": "Professional audio systems for conference spaces with AI noise suppression, 360° pickup, and PoE cascading for unlimited room coverage.",
+      "key_features": ["360° omnidirectional pickup", "AI noise & echo cancellation", "PoE cascading support", "Plug-and-play USB", "Made in India"],
+      "industries": ["Corporate", "Education", "Healthcare", "Government"],
+      "products": [
+        {
+          "id": "nt-m702-omnidirectional-microphone",
+          "name": "Digital Array Microphone — NT-M702A/C",
+          "short_description": "Omnidirectional · PoE Cascade · 360° Pickup · Conference",
+          "description": "Cascading omnidirectional digital array microphone for business meetings, interactive teaching, and large conference spaces. 360° pickup with AI-assisted audio processing and PoE cascading for up to 6 units.",
+          "key_features": [
+            "360° pickup with 6 high-SNR digital microphones",
+            "PoE cascading — up to 6 units on one cable",
+            "AI algorithms: AEC, ANS, AGC for echo/noise removal",
+            "Built-in audio processing — no external processor needed",
+            "USB Type-C (UAC1.0) + analog AUX interfaces"
+          ],
+          "industries": ["Corporate", "Education", "Healthcare", "Government"],
+          "use_cases": ["Boardrooms", "Training rooms", "Interactive classrooms", "Video conferencing"],
+          "image": "/products/Digital_Array_Microphone_NT-M702A_&_NT-M702C.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-m702-omnidirectional-microphone"
+        },
+        {
+          "id": "nt-a10w-smart-conferencing-speakerphone",
+          "name": "Smart Conferencing Speakerphone — NT-A10W",
+          "short_description": "360° Pickup · 10m Range · AI Noise Reduction · Hi-Fi Speaker",
+          "description": "Advanced smart conferencing speakerphone with 360° omnidirectional pickup, 10-meter range, AI noise cancellation, and Hi-Fi dual-frequency speaker. Covers rooms of 6–20 participants.",
+          "key_features": [
+            "360° pickup with 6 MEMS microphones",
+            "10m effective range — covers up to 20 participants",
+            "AI noise, echo, and reverberation elimination",
+            "Auto gain control for consistent voice pickup",
+            "Hi-Fi dual-frequency speaker with deep bass"
+          ],
+          "industries": ["Corporate", "Remote Work", "Executive Offices", "Team Spaces"],
+          "use_cases": ["Meeting rooms", "Hybrid meetings", "Executive offices", "Team collaboration"],
+          "image": "/products/Speakerphone_NT-A10W.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-a10w-smart-conferencing-speakerphone"
+        }
+      ]
+    },
+    {
+      "id": "conference-video",
+      "name": "Conference Video",
+      "emoji": "📹",
+      "tagline": "4K webcams, video bars & dual-lens systems",
+      "description": "All-in-one video conferencing solutions from a single 4K webcam to advanced dual-lens PTZ video bars with AI auto-framing and speaker tracking.",
+      "key_features": ["4K UHD video", "AI auto-framing", "One-touch join", "PoE powered", "Works with Zoom/Teams/Webex"],
+      "industries": ["Corporate", "Education", "Healthcare", "Government"],
+      "products": [
+        {
+          "id": "4k-business-webcam-ntjx1700wc",
+          "name": "4K Business Webcam — NTJX1700WC",
+          "short_description": "4K · 8MP Sensor · USB 3.0 · Auto-focus",
+          "description": "Professional 4K business webcam with 8MP CMOS sensor, 78° field of view, dual microphones with echo cancellation, and USB 3.0 plug-and-play.",
+          "key_features": [
+            "4K 30fps with 8MP CMOS sensor",
+            "USB 3.0 plug-and-play — no drivers needed",
+            "78° wide field of view",
+            "Dual mics with echo cancellation",
+            "Continuous auto-focus tracking"
+          ],
+          "industries": ["Corporate", "Healthcare", "Education", "Streaming"],
+          "use_cases": ["Hybrid meeting rooms", "Streaming studios", "Executive offices", "Telehealth"],
+          "image": "/products/Webcam_NTJX1700WC.webp",
+          "learn_more_url": "https://www.nantatech.com/product/4k-business-webcam-ntjx1700wc"
+        },
+        {
+          "id": "nt-ec-vb-4k-all-in-one-video-bar",
+          "name": "4K All-in-One Video Bar — NT-EC-VB-4K",
+          "short_description": "4K UHD · 20MP · Integrated Camera/Mic/Speaker · AI Auto-Framing",
+          "description": "Integrated video bar combining 4K UHD camera, 6 beamforming microphones, and full-range speaker. 20MP sensor, 120° FOV, AI auto-framing, and mechanical pan/tilt for complete conference coverage.",
+          "key_features": [
+            "All-in-one: 4K camera + 6 beamforming mics + speaker",
+            "20MP ultra-sharp 1/1.8\" CMOS sensor at 4K@30fps",
+            "120° diagonal FOV with 5x digital zoom",
+            "Mechanical pan/tilt ±15° for flexible framing",
+            "AI face/human recognition for auto-framing"
+          ],
+          "industries": ["Corporate", "Education", "Conference Centers"],
+          "use_cases": ["Meeting rooms", "Hybrid meetings", "Training rooms", "Conference centers"],
+          "image": "/products/Video_Bar_NT-EC-VB-4K.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-ec-vb-4k-all-in-one-video-bar"
+        },
+        {
+          "id": "nt-m2000s-dual-lens-ptz-video-bar",
+          "name": "4K Dual-lens PTZ Video Bar — NT-M2000S",
+          "short_description": "4K Dual-lens · 12x Zoom · AI Group Framing · Speaker Tracking",
+          "description": "Premium dual-lens PTZ video bar with panoramic (8.51MP, 120° FOV) and close-up (8.29MP, 12x zoom) cameras. AI group framing, speaker tracking, and presenter tracking for large meeting rooms.",
+          "key_features": [
+            "Dual-lens: 120° panoramic + 12x zoom close-up",
+            "All-in-one: dual 4K cameras + 8-mic array + stereo speakers",
+            "AI group framing with face/human shape recognition",
+            "Speaker tracking with sound source localization",
+            "Presenter tracking via ReID and gesture recognition"
+          ],
+          "industries": ["Corporate", "Education", "Conference Centers", "Government"],
+          "use_cases": ["Large boardrooms", "Executive spaces", "Training centers", "Hybrid meetings"],
+          "image": "/products/Video_Bar_NT-M2000S.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-m2000s-dual-lens-ptz-video-bar"
+        }
+      ]
+    },
+    {
+      "id": "interactive-panels",
+      "name": "Interactive Panels",
+      "emoji": "✏️",
+      "tagline": "AI digital boards for classrooms & boardrooms",
+      "description": "AI-powered interactive panels with infinite canvas, 4K UHD display, 20-point multi-touch, and octa-core processor. Available in sizes from 55\" to 98\".",
+      "key_features": ["4K UHD edge-to-edge display", "20-point optical touch", "AI whiteboard & infinite canvas", "100+ language handwriting recognition", "Octa-core processor — no PC needed"],
+      "industries": ["Education", "Corporate", "Government", "Healthcare"],
+      "products": [
+        {
+          "id": "x75-pro-ai",
+          "name": "Interactive Panels — X75 Pro AI",
+          "short_description": "75\" · 4K UHD · AI whiteboard · Octa-core",
+          "description": "75-inch AI digital board with on-board AI whiteboard, infinite canvas, and centralised device management. Octa-core processor runs apps natively with 20-point optical touch and real-time handwriting recognition.",
+          "key_features": [
+            "75\" 4K UHD edge-to-edge display",
+            "20-point multi-touch optical technology",
+            "AI whiteboard with infinite canvas",
+            "Handwriting recognition in 100+ languages",
+            "Octa-core processor — runs apps without PC"
+          ],
+          "industries": ["Education", "Corporate", "Design Studios", "Government"],
+          "use_cases": ["Boardroom collaboration", "Corporate training", "University lecture halls", "Creative team spaces"],
+          "image": "/products/Commercial_LED_Digital_Signages.webp",
+          "learn_more_url": "https://www.nantatech.com/product/x75-pro-ai"
+        }
+      ]
+    },
+    {
+      "id": "ptz-cameras",
+      "name": "PTZ Cameras",
+      "emoji": "🎥",
+      "tagline": "AI-powered PTZ cameras for large venues & broadcast",
+      "description": "Professional PTZ cameras from 1080P to 4K@60fps with AI auto-tracking, up to 30x optical zoom, and support for HDMI, SDI, USB, NDI, and Dante AV-H.",
+      "key_features": ["4K@60fps to 1080P Full HD", "12x to 30x optical zoom", "AI auto-tracking & face recognition", "NDI|HX low-latency streaming", "PoE single-cable installation"],
+      "industries": ["Corporate", "Education", "Broadcasting", "Houses of Worship"],
+      "products": [
+        {
+          "id": "nt-vx71uvs-4k-conferencing-camera",
+          "name": "4K PTZ Camera — NT-VX71UVS",
+          "short_description": "4K@30fps · 12x Zoom · 71° Wide-Angle · AI Auto-Tracking · PoE",
+          "description": "Professional 4K PTZ camera with 8.42MP sensor, 12x optical zoom, 71° ultra-wide FOV, AI auto-tracking, and 255 presets. PoE powered for simple single-cable installation.",
+          "key_features": [
+            "4K (3840×2160) @30fps with 8.42MP sensor",
+            "71° ultra-wide FOV + 12x optical zoom",
+            "H.264 Slice/SVC for Zoom, Teams, WebEx",
+            "±170° pan, -30° to +90° tilt range",
+            "255 presets with 0.1° accuracy"
+          ],
+          "industries": ["Corporate", "Education", "Houses of Worship", "Events"],
+          "use_cases": ["Boardroom conferencing", "Lecture capture", "Hybrid education", "Large venue events"],
+          "image": "/products/Video_Conferencing_PTZ_Camera_NT-VX71UVS.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-vx71uvs-4k-conferencing-camera"
+        },
+        {
+          "id": "nt-vx630al-4k-ptz-camera",
+          "name": "4K Super Telephoto PTZ Camera — NT-VX630AL",
+          "short_description": "4K@60fps · 30x Zoom · AI Humanoid Tracking · Dante AV-H · Virtual Studio",
+          "description": "Premium 4K PTZ camera at 60fps with 30x optical zoom, AI ReID humanoid tracking, Dante AV-H support, and virtual studio capabilities. The broadcast-grade solution for large spaces.",
+          "key_features": [
+            "4K (3840×2160) @60fps with 8.42MP CMOS sensor",
+            "30x optical zoom (59.2° to 2.5° FOV)",
+            "AI ReID humanoid tracking — re-acquires if lost",
+            "Dante AV-H for low-latency audio/video",
+            "Free-D protocol for virtual studio integration"
+          ],
+          "industries": ["Corporate", "Broadcasting", "Education", "Government"],
+          "use_cases": ["Executive boardrooms", "Large training rooms", "Virtual studios", "Live production"],
+          "image": "/products/Super_Telephoto_PTZ _Camera_NT-VX630AL.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-vx630al-4k-ptz-camera"
+        },
+        {
+          "id": "nt-ec-hd-30x-ptz-camera",
+          "name": "1080P AI PTZ Camera — NT-EC-HD-30X",
+          "short_description": "PTZ · 30x Zoom · 1080P Full HD · AI Auto-Tracking · Ultra-Long Range",
+          "description": "1080P Full HD PTZ camera with AI auto-tracking, 30x optical zoom (2.5× greater range than 12x models), face recognition, and ultra-low light at 0.5 Lux. Multi-output: HDMI, SDI, USB, LAN.",
+          "key_features": [
+            "30x optical zoom — extended range for large venues",
+            "1080P Full HD 2.07MP CMOS sensor",
+            "AI auto-tracking and face recognition",
+            "0.5 Lux ultra-low light performance",
+            "Multi-output: HDMI, SDI, USB, LAN, NDI|HX"
+          ],
+          "industries": ["Education", "Broadcasting", "Events", "Houses of Worship"],
+          "use_cases": ["Large venue conferencing", "Lecture capture", "Live streaming", "Auditoriums"],
+          "image": "/products/Professional_PTZ_Camera_W_AI_Tech_NT-EC-HD-30X.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-ec-hd-30x-ptz-camera"
+        },
+        {
+          "id": "nt-ec-hd-12x-ptz-camera",
+          "name": "1080P AI PTZ Camera — NT-EC-HD-12X",
+          "short_description": "PTZ · 12x Zoom · 1080P Full HD · AI Auto-Tracking",
+          "description": "1080P Full HD PTZ camera with 12x optical zoom, 72.5° ultra-wide angle, AI auto-tracking, face recognition, and advanced ISP image processing for balanced color in any lighting.",
+          "key_features": [
+            "1080P Full HD 2.07MP CMOS sensor",
+            "12x optical zoom with 72.5° ultra-wide angle",
+            "AI auto-tracking and face recognition",
+            "0.5 Lux ultra-low light performance",
+            "Advanced ISP: auto white balance & exposure"
+          ],
+          "industries": ["Education", "Corporate", "Broadcasting", "Events"],
+          "use_cases": ["Classroom recording", "Video conferencing", "Live broadcasting", "Multi-display events"],
+          "image": "/products/Professional_PTZ_Camera_W_AI_Tech_NT-EC-HD-12X.webp",
+          "learn_more_url": "https://www.nantatech.com/product/nt-ec-hd-12x-ptz-camera"
+        }
+      ]
+    }
+  ]
+}

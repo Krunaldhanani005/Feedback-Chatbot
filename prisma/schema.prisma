@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  deviceType   String?
+  ipAddress    String?
+  userAgent    String?
+  // Onboarding — department ratings (1-5)
+  aiRating           Int?
+  avRating           Int?
+  roboticsRating     Int?
+  automationRating   Int?
+  experienceRating   Int?
+  // Onboarding — interest selections (JSON array)
+  selectedInterests  String?
+  // Onboarding — visitor details
+  visitorName        String?
+  visitorEmail       String?
+  visitorPhone       String?
+  visitorCompany     String?
+  visitorDesignation String?
+  visitorIndustry    String?
+  onboardingComplete Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  conversations Conversation[]
+}
+
+model Conversation {
+  id               String    @id @default(cuid())
+  sessionId        String
+  session          Session   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  title            String?
+  status           String    @default("active")
+  summary          String?
+  userIntent       String?
+  sentiment        String?
+  leadScore        Int?
+  topicsDiscussed  String?
+  messageCount     Int       @default(0)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  messages         Message[]
+  feedback         Feedback?
+  lead             Lead?
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           String
+  content        String
+  metadata       String?
+  createdAt      DateTime     @default(now())
+}
+
+model Lead {
+  id              String       @id @default(cuid())
+  conversationId  String       @unique
+  conversation    Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  name            String?
+  email           String?
+  phone           String?
+  company         String?
+  designation     String?
+  industry        String?
+  interestedIn    String?
+  notes           String?
+  status          String       @default("new")
+  priority        String       @default("medium")
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+}
+
+model Feedback {
+  id              String        @id @default(cuid())
+  conversationId  String?       @unique
+  conversation    Conversation? @relation(fields: [conversationId], references: [id], onDelete: SetNull)
+  rating          Int
+  ratingLabel     String?
+  interestedIn    String?
+  comments        String?
+  resolved        Boolean       @default(false)
+  adminNotes      String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+}
+
+model AdminUser {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

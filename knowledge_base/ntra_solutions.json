@@ -1,0 +1,184 @@
+{
+  "company": "NTRA — Computer Vision & AI Solutions",
+  "display_name": "Computer Vision",
+  "tagline": "Building the Future of Intelligent Vision",
+  "website": "https://ntra.nantatech.com/solutions",
+  "capabilities_count": "39+",
+  "parent": "Nanta Tech Limited",
+  "tech_specs": {
+    "detection_latency": "42ms",
+    "accuracy": "99%",
+    "processing_speed": "30 FPS",
+    "cameras_per_cluster": "100+",
+    "deployment": "On-Premise / Edge AI",
+    "ai_framework": "YOLOv8 + DeepSORT"
+  },
+  "key_platform_features": [
+    "Works on existing IP/RTSP cameras — no hardware replacement",
+    "On-premise edge AI — no video leaves the network",
+    "Air-gapped deployment supported",
+    "39+ AI capabilities in one platform",
+    "Multi-location scalability",
+    "REST API + webhook integration",
+    "Role-based access control",
+    "Audit-grade event logs with timestamped clips"
+  ],
+  "solutions": [
+    {
+      "id": "person_analytics",
+      "name": "Person Analytics",
+      "emoji": "👥",
+      "tagline": "Understand how people move and behave",
+      "description": "Turn everyday video into operational and security intelligence by understanding how people move, gather, and behave across your facilities.",
+      "capabilities": [
+        "Person Tracking — multi-camera continuous tracking",
+        "People Count — high-precision occupancy measurement",
+        "Crowd Count & Estimation — real-time density detection",
+        "Face Recognition — identity verification against watchlists",
+        "Emotion Detection — facial sentiment analysis",
+        "No Face Mask Detection — compliance monitoring",
+        "Social Distancing — configurable proximity alerts",
+        "Searchable Person Attributes — forensic search by appearance"
+      ],
+      "use_cases": [
+        "Footfall & occupancy analytics",
+        "Visitor management & attendance",
+        "Safety compliance monitoring",
+        "Forensic investigation & search"
+      ],
+      "industries": [
+        "Corporate Offices",
+        "Retail",
+        "Healthcare",
+        "Smart Cities",
+        "Airports"
+      ],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "security_threat",
+      "name": "Security & Threat Detection",
+      "emoji": "🛡️",
+      "tagline": "Proactive threat detection before incidents occur",
+      "description": "Proactively surface dangerous behavior and emergencies the moment they unfold — keeping people and assets protected around the clock.",
+      "capabilities": [
+        "Weapon Detection — armed-threat identification",
+        "Fight, Assault & Violence — aggressive movement detection",
+        "Riots & Stone Pelting — crowd convergence alerts",
+        "Person Collapse Detection — medical emergency detection",
+        "Climbing & Barricade Breach — perimeter intrusion",
+        "Person Waving for Help — distress signal recognition",
+        "Lone Woman Detection — vulnerable situation monitoring",
+        "Woman Surrounded by Men — group dynamics detection"
+      ],
+      "use_cases": [
+        "Emergency response automation",
+        "Threat prevention & deterrence",
+        "Perimeter security",
+        "Personnel safety protection"
+      ],
+      "industries": [
+        "Airports",
+        "Corporate Offices",
+        "Healthcare",
+        "Smart Cities",
+        "Warehouses"
+      ],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "vehicle_traffic",
+      "name": "Vehicle & Traffic Intelligence",
+      "emoji": "🚗",
+      "tagline": "Smart traffic enforcement and parking management",
+      "description": "Turn road and parking cameras into an intelligent enforcement and mobility platform for smarter traffic management and parking operations.",
+      "capabilities": [
+        "ANPR — Automatic Number Plate Recognition",
+        "Red Light Violation Detection",
+        "No Helmet & Triple Rider detection",
+        "Vehicle Speed Detection",
+        "Vehicle Make, Model & Color identification",
+        "Parking Management — bay occupancy monitoring",
+        "Wrong Parking Detection",
+        "Congestion Detection & prediction",
+        "No Seatbelt Detection",
+        "Phone Use While Driving",
+        "Accident Detection",
+        "Vehicle Count & Classification"
+      ],
+      "use_cases": [
+        "Traffic law enforcement",
+        "Parking optimization",
+        "Congestion management",
+        "Incident & accident response"
+      ],
+      "industries": [
+        "Traffic Management Authorities",
+        "Smart Cities",
+        "Airports",
+        "Shopping Malls & Parking",
+        "Industrial Campuses"
+      ],
+      "learn_more_url": "https://ntra.nantatech.com/vehicle-detection"
+    },
+    {
+      "id": "retail_analytics",
+      "name": "Retail & Customer Analytics",
+      "emoji": "🛒",
+      "tagline": "Convert in-store video into measurable insight",
+      "description": "Convert in-store video into measurable insight on customer behavior, advertising engagement, and inventory performance to drive retail growth.",
+      "capabilities": [
+        "Footfall & Dwell Time analysis",
+        "Gaze-to-Advertisement engagement tracking",
+        "Advertisement Proximity mapping",
+        "Inventory & Shelf Detection",
+        "Customer journey mapping",
+        "Peak hour analysis"
+      ],
+      "use_cases": [
+        "Customer behavior analysis",
+        "Advertisement ROI measurement",
+        "Shelf management & inventory alerts",
+        "Store layout optimization"
+      ],
+      "industries": [
+        "Retail Stores & Supermarkets",
+        "Shopping Malls",
+        "Brand Outlets",
+        "Quick Service Restaurants"
+      ],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    },
+    {
+      "id": "object_environment",
+      "name": "Object & Environment Monitoring",
+      "emoji": "🔍",
+      "tagline": "Watch for hazards, objects, and disruptions 24/7",
+      "description": "Continuously watch the physical environment for objects, hazards, and disruptions that put people and operations at risk — with real-time alerts.",
+      "capabilities": [
+        "Object Detection — context-aware identification",
+        "Unattended Object Detection — abandoned-item alerts",
+        "Human, Animal & Vehicle Classification",
+        "Garbage & Debris Detection",
+        "Vandalism & Graffiti detection",
+        "Fire & Smoke Detection",
+        "Camera Tampering alerts",
+        "PPE Detection — hard hat, vest, gloves"
+      ],
+      "use_cases": [
+        "Hazard & fire detection",
+        "Asset protection",
+        "Facility cleanliness monitoring",
+        "Safety compliance (PPE)"
+      ],
+      "industries": [
+        "Manufacturing & Factories",
+        "Warehouses",
+        "Smart Cities",
+        "Airports",
+        "Construction Sites"
+      ],
+      "learn_more_url": "https://ntra.nantatech.com/solutions"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "media": [
+    {
+      "image_path": "/robots/reception_robot_display.png",
+      "title": "AI Reception Robot Display",
+      "alt_text": "ALLBOTIX ATR-p010 AI Receptionist Robot front view",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "related_solution": "Smart Reception",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/reception_robot_1.mp4",
+      "title": "AI Reception Robot Navigation",
+      "alt_text": "AI Reception Robot navigation system floor-plan diagram",
+      "type": "video",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "related_solution": "Smart Reception",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/reception_robot_2.mp4",
+      "title": "AI Reception Robot in Action",
+      "alt_text": "AI Reception Robot display unit in use",
+      "type": "video",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "related_solution": "Smart Reception",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/reception_robot_3.png",
+      "title": "AI Reception Robot Package Contents",
+      "alt_text": "ATR-p010 robot full package contents laid out",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/reception_robot_4.png",
+      "title": "AI Reception Robot Parcel Tray",
+      "alt_text": "Detachable parcel tray accessory for ATR robot",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/reception_robot_5.png",
+      "title": "AI Reception Robot Voice Assistant",
+      "alt_text": "Voice assistant module on the AI reception robot",
+      "related_product": "AI Receptionist Robot (ATR-p010)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/humanoid_robot_display.png",
+      "title": "Humanoid Robot BOLT-G1 Display",
+      "alt_text": "ALLBOTIX BOLT-G1 Humanoid Robot front view",
+      "related_product": "Humanoid Robot (BOLT-G1)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/humanoid_robot_1.png",
+      "title": "Humanoid Robot Core Capability",
+      "alt_text": "Bolt G1 Humanoid Robot core capability showcase",
+      "related_product": "Humanoid Robot (BOLT-G1)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/humanoid_robot_2.png",
+      "title": "Humanoid Robot Industry Applications",
+      "alt_text": "Bolt G1 serving across multiple industries",
+      "related_product": "Humanoid Robot (BOLT-G1)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/dog_robot_display.avif",
+      "title": "Dog Robot Display",
+      "alt_text": "ALLBOTIX ALPHA-DOG quadruped robot display",
+      "related_product": "Dog Robot (ALPHA-DOG)",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/dog_robot_model_b2.jpeg",
+      "title": "Alpha B2 Robot Dog",
+      "alt_text": "Alpha B2 Quadruped Robot Dog",
+      "related_product": "Dog Robot — Alpha B2",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/dog_robot_model_go2.jpeg",
+      "title": "Alpha GO2 Robot Dog",
+      "alt_text": "Alpha GO2 Quadruped Robot Dog",
+      "related_product": "Dog Robot — Alpha GO2",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/cleaning_robot_display.jpeg",
+      "title": "Cleaning Robot Display",
+      "alt_text": "ALLBOTIX Smart Cleaning Robot series display",
+      "related_product": "Cleaning Robot Series",
+      "related_solution": "Autonomous Cleaning",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/cleaning_robot_model_ac40.png",
+      "title": "AC40 Cleaning Robot",
+      "alt_text": "AC40 Smart Cleaning Robot — all-in-one mop scrub vacuum",
+      "related_product": "Cleaning Robot AC40",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/cleaning_robot_model_ax10.avif",
+      "title": "AX10 Cleaning Robot",
+      "alt_text": "AX10 Smart Cleaning Robot — powerhouse cleaning",
+      "related_product": "Cleaning Robot AX10",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/cleaning_robot_model_amt1.avif",
+      "title": "AMT1 Industrial Sweeping Robot",
+      "alt_text": "AMT1 AI-powered industrial sweeping robot",
+      "related_product": "Cleaning Robot AMT1",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/serving_robot_display.png",
+      "title": "Serving Robot Display",
+      "alt_text": "ALLBOTIX Smart Serving Robot series display",
+      "related_product": "Serving Robot Series",
+      "related_solution": "Food & Beverage Delivery",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/serving_robot_aw3.avif",
+      "title": "AW3 Serving Robot",
+      "alt_text": "AW3 compact serving robot for restaurants and hotels",
+      "related_product": "Serving Robot AW3",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/serving_robot_asmr_t10.avif",
+      "title": "ASMR T10 Delivery and Marketing Robot",
+      "alt_text": "ASMR T10 premium delivery and marketing robot",
+      "related_product": "Serving Robot ASMR T10",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/serving_robot_at9.avif",
+      "title": "AT9 Multi-tray Serving Robot",
+      "alt_text": "AT9 multi-tray serving robot for high-volume environments",
+      "related_product": "Serving Robot AT9",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/amr_robot_display.avif",
+      "title": "AMR Robot Display",
+      "alt_text": "ALLBOTIX Autonomous Mobile Robot display",
+      "related_product": "AMR Robot Series",
+      "related_solution": "Factory Automation",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/amr_robot_model_at300.avif",
+      "title": "AT300 AMR Robot",
+      "alt_text": "AT300 Autonomous Mobile Robot — 300 kg payload",
+      "related_product": "AMR AT300",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/amr_robot_model_at600.avif",
+      "title": "AT600 AMR Robot",
+      "alt_text": "AT600 Autonomous Mobile Robot — 600 kg payload",
+      "related_product": "AMR AT600",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/robots/cobot_display.png",
+      "title": "AL Series Cobot Display",
+      "alt_text": "ALLBOTIX AL Series Collaborative Robot Arm",
+      "related_product": "Cobot AL Series",
+      "related_solution": "Factory Automation",
+      "company": "ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Reception robot.png",
+      "title": "Reception Robot",
+      "alt_text": "Smart AI Reception Robot for hotels and offices",
+      "related_product": "ATR V3 Reception Robot",
+      "related_solution": "Smart Reception",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Cleaning Robot 1.png",
+      "title": "Cleaning Robot 1",
+      "alt_text": "AI-powered cleaning robot for commercial use",
+      "related_product": "Cleaning Robot Series",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Cleaning Robot 2.png",
+      "title": "Cleaning Robot 2",
+      "alt_text": "Smart cleaning robot for industrial environments",
+      "related_product": "Cleaning Robot Series",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Cleaning Robot 3.png",
+      "title": "Cleaning Robot 3",
+      "alt_text": "Autonomous cleaning robot series",
+      "related_product": "Cleaning Robot Series",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Delivery Robot.png",
+      "title": "Delivery Robot",
+      "alt_text": "AI-powered delivery robot for restaurants and hotels",
+      "related_product": "Serving Robot Series",
+      "related_solution": "Food & Beverage Delivery",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/AMR robot.png",
+      "title": "AMR Robot",
+      "alt_text": "Autonomous Mobile Robot for warehouse automation",
+      "related_product": "AMR AT300 / AT600",
+      "related_solution": "Factory Automation",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Surveillance.png",
+      "title": "Surveillance Robot",
+      "alt_text": "Quadruped surveillance robot for security patrol",
+      "related_product": "Alpha B2 / Alpha GO2",
+      "related_solution": "Security Patrolling",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Humanoid Robot.png",
+      "title": "Humanoid Robot",
+      "alt_text": "Humanoid robot for entertainment and service",
+      "related_product": "Humanoid Robot G1",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Robot arm.png",
+      "title": "Robot Arm (Cobot)",
+      "alt_text": "AL Series collaborative robot arm for industrial automation",
+      "related_product": "AL Series Cobot",
+      "related_solution": "Factory Automation",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/Panel.png",
+      "title": "Interactive Panel",
+      "alt_text": "Nanta Tech X Pro AI interactive panel for boardrooms and classrooms",
+      "related_product": "X Pro AI Interactive Panels",
+      "related_solution": "Meeting Room Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Audio1.png",
+      "title": "Audio Product 1",
+      "alt_text": "Nanta Tech audio microphone system",
+      "related_product": "Digital Array Microphone",
+      "related_solution": "Meeting Room Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Audio 2.png",
+      "title": "Audio Product 2",
+      "alt_text": "Nanta Tech wireless speaker mic system",
+      "related_product": "Wireless Speaker Mic With Extensions",
+      "related_solution": "Meeting Room Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Video 1.png",
+      "title": "Video Product 1",
+      "alt_text": "Nanta Tech 4K PTZ video bar",
+      "related_product": "4K Dual-lens PTZ Video Bar",
+      "related_solution": "Meeting Room Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Video 2.png",
+      "title": "Video Product 2",
+      "alt_text": "Nanta Tech professional PTZ camera",
+      "related_product": "PTZ Camera Series",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Active LED 1.png",
+      "title": "Active LED Display 1",
+      "alt_text": "Nanta Tech indoor active LED display",
+      "related_product": "Indoor Active LED",
+      "related_solution": "Active LED & Signage",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Active LED 2.png",
+      "title": "Active LED Display 2",
+      "alt_text": "Nanta Tech outdoor active LED display",
+      "related_product": "Outdoor Active LED",
+      "related_solution": "Active LED & Signage",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/AOC cable.png",
+      "title": "AOC Cable",
+      "alt_text": "Nanta Tech Active Optical Cable HDMI",
+      "related_product": "HDMI AOC Cable Series",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Copper cable.png",
+      "title": "Copper Cable",
+      "alt_text": "Nanta Tech copper HDMI cable",
+      "related_product": "HDMI Copper Cable Series",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/video_wall.png",
+      "title": "Video Wall Solution",
+      "alt_text": "Nanta Tech video wall installation for control rooms",
+      "related_solution": "AV Integration — Video Wall",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Auditorium Solution.png",
+      "title": "Auditorium AV Solution",
+      "alt_text": "Nanta Tech AV solution for auditoriums",
+      "related_solution": "AV Integration — Auditorium Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Hospital Solution.png",
+      "title": "Hospital AV Solution",
+      "alt_text": "Nanta Tech medical-grade AV solution for hospitals",
+      "related_solution": "AV Integration — Hospital Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Meeting Room Solution.png",
+      "title": "Meeting Room AV Solution",
+      "alt_text": "Nanta Tech AV solution for conference rooms",
+      "related_solution": "AV Integration — Meeting Room Solution",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Public Address System.png",
+      "title": "Public Address System",
+      "alt_text": "Nanta Tech public address system for large venues",
+      "related_solution": "AV Integration — Public Address System",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/Active LED and Signage Solution.png",
+      "title": "Active LED & Signage Solution",
+      "alt_text": "Nanta Tech active LED and signage integration solution",
+      "related_solution": "AV Integration — Active LED & Signage",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/IT Network Solutions.png",
+      "title": "IT Network Solutions",
+      "alt_text": "Nanta Tech IT network infrastructure solution",
+      "related_solution": "IT Network Solutions",
+      "company": "Nanta Tech"
+    },
+    {
+      "image_path": "/static/images/AT600.png",
+      "title": "AT600 AMR",
+      "alt_text": "AT600 Autonomous Mobile Robot",
+      "related_product": "AMR AT600",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/AT300.png",
+      "title": "AT300 AMR",
+      "alt_text": "AT300 Autonomous Mobile Robot",
+      "related_product": "AMR AT300",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/ATR V3.png",
+      "title": "ATR V3 Reception Robot",
+      "alt_text": "ATR V3 AI Reception Robot",
+      "related_product": "ATR V3",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/ALPHA GO2.png",
+      "title": "Alpha GO2 Robot Dog",
+      "alt_text": "Alpha GO2 quadruped robot dog",
+      "related_product": "Alpha GO2",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/ALPHA B2.png",
+      "title": "Alpha B2 Robot Dog",
+      "alt_text": "Alpha B2 quadruped robot dog",
+      "related_product": "Alpha B2",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/static/images/G1.png",
+      "title": "G1 Humanoid Robot",
+      "alt_text": "G1 AI-powered humanoid robot",
+      "related_product": "Humanoid Robot G1",
+      "company": "Nanta Tech / ALLBOTIX"
+    },
+    {
+      "image_path": "/solutions/person-analytics.png",
+      "title": "Person Analytics Solution",
+      "alt_text": "NTRA person analytics AI surveillance",
+      "related_solution": "Person Analytics & Behavioral Intelligence",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/solutions/threat-detection.png",
+      "title": "Threat Detection Solution",
+      "alt_text": "NTRA security and threat detection AI surveillance",
+      "related_solution": "Security & Threat Detection",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/solutions/vehicle-intelligence.png",
+      "title": "Vehicle Intelligence Solution",
+      "alt_text": "NTRA traffic and vehicle intelligence AI",
+      "related_solution": "Traffic & Vehicle Intelligence",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/solutions/retail-analytics.png",
+      "title": "Retail Analytics Solution",
+      "alt_text": "NTRA retail customer analytics AI",
+      "related_solution": "Retail Analytics",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/solutions/object-monitoring.png",
+      "title": "Object Monitoring Solution",
+      "alt_text": "NTRA object and environment monitoring AI",
+      "related_solution": "Object & Environment Monitoring",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/static/images/industries/hero-smartcity.webp",
+      "title": "Smart Cities Industry Hero",
+      "alt_text": "AI surveillance for smart cities",
+      "related_solution": "Smart Cities Industry",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/static/images/industries/hero-manufacturing.webp",
+      "title": "Manufacturing Industry Hero",
+      "alt_text": "AI surveillance for manufacturing",
+      "related_solution": "Manufacturing Industry",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/static/images/industries/hero-retail.webp",
+      "title": "Retail Industry Hero",
+      "alt_text": "AI surveillance for retail",
+      "related_solution": "Retail Industry",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/static/images/industries/hero-healthcare.webp",
+      "title": "Healthcare Industry Hero",
+      "alt_text": "AI surveillance for healthcare",
+      "related_solution": "Healthcare Industry",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/static/images/industries/hero-airport.webp",
+      "title": "Airport Industry Hero",
+      "alt_text": "AI surveillance for airports and transportation",
+      "related_solution": "Airports & Transportation Industry",
+      "company": "NTRA"
+    },
+    {
+      "image_path": "/public/static/NTra.png",
+      "title": "NTRA Logo",
+      "alt_text": "NTRA Computer Vision AI Solutions logo",
+      "company": "NTRA"
+    }
+  ]
+}

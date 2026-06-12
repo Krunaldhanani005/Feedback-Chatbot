@@ -1,0 +1,340 @@
+{
+  "knowledge_chunks": [
+    {
+      "id": "chunk_001",
+      "title": "ALLBOTIX Company Overview",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX is an advanced robotics company and brand under Nanta Tech Limited, headquartered at 204–207, 2nd Floor, Shivalik Sharda Harmony, Ambawadi, Ahmedabad – 380015, Gujarat, India. ALLBOTIX has developed 525+ robots, delivered 610+ robots, served 180+ happy clients with an average rating of 4.7. The company specializes in AI-powered robotic solutions for commercial and industrial applications. Contact: email contact@nantatech.com, WhatsApp +91 99090 41675 or +91 99090 41678 (Mon–Fri, 10 AM–7 PM IST). ALLBOTIX's vision is to empower tomorrow's industries through smart automation, precision engineering, and limitless innovation.",
+      "keywords": ["ALLBOTIX", "robotics", "Nanta Tech", "Ahmedabad", "robots", "AI", "automation", "company overview"]
+    },
+    {
+      "id": "chunk_002",
+      "title": "ALLBOTIX Robot Product Categories",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX offers 7 categories of robots: (1) AI Reception Robots — ATR-p010 / ATR V3 for front-desk automation; (2) Humanoid Robots — BOLT-G1 and G1 for customer service and research; (3) Dog Robots — Alpha B2 and Alpha GO2 for inspection and patrol; (4) Cleaning Robots — 6 models (AC40, AX10, AMT1, AT60s, AT20s Pro, AS100N); (5) Serving Robots — AW3, ASMR T10, AT9 for food delivery; (6) AMR Robots — AT300 (300 kg) and AT600 (600 kg) for logistics; (7) Cobots — AL Series for collaborative industrial automation.",
+      "keywords": ["robot types", "reception robot", "humanoid", "cleaning robot", "serving robot", "AMR", "cobot", "ALLBOTIX products"]
+    },
+    {
+      "id": "chunk_003",
+      "title": "ATR V3 AI Reception Robot Specifications",
+      "company": "ALLBOTIX",
+      "content": "The ATR V3 (ATR-p010) is an AI-powered reception robot for front-desk automation. Key specifications: Display: 13.3-inch LCD screen; Camera: 13 MP front + 1080p video at 30 FPS; Audio: 20W speakers with sub-woofer; Navigation: 2D mapping + 3D localization, 360° LIDAR, depth cameras, zero-turn radius, obstacle avoidance; Speed: up to 1 m/s; Optional tray: up to 3 kg capacity; Charging: autonomous wireless; Languages: multi-language support; Features: facial recognition, visitor check-in, appointment management, AI chatbot integration, enterprise system connectivity. Ideal for hotels, hospitals, corporate offices, government buildings, and airports.",
+      "keywords": ["ATR V3", "ATR-p010", "reception robot", "facial recognition", "LIDAR", "specifications", "visitor management", "front desk automation"]
+    },
+    {
+      "id": "chunk_004",
+      "title": "BOLT-G1 Humanoid Robot",
+      "company": "ALLBOTIX",
+      "content": "The BOLT-G1 is ALLBOTIX's next-generation humanoid robot with advanced AI, natural movement, and expressive communication. It operates 24/7 without fatigue and is designed for customer service, education, healthcare, hospitality, and entertainment environments. Use cases include coffee shops and bakeries, juice bars, restaurants, hotels, catering services, exhibition halls, and events. It features voice recognition, multi-language support, AI-powered interactions, precision handling, and autonomous navigation. The robot can serve as greeter, guide, and information assistant, providing a memorable branded guest experience.",
+      "keywords": ["BOLT-G1", "humanoid robot", "service robot", "hospitality", "events", "AI interaction", "customer service robot"]
+    },
+    {
+      "id": "chunk_005",
+      "title": "G1 Humanoid Robot Technical Specifications",
+      "company": "ALLBOTIX",
+      "content": "The G1 Humanoid Robot is a research-grade humanoid platform with the following specifications: Height: 1.32 meters; Weight: 35 kg; Degrees of Freedom: 43 DOF; Battery: 9000 mAh; Updates: OTA (Over-The-Air) software updates. The G1 is designed for advanced human-robot interaction research, complex task execution, and industrial pilot programs. It provides high mobility, dexterous manipulation, and AI-powered perception for use in manufacturing research, healthcare pilot programs, and educational institutions.",
+      "keywords": ["G1 humanoid", "43 DOF", "humanoid specifications", "research robot", "9000mAh", "1.32m height", "OTA updates"]
+    },
+    {
+      "id": "chunk_006",
+      "title": "Alpha B2 and Alpha GO2 Robot Dogs",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX offers two quadruped robot dogs: Alpha B2 and Alpha GO2. Both feature IP67 weatherproof protection (dust-tight, water-immersion resistant), 10 kg payload capacity, quick-swap battery system, all-terrain quadruped mobility, and modular design. Alpha B2 is built for industrial inspection, security patrol, construction site monitoring, search and rescue operations, agricultural monitoring, and defense applications. Alpha GO2 targets advanced quadruped research and industrial inspection with stable navigation in uneven terrains. Both operate outdoors in rain and harsh conditions.",
+      "keywords": ["Alpha B2", "Alpha GO2", "robot dog", "quadruped", "IP67", "outdoor robot", "inspection", "security patrol", "all-terrain"]
+    },
+    {
+      "id": "chunk_007",
+      "title": "ALLBOTIX Cleaning Robot Series Overview",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX's cleaning robot lineup includes 6 models: AC40 (all-in-one scrub/sweep/vacuum, 16L water tank, LIDAR+depth camera navigation, 5-hour scrub/12-hour sweep battery); AX10 Pro (10,700+ sqft coverage, 200 min runtime, auto-recharge and resume, LIDAR mapping); AMT1 Industrial Sweeper (1800–6000 m²/h, 35L bin, IoT integration, VSLAM + LiDAR SLAM, 4–8 hour battery); AT60s (15,000 Pa suction, hot water mop, self-cleaning); AT20s Pro (6500 Pa, 260 min runtime, 70-day self-emptying); AS100N Outdoor Sweeper (100 cm cleaning width, 6-hour battery, 3000 m²/h). Applications: hotels, malls, hospitals, airports, warehouses, factories.",
+      "keywords": ["cleaning robot", "AC40", "AX10", "AMT1", "AT60s", "AT20s Pro", "AS100N", "floor cleaning", "industrial sweeper", "autonomous cleaning"]
+    },
+    {
+      "id": "chunk_008",
+      "title": "ALLBOTIX Serving Robot Models",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX offers three serving robots for food and beverage delivery: AW3 — closed-door AI delivery robot, size 459×549×1081 mm, weight 48 kg, 12-hour battery, 20 kg payload, contactless hygienic delivery compartments; ASMR T10 — premium delivery and marketing robot, weight 58 kg, 8-hour battery, 40 kg payload, high-end display tray, suitable for fine dining and commercial promotions; AT9 — multi-tray delivery robot, size 486×555×1399 mm, weight 63 kg, 8-hour battery, 40 kg payload, supports 4 plates simultaneously. All robots navigate autonomously, avoid obstacles, and return to charging dock automatically.",
+      "keywords": ["AW3", "ASMR T10", "AT9", "serving robot", "food delivery robot", "restaurant robot", "contactless delivery", "hotel robot"]
+    },
+    {
+      "id": "chunk_009",
+      "title": "ALLBOTIX AMR Robots AT300 and AT600",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX Autonomous Mobile Robots (AMR) for logistics and warehousing: AT300 — 300 kg payload, 12-hour battery, 1.2 m/s speed, LiDAR SLAM + VSLAM navigation; AT600 — 600 kg payload, 12-hour battery, 1.5 m/s speed, LiDAR SLAM + VSLAM navigation. Both integrate seamlessly with WMS (Warehouse Management Systems), ERP, OMS, and POS systems via Allbotix Fleet Management Software. Features include real-time inventory tracking, dynamic re-routing, fleet-wide coordination, predictive maintenance alerts, and multi-shift 24/7 operation. Suitable for e-commerce, manufacturing, automotive, and pharmaceutical warehouses.",
+      "keywords": ["AT300", "AT600", "AMR", "autonomous mobile robot", "warehouse robot", "WMS integration", "300kg", "600kg", "logistics automation"]
+    },
+    {
+      "id": "chunk_010",
+      "title": "AL Series Cobot Specifications",
+      "company": "ALLBOTIX",
+      "content": "The AL Series Collaborative Robot (Cobot) is designed for safe human-robot collaboration in industrial environments. Key features: high precision and repeatability for assembly, inspection, and packaging; compact lightweight design for easy redeployment across workstations; no extensive safety guarding required; Industry 4.0 system integration; fast setup and programming. Industries: automotive, electronics, food and beverage, pharmaceutical, manufacturing. The AL Series supports AL-certified accessories and can be customized for specific automation workflows.",
+      "keywords": ["AL Series", "cobot", "collaborative robot", "human-robot collaboration", "Industry 4.0", "assembly automation", "industrial robot arm"]
+    },
+    {
+      "id": "chunk_011",
+      "title": "ALLBOTIX Navigation Technology",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX robots use multiple navigation technologies for reliable autonomous operation: 360-degree LIDAR for spatial mapping; depth cameras (ToF/structured light) for 3D perception; 2D mapping and 3D localization; LiDAR SLAM (Simultaneous Localization and Mapping) for large spaces; VSLAM (Visual SLAM) for dynamic environments; zero-turn radius design for narrow corridors; real-time obstacle avoidance using sensor fusion; autonomous wireless charging with auto-dock return; path planning algorithms for dynamic rerouting. These technologies enable indoor navigation in hotels, hospitals, warehouses, and factories without floor markings or infrastructure modifications.",
+      "keywords": ["LIDAR", "SLAM", "VSLAM", "navigation", "obstacle avoidance", "autonomous navigation", "mapping", "robot navigation technology"]
+    },
+    {
+      "id": "chunk_012",
+      "title": "ALLBOTIX Industry Solutions",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX serves six key industry verticals: (1) Government — ATR reception robots for public offices, Alpha B2/GO2 for patrolling and surveillance; (2) Hospitality — ATR V3 for check-in, serving robots for F&B, humanoids for guest interaction; (3) Factory Automation — AT300/AT600 AMR for material transport, AL Series cobot for assembly lines; (4) Corporate & IT — ATR reception, cleaning robots for offices, serving robots for cafeterias; (5) Manufacturing — AMR robots for logistics, cobots for precision assembly; (6) Education — BOLT-G1 humanoid, ATR reception, and cleaning robots for campuses.",
+      "keywords": ["ALLBOTIX industries", "government robots", "hospitality robots", "factory automation", "corporate robots", "manufacturing automation", "education robots"]
+    },
+    {
+      "id": "chunk_013",
+      "title": "ALLBOTIX Clients and Track Record",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX has built a strong track record with 525+ robots developed, 610+ robots delivered, 180+ happy clients, and an average satisfaction rating of 4.7 out of 5. Notable clients include Swarrnim University (campus automation), Ahmedabad Red Cross (healthcare service), Doodle Group (corporate), JP Initiatives LLP (commercial), Taggl Labs (tech), Eventful Minds (events), and Adani Group (industrial). The company provides 24/7 premium support for all deployed robots.",
+      "keywords": ["ALLBOTIX clients", "Adani", "Swarrnim", "robot deployments", "track record", "525 robots", "180 clients"]
+    },
+    {
+      "id": "chunk_014",
+      "title": "Nanta Tech Limited Company Profile",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech Limited is a comprehensive technology solutions company based in Ahmedabad, India. The company operates four business divisions: AV Solutions (end-to-end audio-visual design and integration), AI Solutions (computer vision and callbot via NTRA brand), Robotics (intelligent robots via ALLBOTIX brand), and Website Services (custom web development). Contact: email contact@nantatech.com, WhatsApp +91 99090 41675 or +91 99090 41678. Address: 204–207, 2nd Floor, Shivalik Sharda Harmony, Ambawadi, Ahmedabad – 380015, Gujarat, India.",
+      "keywords": ["Nanta Tech", "company profile", "AV solutions", "AI solutions", "robotics", "website services", "Ahmedabad", "technology company"]
+    },
+    {
+      "id": "chunk_015",
+      "title": "Nanta Tech X Pro AI Interactive Panels",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech's X Pro AI series offers interactive display panels in five sizes: X55 Pro AI (55\"), X65 Pro AI (65\"), X75 Pro AI (75\"), X86 Pro AI (86\"), and X98 Pro AI (98\"). All panels feature 4K UHD resolution, 8 GB RAM, 128 GB storage, multi-touch capability, wireless screen sharing, AI collaboration tools, built-in whiteboard and video conferencing. Applications: corporate boardrooms and meeting rooms, smart classrooms and lecture halls, government briefing rooms, training centers, and healthcare consultation rooms.",
+      "keywords": ["X55", "X65", "X75", "X86", "X98", "interactive panel", "4K UHD", "meeting room display", "smart classroom", "conferencing screen"]
+    },
+    {
+      "id": "chunk_016",
+      "title": "Nanta Tech PTZ Video Bar and Camera Products",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech offers professional video conferencing hardware: NT-BAR-PT 4K Dual-Lens PTZ Video Bar — all-in-one conferencing solution with dual lenses, AI auto framing and speaker tracking, 6 MEMS microphone array, stereo speakers, BYOM (Bring Your Own Meeting) support, POE integration. Also available: 4K PTZ Camera with optical zoom and remote pan-tilt control, Ultra HD Webcam for desktop conferencing. Suitable for medium to large meeting rooms, huddle spaces, and boardrooms requiring professional-grade video conferencing.",
+      "keywords": ["PTZ camera", "video bar", "NT-BAR-PT", "4K conferencing", "auto framing", "BYOM", "video conferencing", "meeting room camera"]
+    },
+    {
+      "id": "chunk_017",
+      "title": "Nanta Tech Audio Products",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech's audio product range includes: NT-EC-CM-6 Digital Array Microphone — 6-microphone array, 360-degree pickup, 5-meter range, echo cancellation, noise suppression, USB/AES67 connectivity, beamforming technology, LED ring indicator. Wireless Speaker Mic With Extensions — 6 built-in microphones, 10-meter voice pickup range, 3000 mAh battery (10-hour runtime), omnidirectional pickup, noise reduction, Hi-Fi speaker, extension microphone modules (6–8m range), wireless connectivity. Both suitable for conference rooms, training centers, and large meeting spaces.",
+      "keywords": ["digital array microphone", "NT-EC-CM-6", "wireless speaker mic", "6 microphone array", "beamforming", "conference microphone", "audio products"]
+    },
+    {
+      "id": "chunk_018",
+      "title": "Nanta Tech AOC Cable Series",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech's AOC (Active Optical Cable) series uses fiber optic technology for zero-signal-loss transmission over long distances: HDMI 2.0 AOCH Cable — supports 4K@60Hz, 18Gbps bandwidth, HDR, ARC support, lengths up to 100m, ideal for video walls and digital signage; HDMI 2.1 AOCH Cable — supports 8K@60Hz, 48Gbps bandwidth, Dynamic HDR, eARC support, for home theater and broadcast; USB 3.1 AOC Cable — for high-speed data over long runs. AOC cables are EMI-immune, lightweight, and flexible. Also available: Copper HDMI 2.0 and 2.1 cables for standard-range connections.",
+      "keywords": ["AOC cable", "HDMI 2.0", "HDMI 2.1", "fiber optic cable", "active optical cable", "4K", "8K", "long-distance HDMI", "zero signal loss"]
+    },
+    {
+      "id": "chunk_019",
+      "title": "Nanta Tech Active LED Displays",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech's Active LED Display range includes Indoor and Outdoor variants: Indoor Active LED — pixel pitches P1.2, P1.5, P2.5; Cabinet size: 600×337.5 mm; Brightness: 800–1500 nits; Refresh rate: ≥3840 Hz; Seamless splicing, ultra-thin design, and wide viewing angle 160°. Outdoor Active LED — pixel pitches P3, P4, P6; Waterproof IP65 rating; Brightness: 5000–7000 nits; Refresh rate: ≥3840 Hz; Suitable for outdoor advertising, stadiums, and large-format public displays. Applications: corporate lobbies, retail signage, conference centers, stadiums, transportation hubs.",
+      "keywords": ["Active LED", "LED display", "P1.2", "P2.5", "indoor LED", "outdoor LED", "video wall", "digital signage", "IP65", "5000 nits"]
+    },
+    {
+      "id": "chunk_020",
+      "title": "Nanta Tech AV Integration Services",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech provides end-to-end AV integration services including: Video Wall Solution — large-scale multi-display installations for command centers and lobbies; Auditorium Solution — complete audio-visual systems for theaters and lecture halls; Hospital Solution — medical-grade AV for operating theaters, patient rooms, and staff stations; Meeting Room Solution — conferencing hardware and software integration; Public Address System — multi-zone audio distribution; Active LED & Signage — custom LED display installations; IT Network Solutions — network infrastructure design and cabling. All services include design, supply, installation, and after-sales support.",
+      "keywords": ["AV integration", "video wall", "auditorium AV", "hospital AV", "meeting room AV", "public address system", "LED signage installation"]
+    },
+    {
+      "id": "chunk_021",
+      "title": "Nanta Tech AI Callbot and Website Services",
+      "company": "Nanta Tech",
+      "content": "Nanta Tech's AI division offers two software solutions: AI Callbot — sophisticated AI voice agents for automated customer support, multilingual helpdesk operations, inbound call handling, intelligent call routing, and escalation to human agents. Supports multiple languages and 24/7 operation. Website Services — professional web development including Custom Website Design, Corporate and Business Websites, E-Commerce Platforms, Landing Pages, and Website Maintenance. Nanta Tech builds technology-forward websites with modern frameworks and responsive design.",
+      "keywords": ["AI callbot", "voice bot", "automated customer support", "multilingual", "website development", "e-commerce website", "corporate website"]
+    },
+    {
+      "id": "chunk_022",
+      "title": "NTRA AI Vision Platform Overview",
+      "company": "NTRA",
+      "content": "NTRA is the Computer Vision and AI surveillance division of Nanta Tech Limited. It turns existing cameras into intelligent platforms for real-time detection, analytics, and security operations. Core performance: 42ms end-to-end detection latency, 99% detection accuracy, 30 FPS processing speed, 100+ cameras per edge cluster. Technology: YOLOv8-based detection pipelines, DeepSORT multi-camera identity tracking, on-premise GPU edge inference. Enterprise features: existing CCTV compatibility, on-prem and air-gapped deployment, role-based access control, REST/webhook API, multi-location support, MongoDB audit trail.",
+      "keywords": ["NTRA", "AI surveillance", "computer vision", "YOLOv8", "DeepSORT", "42ms latency", "99% accuracy", "edge AI", "real-time detection"]
+    },
+    {
+      "id": "chunk_023",
+      "title": "NTRA Person Analytics Capabilities",
+      "company": "NTRA",
+      "content": "NTRA's Person Analytics solution provides 8 capabilities: (1) Person Tracking — persistent multi-camera identity trails using DeepSORT; (2) People Count — real-time crowd counting with zone-level granularity; (3) Crowd Estimation — density maps for mass gatherings and evacuation planning; (4) Searchable Attributes — filter recordings by face, gender, age, clothing, and accessories; (5) Face Recognition — watchlist matching for access control and security; (6) Emotion Detection — facial sentiment analysis for customer experience; (7) Mask Detection — PPE and hygiene compliance monitoring; (8) Social Distancing — configurable proximity threshold enforcement.",
+      "keywords": ["person analytics", "face recognition", "people counting", "crowd estimation", "emotion detection", "social distancing", "mask detection", "person tracking"]
+    },
+    {
+      "id": "chunk_024",
+      "title": "NTRA Security and Threat Detection",
+      "company": "NTRA",
+      "content": "NTRA's Security & Threat Detection solution provides 8 real-time threat detection capabilities: Weapon Detection — firearms and sharp objects with low false-positive rate; Fight/Violence Detection — altercation identification triggering immediate alerts; Riot Detection — mass-disorder patterns in public spaces; Lone Woman After Hours — unaccompanied woman in isolated areas at night; Woman Surrounded — threat escalation pattern recognition; Person Collapse — sudden fall or medical emergency detection; Climbing/Barricade Breach — fence or wall scaling activity detection; Waving for Help — distress signal recognition for rapid response. Suitable for smart cities, airports, campuses, and public venues.",
+      "keywords": ["threat detection", "weapon detection", "fight detection", "security AI", "violence detection", "distress detection", "person collapse", "barricade breach"]
+    },
+    {
+      "id": "chunk_025",
+      "title": "NTRA Traffic and Vehicle Intelligence",
+      "company": "NTRA",
+      "content": "NTRA's Traffic & Vehicle Intelligence solution provides 12 capabilities: ANPR — license plate recognition at high speed and varied angles; RLVD — Red Light Violation Detection with evidence-grade clips; No Helmet and Triple Rider Detection; Speed Detection — calibrated distance measurement per camera; Vehicle Make, Model and Color Identification; Vehicle Count and Classification; Parking Management; Wrong Parking Detection; Congestion Detection; No Seatbelt Detection; Phone Use While Driving; Accident Detection. All detections produce timestamped evidence clips for traffic authority and challan integration.",
+      "keywords": ["ANPR", "traffic AI", "license plate recognition", "RLVD", "speed detection", "vehicle detection", "no helmet", "wrong parking", "congestion", "traffic enforcement"]
+    },
+    {
+      "id": "chunk_026",
+      "title": "NTRA Retail Analytics",
+      "company": "NTRA",
+      "content": "NTRA's Retail Analytics solution is fully anonymized — no facial PII is retained. It provides 4 core capabilities: Footfall and Dwell Time — entry counts and time-in-store heatmaps; Gaze-to-Advertisement Tracking — measures ad viewership and attention rate; Ad Proximity Measurement — audience size per display; Shelf-Out Detection — empty shelf identification with real-time store manager alerts. Additional: checkout queue monitoring with staff alerts, customer journey heatmaps, and peak-hour traffic patterns. Integrates with POS, ERP, and BI tools (Looker, PowerBI, Tableau). Retail deployment time: 2 weeks for a single store.",
+      "keywords": ["retail analytics", "footfall", "dwell time", "shelf detection", "queue monitoring", "anonymized analytics", "customer heatmap", "retail AI"]
+    },
+    {
+      "id": "chunk_027",
+      "title": "NTRA Object and Environment Monitoring",
+      "company": "NTRA",
+      "content": "NTRA's Object & Environment Monitoring solution provides 7 capabilities: Object Detection — specified object in context classification; Unattended Object Detection — abandoned bag or item alerts in public spaces; Human/Animal/Vehicle Classification — entity type identification; Garbage and Debris Detection — cleanliness monitoring for smart cities and facilities; Vandalism and Graffiti Detection — property damage early warning; Fire and Smoke Detection — visual flame and smoke plume detection, often faster than conventional sensors; Camera Tampering Detection — identifies blocked, sprayed, or repositioned cameras. Used in smart cities, factories, hospitals, and airports.",
+      "keywords": ["object detection", "fire detection", "smoke detection", "vandalism detection", "abandoned object", "garbage detection", "camera tampering", "environment monitoring"]
+    },
+    {
+      "id": "chunk_028",
+      "title": "NTRA Edge AI Architecture",
+      "company": "NTRA",
+      "content": "NTRA's architecture is fully edge-based and on-premise: Camera Feeds (any IP/RTSP 1080p or higher) connect to commodity GPU Edge Appliances running YOLOv8 inference and DeepSORT tracking locally. Processed events and metadata flow via an Event Bus to an Alert Engine, which triggers webhooks or REST API calls. A SOC/VMS Dashboard provides unified operator view. MongoDB-backed audit trail stores all events with timestamped clips and confidence scores. Optional: BI tool integration (Looker, PowerBI, Tableau). Air-gapped mode: no outbound internet required. One GPU appliance covers 100+ cameras.",
+      "keywords": ["edge AI", "on-premise", "architecture", "GPU appliance", "air-gapped", "REST API", "webhook", "MongoDB", "100 cameras"]
+    },
+    {
+      "id": "chunk_029",
+      "title": "NTRA Industry Deployments — Smart Cities",
+      "company": "NTRA",
+      "content": "NTRA for Smart Cities delivers: crowd count and estimation for public spaces, parks, and events; ANPR for vehicle movement analytics and toll management; weapon detection and threat identification for public safety; garbage and debris detection for automated cleanliness alerts; fire and smoke detection for infrastructure protection; person tracking and suspicious behavior analysis. The system scales to city-scale camera networks with edge inference clusters and no cloud round-trip. Typical deployment: phased rollout starting with pilot area, 4-week pilot-to-live on existing cameras.",
+      "keywords": ["smart city", "public safety AI", "ANPR smart city", "crowd monitoring", "garbage detection", "city surveillance", "municipal AI"]
+    },
+    {
+      "id": "chunk_030",
+      "title": "NTRA Industry Deployments — Manufacturing",
+      "company": "NTRA",
+      "content": "NTRA for Manufacturing provides: PPE compliance detection — helmets, vests, gloves per shift with compliance reporting; restricted zone access monitoring; worker fall and collapse detection; forklift proximity alerts; fire and smoke detection (often faster than conventional sensors); camera tamper detection; and production line anomaly monitoring. Models are tuned to each plant's specific lighting, shift patterns, camera angles, and PPE types. Integrates with SCADA and MES via REST API and webhook. Deployment: 3–4 weeks on existing IP cameras. Air-gapped operation supported.",
+      "keywords": ["manufacturing AI", "PPE detection", "factory safety", "restricted zone", "SCADA integration", "worker safety", "compliance monitoring"]
+    },
+    {
+      "id": "chunk_031",
+      "title": "NTRA Industry Deployments — Healthcare",
+      "company": "NTRA",
+      "content": "NTRA for Healthcare addresses critical hospital safety and compliance use cases: Patient fall detection in corridors, wards, and recovery areas with instant escalation alerts; restricted medical area monitoring (ICUs, pharmacies, operating theaters); patient wandering detection for dementia wards; PPE and hand hygiene compliance monitoring; after-hours intrusion detection in medication storage and labs. All inference runs 100% on-premise — no PHI leaves the hospital network. Full air-gapped deployment supported. NTRA distinguishes genuine falls from resting/sitting accurately to minimize false alerts.",
+      "keywords": ["healthcare AI", "patient fall detection", "restricted area hospital", "ICU monitoring", "PPE compliance hospital", "medical AI", "air-gapped healthcare"]
+    },
+    {
+      "id": "chunk_032",
+      "title": "NTRA Industry Deployments — Retail",
+      "company": "NTRA",
+      "content": "NTRA for Retail runs in fully anonymized mode — footfall, behavior, and analytics without storing facial PII. Key capabilities: Customer footfall counting and heatmaps; checkout queue monitoring with sub-60-second staff alerts; dwell time measurement by zone; shelf-out detection with instant store manager notification; gaze-to-ad engagement tracking; suspicious behavior and loss-prevention alerts. Integrates with POS, ERP, and BI tools. Single-store deployment in 2 weeks on existing cameras. Multi-store rollout with per-store edge appliances reporting to HQ dashboard.",
+      "keywords": ["retail AI", "footfall analytics", "queue management", "shelf detection", "loss prevention", "anonymized retail", "customer analytics", "store AI"]
+    },
+    {
+      "id": "chunk_033",
+      "title": "NTRA Industry Deployments — Warehouses and Logistics",
+      "company": "NTRA",
+      "content": "NTRA for Warehouses provides: perimeter intrusion detection at fence line and entry points; vehicle ANPR at all gates and loading bays; PPE compliance (helmets and vests) in dock and yard zones; abandoned object detection for security and safety; restricted area enforcement for unauthorized access zones; forklift and vehicle proximity alerts; fire and smoke detection. One appliance covers entire fence line, dock, and interior camera network. Webhook integration with WMS and SOC. Searchable video event log for incident investigation and shrink investigation. Deployment: 3–4 weeks on existing IP cameras.",
+      "keywords": ["warehouse AI", "logistics surveillance", "perimeter intrusion", "ANPR warehouse", "dock safety", "PPE warehouse", "forklift detection"]
+    },
+    {
+      "id": "chunk_034",
+      "title": "NTRA Industry Deployments — Corporate Offices",
+      "company": "NTRA",
+      "content": "NTRA for Corporate Offices provides: tailgating detection at access-controlled entry points (turnstiles, lobby doors, elevators); floor-level occupancy analytics for space planning and HVAC optimization; parking ANPR and capacity management; visitor flow analysis and peak-hour analytics; workplace incident detection (fight, fall, weapon). Integrates with badge access systems, BMS (Building Management System), and IAM platforms via webhook and REST API. Anonymized occupancy mode available — no facial PII retained. Tailgating detection provides a visual verification layer beyond badge access alone.",
+      "keywords": ["corporate office AI", "tailgating detection", "occupancy analytics", "badge access", "workplace safety", "BMS integration", "parking management"]
+    },
+    {
+      "id": "chunk_035",
+      "title": "NTRA Industry Deployments — Airports and Transportation",
+      "company": "NTRA",
+      "content": "NTRA for Airports & Transportation delivers: passenger queue monitoring at check-in, security, and boarding gates; restricted area intrusion (airside, tarmac, operations zones); baggage conveyor monitoring; ANPR for ground transport and parking; perimeter and runway security; fight and threat detection in public concourses. Scales to thousands of cameras with per-terminal edge clusters feeding central airport SOC. Air-gapped deployment for airside zones. Integrates with existing VMS and dispatch systems via REST/webhook. Phased rollout: single terminal pilot in 4–6 weeks.",
+      "keywords": ["airport AI", "airport surveillance", "airside security", "passenger queue", "airport perimeter", "terminal AI", "baggage monitoring"]
+    },
+    {
+      "id": "chunk_036",
+      "title": "NTRA Traffic Management Deployments",
+      "company": "NTRA",
+      "content": "NTRA for Traffic Management provides a complete digital enforcement platform: ANPR for vehicle tracking and zone management; RLVD (Red Light Violation Detection) with evidence-grade clips for challan systems; speed violation detection with calibrated measurement; helmet enforcement for two-wheelers; no seatbelt and phone use while driving; wrong parking and congestion detection; accident detection with automated emergency alert. Evidence clips are timestamped with confidence scores. Integrates with city challan platforms, traffic authority dashboards, and emergency dispatch. Operates 24/7 including night using IR camera feeds.",
+      "keywords": ["traffic management AI", "challan system", "RLVD", "speed enforcement", "traffic violations", "ANPR traffic", "accident detection"]
+    },
+    {
+      "id": "chunk_037",
+      "title": "NTRA Technical Capabilities and Integration",
+      "company": "NTRA",
+      "content": "NTRA's technical integration capabilities: REST API — standard HTTP endpoints for event queries, camera management, user administration, and reporting; Webhook support — real-time push notifications on events to external systems; VMS integration — standard ONVIF and RTSP compatibility; BI tool support — Looker Studio, PowerBI, Tableau via data connectors; SCADA and MES integration — industrial protocol adapters; MongoDB audit trail — tamper-evident log of all events, user actions, and system changes; Role-based access control — per-user camera scope and permission levels for operators, supervisors, and auditors; Multi-site management — per-site clusters with central unified dashboard.",
+      "keywords": ["NTRA API", "REST API", "webhook", "VMS integration", "SCADA", "RBAC", "multi-site", "MongoDB audit trail", "ONVIF"]
+    },
+    {
+      "id": "chunk_038",
+      "title": "NTRA Deployment Process",
+      "company": "NTRA",
+      "content": "NTRA deployment follows a structured process: Step 1 — Discovery call to map camera inventory, site layout, and AI objectives; Step 2 — Technical scoping for GPU appliance sizing, zone definition, model selection per camera; Step 3 — Edge appliance installation (1–4 weeks depending on site size); Step 4 — Per-camera and per-zone model tuning for local lighting, angles, and use cases; Step 5 — Integration with VMS, SOC, BMS, or other systems via REST/webhook; Step 6 — Go-live with operator onboarding and training. Typical timelines: Retail single store 2 weeks, Warehouse single site 3–4 weeks, Airport terminal pilot 4–6 weeks.",
+      "keywords": ["NTRA deployment", "installation process", "deployment timeline", "go-live", "operator training", "site scoping", "camera tuning"]
+    },
+    {
+      "id": "chunk_039",
+      "title": "NTRA Competitive Differentiators",
+      "company": "NTRA",
+      "content": "NTRA differentiates from other video analytics platforms through: (1) On-prem edge AI — all inference runs locally, no video leaves site; (2) 42ms latency — sub-50ms detection faster than most competitors; (3) Existing camera compatibility — no hardware replacement, runs on any IP/RTSP 1080p camera; (4) 39+ capabilities in a single platform across 5 solution domains; (5) Air-gapped deployment for high-security sites; (6) YOLOv8 accuracy tuned per-site, per-camera during deployment; (7) Audit-grade MongoDB event log for compliance and forensics; (8) Zero-cloud-round-trip data sovereignty for PHI/PII.",
+      "keywords": ["NTRA competitive advantage", "edge AI advantage", "no cloud video analytics", "data sovereignty", "42ms latency", "existing cameras compatible"]
+    },
+    {
+      "id": "chunk_040",
+      "title": "Contact Information — All Companies",
+      "company": "Nanta Tech",
+      "content": "All three brands — Nanta Tech Limited, ALLBOTIX, and NTRA — share the same contact information: Email: contact@nantatech.com | WhatsApp: +91 99090 41675 | WhatsApp (alternate): +91 99090 41678 | Office Hours: Monday to Friday, 10 AM to 7 PM IST | Address: 204–207, 2nd Floor, Shivalik Sharda Harmony, Ambawadi, Ahmedabad – 380015, Gujarat, India. For demo bookings: visit the respective website and use the Book Demo / Contact form. For brochure downloads: available on the ALLBOTIX website product pages (PDF hosted on allbotix.s3.eu-north-1.amazonaws.com).",
+      "keywords": ["contact", "email", "WhatsApp", "phone number", "Ahmedabad address", "book demo", "Nanta Tech contact", "ALLBOTIX contact", "NTRA contact"]
+    },
+    {
+      "id": "chunk_041",
+      "title": "ALLBOTIX Government and Public Sector Solutions",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX Government Solutions deploy ATR V3 reception robots for citizen service centers, passport offices, and municipality buildings; Alpha B2 and Alpha GO2 quadruped robots for perimeter patrol, security inspection, and hazardous area monitoring. Government-specific capabilities: 24/7 unattended front-desk operation, queue management, multilingual citizen service, evidence-grade security patrol logs, and IP67-rated outdoor robots for harsh environments. The ATR V3 integrates with government databases and service portals for real-time information delivery.",
+      "keywords": ["government robots", "public sector automation", "citizen service robot", "perimeter patrol", "municipality robot", "government automation"]
+    },
+    {
+      "id": "chunk_042",
+      "title": "ALLBOTIX Hospitality Solutions",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX Hospitality Solutions provide a complete automated guest experience: ATR V3 for check-in, check-out, and information services; AW3, ASMR T10, AT9 serving robots for in-room delivery, restaurant service, and F&B service in lobbies; BOLT-G1 humanoid for concierge, promotional activities, and guest entertainment; AC40 / AT60s cleaning robots for room corridors and lobby floors. Benefits: 24/7 service availability, consistent guest experience, reduced labor dependency, lower operational costs, and increased guest satisfaction scores. Deployed at hotels, resorts, and serviced apartments.",
+      "keywords": ["hotel robot", "hospitality automation", "hotel serving robot", "check-in robot", "guest service robot", "resort automation"]
+    },
+    {
+      "id": "chunk_043",
+      "title": "ALLBOTIX Factory and Warehouse Automation",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX Factory and Warehouse Automation centers on the AT300 and AT600 AMR robots for material transport alongside the AL Series cobot for assembly operations. Factory automation benefits: 300–600 kg material transport with LiDAR SLAM navigation, WMS and ERP system integration, fleet coordination via Allbotix Fleet Management Software, predictive maintenance alerts, zero-emission electric operation, and 24/7 multi-shift deployment. The AL Series cobot handles precise assembly, quality inspection, and packaging operations alongside human workers with no safety cage requirement.",
+      "keywords": ["factory automation", "warehouse automation", "AMR robots", "cobot automation", "material handling", "WMS integration", "fleet management"]
+    },
+    {
+      "id": "chunk_044",
+      "title": "Pricing and Commercial Inquiries",
+      "company": "Nanta Tech",
+      "content": "All pricing across ALLBOTIX robots, Nanta Tech AV products, and NTRA AI solutions is project-specific and customized based on: quantity of units, specific model or configuration, deployment environment, integration requirements, and service level agreements. There are no published list prices — all commercial discussions begin with a scoping call or inquiry. To get pricing: Email contact@nantatech.com with your requirements, or WhatsApp +91 99090 41675 for a quick response. For NTRA, pricing depends on number of cameras, solution modules, and site complexity. For ALLBOTIX, pricing depends on robot type, quantity, and customization needs.",
+      "keywords": ["pricing", "quote", "cost", "how much", "price inquiry", "custom pricing", "ALLBOTIX price", "NTRA price", "AV solutions price"]
+    },
+    {
+      "id": "chunk_045",
+      "title": "NTRA Live Demos and Proof of Concept",
+      "company": "NTRA",
+      "content": "NTRA offers multiple ways to experience the AI platform before commitment: Live browser-based demos available on the NTRA website without any signup for: Face Recognition (real-time identity tracking), Restricted Area Monitoring (unauthorized zone detection), Object Detection (AI classification), Vehicle Detection (ANPR and traffic analytics). Full proof-of-concept deployments use the client's existing cameras in a 4-week pilot. Book a custom demo: contact@nantatech.com or WhatsApp +91 99090 41675. NTRA's Book Demo page allows scheduling with the technical team for a tailored demonstration on your specific use case and site.",
+      "keywords": ["NTRA demo", "live demo", "face recognition demo", "proof of concept", "free demo", "try NTRA", "book demo", "pilot deployment"]
+    },
+    {
+      "id": "chunk_046",
+      "title": "ALLBOTIX Brochures and Spec Sheet Downloads",
+      "company": "ALLBOTIX",
+      "content": "ALLBOTIX provides downloadable PDF spec sheets for all robot products, hosted on AWS S3. Available documents: ATR V2/V3 Reception Robot, BOLT-G1 Humanoid, Alpha B2 Robot Dog, Alpha GO2 Robot Dog, AC40 Cleaning Robot, AX10 Pro Cleaning Robot, AMT1 Industrial Sweeper, AT60s Cleaning Robot, AT20s Pro Cleaning Robot, AS100N Outdoor Sweeper, AW3 Serving Robot, ASMR T10 Delivery Robot, AT9 Delivery Robot, AT300 AMR, AT600 AMR, AL Series Cobot, and ALLBOTIX Company Profile. All spec sheets are accessible from the respective product pages on the ALLBOTIX website.",
+      "keywords": ["spec sheet", "brochure download", "PDF", "product catalog", "company profile", "robot specifications download"]
+    },
+    {
+      "id": "chunk_047",
+      "title": "NTRA and ALLBOTIX Integration with Enterprise Systems",
+      "company": "Nanta Tech",
+      "content": "Both NTRA and ALLBOTIX support deep enterprise system integration. NTRA integrates via REST API and webhooks with: VMS (Video Management Systems), SOC dashboards, SCADA, BMS (Building Management Systems), BI tools (Looker, PowerBI, Tableau), MongoDB audit trail, IAM platforms, and ERP systems. ALLBOTIX AMR robots integrate with: WMS (Warehouse Management Systems), ERP, OMS, POS systems via Allbotix Fleet Management Software. Nanta Tech AV products integrate with: conferencing platforms (Zoom, Teams, Google Meet) via BYOM support on PTZ Video Bars, IT network infrastructure, and room booking systems.",
+      "keywords": ["enterprise integration", "WMS", "ERP", "REST API", "webhook", "VMS integration", "SOC", "BMS", "POS integration", "SCADA"]
+    },
+    {
+      "id": "chunk_048",
+      "title": "Data Privacy and Security — NTRA",
+      "company": "NTRA",
+      "content": "NTRA is designed with data sovereignty as a core principle: All video inference runs on-premise on edge GPU appliances — no video frames are transmitted to any cloud server. Only structured metadata (event type, timestamp, camera ID, confidence score) flows to dashboards. PHI (Protected Health Information) and PII (Personally Identifiable Information) never leave the local network. Air-gapped deployment is fully supported with no outbound internet connectivity required. Retail mode operates anonymized — footfall and behavior analytics without retaining or processing biometric data. Role-based access control limits who can see which cameras and events.",
+      "keywords": ["data privacy", "data sovereignty", "no cloud", "PHI", "PII", "air-gapped", "GDPR", "on-premise AI", "privacy-first"]
+    }
+  ]
+}
