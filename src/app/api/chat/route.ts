@@ -5,6 +5,7 @@ import { knowledgeService } from '@/lib/knowledge/KnowledgeService'
 import { conversationRepo } from '@/repositories/ConversationRepository'
 import { messageRepo } from '@/repositories/MessageRepository'
 import { generateSessionToken } from '@/lib/auth/jwt'
+import { sendRequirementEmail } from '@/lib/mail/mailer'
 import type { MessageMetadata, ProductCard, SolutionCard } from '@/types/chat'
 import fs from 'fs'
 import path from 'path'
@@ -493,6 +494,24 @@ async function captureRequirementNote(conversationId: string, requirement: strin
         updatedAt: new Date(),
       },
     })
+
+    // Send requirement email — fetch session info for contact details
+    const conv = await prisma.conversation.findUnique({
+      where: { id: conversationId },
+      include: { session: { select: { visitorName: true, visitorCompany: true, visitorEmail: true, visitorPhone: true, selectedInterests: true } } },
+    })
+    if (conv?.session) {
+      let interests: string[] = []
+      try { if (conv.session.selectedInterests) interests = JSON.parse(conv.session.selectedInterests) } catch {}
+      sendRequirementEmail({
+        name:    conv.session.visitorName,
+        company: conv.session.visitorCompany,
+        email:   conv.session.visitorEmail,
+        phone:   conv.session.visitorPhone,
+        interests,
+        requirement: summary,
+      }).catch(() => {})
+    }
   } catch { /* non-critical */ }
 }
 

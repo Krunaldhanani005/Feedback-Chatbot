@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db/prisma'
 import { generateSessionToken } from '@/lib/auth/jwt'
 import { leadRepo } from '@/repositories/LeadRepository'
 import { conversationRepo } from '@/repositories/ConversationRepository'
+import { sendLeadEmail } from '@/lib/mail/mailer'
 
 export async function POST(req: NextRequest) {
   try {
@@ -108,6 +109,23 @@ export async function POST(req: NextRequest) {
             data: { summary: summaryParts.join(' ') },
           })
         }
+
+        // Send lead email (fire-and-forget — don't block the response)
+        sendLeadEmail({
+          name:        s.visitorName,
+          company:     s.visitorCompany,
+          designation: s.visitorDesignation,
+          email:       s.visitorEmail,
+          phone:       s.visitorPhone,
+          industry:    s.visitorIndustry,
+          interests,
+          aiRating:         s.aiRating,
+          avRating:         s.avRating,
+          roboticsRating:   s.roboticsRating,
+          automationRating: s.automationRating,
+          experienceRating: s.experienceRating,
+          path: 'finish', // updated to 'chat' by KioskApp when chat path is used
+        }).catch(err => console.error('[Onboarding] Lead email failed:', err))
 
         return NextResponse.json({ sessionToken: session.sessionToken, conversationId: conv.id })
       }
